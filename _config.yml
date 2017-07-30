@@ -1,7 +1,7 @@
 # Setup
 title:        Tong TechBolg
 tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      ""
+baseurl:      "https://github.com/tong9433/tong9433.github.io"
 paginate:     1
 
 # About/contact

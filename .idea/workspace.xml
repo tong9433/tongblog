@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-    </list>
+    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,12 +14,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-07-10-Markdown.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Markdown.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -45,33 +56,6 @@
                   <marker date="1501420496000" expanded="true" signature="3621:3670" ph="{...}" />
                   <marker date="1501420496000" expanded="true" signature="3703:3801" ph="{...}" />
                   <marker date="1501420496000" expanded="true" signature="3729:3799" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-07-18-woowastudy.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-18-woowastudy.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-                <folding>
-                  <marker date="1501422423000" expanded="true" signature="563:573" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="856:984" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="877:888" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="1082:1251" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="1398:1863" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="1450:1827" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="1675:1774" ph="//..." />
-                  <marker date="1501422423000" expanded="true" signature="2251:2333" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="2277:2331" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="2365:2494" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="2407:2454" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="2423:2448" ph="{...}" />
-                  <marker date="1501422423000" expanded="true" signature="2522:2564" ph="{&quot;name&quot;: &quot;달리기&quot;...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -290,6 +274,7 @@
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-26-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-27-woowastudy.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Markdown.md" />
       </list>
     </option>
   </component>
@@ -375,6 +360,12 @@
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="Good Tool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="woowastudy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -403,11 +394,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/Good Tool" />
       <recent name="$PROJECT_DIR$/image/woowastudy" />
       <recent name="$PROJECT_DIR$/_posts/woowastudy" />
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/_posts/꿀 Tool" />
-      <recent name="$PROJECT_DIR$/_posts/woowa" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image/woowastudy" />
@@ -445,12 +436,12 @@
       <workItem from="1501388538463" duration="806000" />
       <workItem from="1501389567455" duration="1869000" />
       <workItem from="1501391852108" duration="20756000" />
-      <workItem from="1501424142408" duration="985000" />
+      <workItem from="1501424142408" duration="1753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24416000" />
+    <option name="totallyTimeSpent" value="25184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="23" width="1645" height="1027" extended-state="0" />
@@ -485,7 +476,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/_woowa/2017-07-08-우아한 테크 캠프 소개.md" />
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
@@ -610,7 +600,7 @@
         <state relative-caret-position="354">
           <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
-            <marker date="1501424972000" expanded="true" signature="4570:4677" ph="..." />
+            <marker date="1501425203000" expanded="true" signature="4572:4679" ph="..." />
           </folding>
         </state>
       </provider>
@@ -643,6 +633,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="105">
             <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -819,8 +810,8 @@
         <state relative-caret-position="-305">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501424972000" expanded="true" signature="4570:4677" ph="..." />
-            <marker date="1501424972000" expanded="true" signature="4570:4694" ph="..." />
+            <marker date="1501425203000" expanded="true" signature="4572:4679" ph="..." />
+            <marker date="1501425203000" expanded="true" signature="4572:4696" ph="..." />
           </folding>
         </state>
       </provider>
@@ -830,8 +821,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501424972000" expanded="true" signature="4570:4677" ph="..." />
-            <marker date="1501424972000" expanded="true" signature="4570:4694" ph="..." />
+            <marker date="1501425203000" expanded="true" signature="4572:4679" ph="..." />
+            <marker date="1501425203000" expanded="true" signature="4572:4696" ph="..." />
           </folding>
         </state>
       </provider>
@@ -841,8 +832,8 @@
         <state relative-caret-position="-426">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1501424972000" expanded="true" signature="4570:4677" ph="..." />
-            <marker date="1501424972000" expanded="true" signature="4570:4694" ph="..." />
+            <marker date="1501425203000" expanded="true" signature="4572:4679" ph="..." />
+            <marker date="1501425203000" expanded="true" signature="4572:4696" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1150,8 +1141,19 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Markdown.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

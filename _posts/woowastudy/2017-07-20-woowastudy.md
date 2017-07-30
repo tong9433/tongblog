@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[2017-07-20] Javascript Tab 실습 + 모달창 만들기"
+title:  "[2017-07-20] JavaScript Tab 실습 + 모달창 만들기"
 date:   2017-07-20 12:00:00
 categories: "WoowaStudy-Web"
 ---

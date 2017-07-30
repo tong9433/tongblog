@@ -19,7 +19,7 @@ categories: "WoowaStudy-Web"
 * CSS의 transition 속성으로 CSS 속성을 변경하거나 JS로 CSS 속성을 변경할 수 있음 (대체로 CSS로 변경하는 것이 빠름) 
 
 ## JavaScript 애니메이션 조작 
-1. setInterval() : 주기적으로 반복
+* setInterval() : 주기적으로 반복
 
 ```javascript
 const interval = window.setInterval(()=>{
@@ -30,7 +30,7 @@ const interval = window.setInterval(()=>{
 * 제때 일어나야할 이벤트 callback 함수가 손실 될 수 있음 ( 많음 ).
 * 정확한 시간에 잘 실행되지 않음.
 
-2. setTimeout() : 딜레이를 줄 때, 비 동기의 순서를 조정 가능(안 좋은 방법), 크게 좋은 방법은 아니지만 명시적으로 실행을 부르므로 interval 과는 다르게 재귀적으로 호출하면 같은효
+* setTimeout() : 딜레이를 줄 때, 비 동기의 순서를 조정 가능(안 좋은 방법), 크게 좋은 방법은 아니지만 명시적으로 실행을 부르므로 interval 과는 다르게 재귀적으로 호출하면 같은효
 
 ```javascript
 const showTime = () => {
@@ -44,7 +44,7 @@ const showTime = () => {
 showTime();
 ```
 
-3. requestAnimationFrame
+* requestAnimationFrame
 
 ```javascript
 let count = 0;
@@ -87,7 +87,7 @@ button.addEventListener('click',function(e){
 },false);
 ```
 
-4. Animations API
+## Animations API
 * getComputedStyle 로 하면 inline 말고 css 에 선언된 속성도 뽑아올 수 있음.
 * 프론트 엔드 라이브러리가 너무 많음.
 * 오래갈 수 있는 코드가 좋음

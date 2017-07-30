@@ -1,7 +1,7 @@
 # Setup
 title:        Tong's TechBlog
-tagline:      Web / 알고리즘 / 머신러닝 / 안드로이드 ...
-baseurl:      "https://github.com/tong9433/tong9433.github.io"
+tagline:      Web / 알고리즘 / machine learning / android ..
+baseurl:      "https://tong9433.github.io/"
 paginate:     1
 
 # About/contact

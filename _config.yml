@@ -1,7 +1,7 @@
 # Setup
 title:        Tong's TechBlog
 tagline:      Web / 알고리즘 / machine learning / android ..
-baseurl:      "https://tong9433.github.io/"
+baseurl:      ""
 paginate:     1
 
 # About/contact

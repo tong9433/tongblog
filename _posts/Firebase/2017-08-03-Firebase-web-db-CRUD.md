@@ -65,8 +65,6 @@ function writeUserData(userId, name, email, imageUrl) {
 4. child_removed
 5. child_moved
 ```
-[image:0C01BDB6-07DE-4B3A-AF1C-C9DA6758A03D-52167-0001E296FE0E0EAF/스크린샷 2017-08-03 오후 8.11.26.png]
-[image:FF53C1ED-FDB6-4163-95DF-C94E346E3A05-52167-0001E2B40C94CBC0/스크린샷 2017-08-03 오후 8.13.45.png]
 
 ![사진]({{ tong9433.gitub.io }}/image/firebase1.png)
 ![사진]({{ tong9433.gitub.io }}/image/firebase2.png)

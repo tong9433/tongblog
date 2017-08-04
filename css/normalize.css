@@ -20,6 +20,19 @@ body {
   margin: 0;
 }
 
+.title{
+
+}
+
+.title:hover{
+  color: brown;
+}
+
+.list{
+  display: none;
+
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 

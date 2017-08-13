@@ -1,0 +1,85 @@
+---
+layout: default
+title:  "반응형 웹 만들기"
+date:   2017-08-13 17:50:00
+categories: "JavaScript"
+---
+
+# 프로젝트 반응형 웹페이지 만들기
+----
+
+# 반응형 웹 단점
+
+---
+
+* 로딩 시간이 길어짐  - 처음 페이지 로딩시 미디어 쿼리를 불러오게 되는데 이때 모든 해상도 대응을 위한 CSS와 이미지를 불러오게됨. 그러므로 자연스레 로딩속도가 지연됨
+* 복잡한 컨텐츠에 적합하지 않음
+* 대안으로 적응형 웹이 떠오름
+
+# 반응형 웹 만들기
+
+---
+
+## @media
+
+---
+
+```
+@media ( max-width: 700px ) {
+	body { color: green; }
+}
+```
+* 이와같이 @media를 이용해서 해상도가 700px 이하일때는 글자색을 초록색으로 바꿉니다.
+* 즉 모바일기기의 해상도를 고려하여 적절히 CSS를 수정 및 추가 가능
+* 주의할 점 : 가로폭 조정을 위해 HTML의 <head> 태그 사이에 아래 코드를 삽입해야함.
+```
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+## 데스크톱 우선 vs 모바일 우선
+
+---
+
+* 반응형 웹을 짜는 방식이 먼저 기본 CSS를 짠 뒤 작은 가로폭부터 큰 가로폭 순서로 만드는 것을 모바일 우선이라고 하고 큰 가로폭부터 작은 가로폭 순서로 만드는 것을 데스크톱 우선 이라고 합니다.
+* 대부분의 프레임워크는 거의 모바일 우선으로 만들어져 있슴 ( ex 부트스트랩 )
+
+### 데스크톱 우선
+
+---
+
+```CSS
+기본 CSS
+@media ( max-width: 1024px ) {
+}
+
+@media ( max-width: 768px ) {
+}
+```
+
+### 모바일 우선
+
+---
+
+```CSS
+기본 CSS
+@media ( min-width: 1024px ) {
+}
+
+@media ( max-width: 768px ) {
+}
+```
+
+## 자바스크립트에서 화면 변화에 따른 이벤트
+
+---
+
+* How to Write Media Queries with JavaScript Code
+```
+const mq = window.matchMedia( "(min-width: 500px)" );
+
+if (mq.matches) {
+  // window width is at least 500px
+} else {
+  // window width is less than 500px
+}
+```

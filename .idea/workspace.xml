@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Git 정리.md" afterPath="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Git 정리.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,27 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-08-03-Firebase-web-db-CRUD.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-web-db-CRUD.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="390">
-                <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-                <folding>
-                  <marker date="1501811585000" expanded="true" signature="188:208" ph="{&quot;apiKey&quot;: &quot;AIzaSyAnDViQ2LyXlNzBWO2kWyGnN-Lr22B9sUI&quot;...}" />
-                  <marker date="1501811585000" expanded="true" signature="664:793" ph="{...}" />
-                  <marker date="1501811585000" expanded="true" signature="715:789" ph="{&quot;username&quot;: name...}" />
-                  <marker date="1501811585000" expanded="true" signature="1572:1623" ph="{...}" />
-                  <marker date="1501811585000" expanded="true" signature="1981:2035" ph="{...}" />
-                  <marker date="1501811585000" expanded="true" signature="2389:2795" ph="{...}" />
-                  <marker date="1501811585000" expanded="true" signature="2408:2524" ph="{&quot;author&quot;: username...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,15 +31,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-10-Git 정리.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-07-10-Git 정리.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Git 정리.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="752">
-                <caret line="172" column="21" lean-forward="false" selection-start-line="172" selection-start-column="21" selection-end-line="172" selection-end-column="21" />
+              <first_editor relative-caret-position="480">
+                <caret line="154" column="3" lean-forward="false" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-07-08-우아한 테크 캠프 소개.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-08-우아한 테크 캠프 소개.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="360">
+                <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-08-13-반응형 웹 만들기.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="712">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,19 +136,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-11-woowastudy.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-11-woowastudy.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="3885">
-                <caret line="259" column="5" lean-forward="false" selection-start-line="259" selection-start-column="5" selection-end-line="259" selection-end-column="5" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -209,6 +197,7 @@
         <option value="$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 5주차.md" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-08-07-우아한 테크 5주차.md" />
         <option value="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Git 정리.md" />
+        <option value="$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown" />
       </list>
     </option>
   </component>
@@ -348,19 +337,19 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/Web(CSS, HTML)" />
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/_posts/woowa" />
+      <recent name="$PROJECT_DIR$/_posts/Firebase" />
+      <recent name="$PROJECT_DIR$/_posts/Unclassified" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/image/woowastudy" />
       <recent name="$PROJECT_DIR$/image/woowastudy/woowa0726_3.png" />
       <recent name="$PROJECT_DIR$/image/woowa0726_2.png" />
       <recent name="$PROJECT_DIR$/_posts/Javascript" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/image" />
-      <recent name="$PROJECT_DIR$/_posts/woowa" />
-      <recent name="$PROJECT_DIR$/_posts/Firebase" />
-      <recent name="$PROJECT_DIR$/_posts/Unclassified" />
-      <recent name="$PROJECT_DIR$/_posts/Good Tool" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -404,12 +393,12 @@
       <workItem from="1501767145085" duration="8199000" />
       <workItem from="1502100949747" duration="2637000" />
       <workItem from="1502116761556" duration="250000" />
-      <workItem from="1502615350811" duration="289000" />
+      <workItem from="1502615350811" duration="629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44322000" />
+    <option name="totallyTimeSpent" value="44662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1642" height="1027" extended-state="6" />
@@ -444,13 +433,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/page-footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -609,16 +591,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2175">
             <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-08-우아한 테크 캠프 소개.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
@@ -863,11 +835,30 @@
     <entry file="file://$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Git 정리.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="752">
-            <caret line="172" column="21" lean-forward="false" selection-start-line="172" selection-start-column="21" selection-end-line="172" selection-end-column="21" />
+          <first_editor relative-caret-position="480">
+            <caret line="154" column="3" lean-forward="false" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-08-우아한 테크 캠프 소개.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

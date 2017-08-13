@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown" afterPath="$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,6 +25,21 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <marker date="1502628790000" expanded="true" signature="320:332" ph="..." />
+                <marker date="1502628790000" expanded="true" signature="320:333" ph="..." />
+                <marker date="1502628790000" expanded="true" signature="334:348" ph="..." />
+                <marker date="1502628790000" expanded="true" signature="529:557" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-08-13-반응형 웹 만들기.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-08-13-반응형 웹 만들기.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="149">
@@ -111,42 +126,6 @@
               <first_editor relative-caret-position="240">
                 <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
                 <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-07-17-woowastudy_2.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-17-woowastudy_2.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1125">
-                <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                <folding>
-                  <marker date="1501421497000" expanded="true" signature="240:382" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="397:846" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="415:676" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="511:610" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="713:844" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="866:4372" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="920:1089" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="1102:1515" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="1539:1841" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="1603:1822" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="1652:1812" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="1868:2336" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="1933:2317" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="2363:2830" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="2428:2811" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="2851:3139" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="3166:3380" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="3423:3896" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="3546:3810" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="3919:4019" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="3953:3995" ph="{...}" />
-                  <marker date="1501421497000" expanded="true" signature="4038:4370" ph="{...}" />
-                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -222,12 +201,12 @@
         <option value="$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 4주차.md" />
         <option value="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Markdown.md" />
         <option value="$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-web-db-CRUD.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 5주차.md" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-08-07-우아한 테크 5주차.md" />
         <option value="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Git 정리.md" />
         <option value="$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -429,12 +408,12 @@
       <workItem from="1501767145085" duration="8199000" />
       <workItem from="1502100949747" duration="2637000" />
       <workItem from="1502116761556" duration="250000" />
-      <workItem from="1502615350811" duration="1847000" />
+      <workItem from="1502615350811" duration="2187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45880000" />
+    <option name="totallyTimeSpent" value="46220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="24" width="1642" height="1027" extended-state="6" />
@@ -632,19 +611,6 @@
         <state relative-caret-position="480">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-          <folding>
-            <marker date="1501836410000" expanded="true" signature="308:320" ph="..." />
-            <marker date="1501836410000" expanded="true" signature="308:321" ph="..." />
-            <marker date="1501836410000" expanded="true" signature="322:336" ph="..." />
-            <marker date="1501836410000" expanded="true" signature="517:545" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,6 +984,19 @@
         <state relative-caret-position="149">
           <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <marker date="1502628790000" expanded="true" signature="320:332" ph="..." />
+            <marker date="1502628790000" expanded="true" signature="320:333" ph="..." />
+            <marker date="1502628790000" expanded="true" signature="334:348" ph="..." />
+            <marker date="1502628790000" expanded="true" signature="529:557" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

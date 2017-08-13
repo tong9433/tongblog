@@ -93,10 +93,8 @@ if (mq.matches) {
 
 ### 구현결과
 ![사진]({{tong9433.github.io}}/image/responsive.png)
-![사진]({{tong9433.github.io}}/image/responsive2.png)
-
-<div style="text-align: center;">
-<img src="/image/responsive2.png" style="width:200px; display:inline-block">
+<div>
+<img src="/image/responsive2.png" style="width:300px; display:inline-block">
 </div>
 
 * 먼저 모바일 우선 보다는 데스크톱 우선 방식을 택함

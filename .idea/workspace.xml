@@ -97,8 +97,8 @@
       <file leaf-file-name="2017-08-13-반응형 웹 만들기.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="98" column="54" lean-forward="false" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
+            <state relative-caret-position="149">
+              <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -429,12 +429,12 @@
       <workItem from="1501767145085" duration="8199000" />
       <workItem from="1502100949747" duration="2637000" />
       <workItem from="1502116761556" duration="250000" />
-      <workItem from="1502615350811" duration="1745000" />
+      <workItem from="1502615350811" duration="1847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45778000" />
+    <option name="totallyTimeSpent" value="45880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="24" width="1642" height="1027" extended-state="6" />
@@ -1015,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="98" column="54" lean-forward="false" selection-start-line="98" selection-start-column="54" selection-end-line="98" selection-end-column="54" />
+        <state relative-caret-position="149">
+          <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
           <folding />
         </state>
       </provider>

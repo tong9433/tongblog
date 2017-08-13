@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/responsive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/responsive2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown" afterPath="$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,29 +63,83 @@
       <file leaf-file-name="2017-08-13-반응형 웹 만들기.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="317">
+              <caret line="103" column="6" lean-forward="false" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/normalize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-08-07-우아한 테크 5주차.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-08-07-우아한 테크 5주차.md">
+      <file leaf-file-name="2017-07-10-woowastudy.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-10-woowastudy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <first_editor relative-caret-position="150">
+                <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+                <folding>
+                  <marker date="1501417242000" expanded="true" signature="2559:2578" ph="{...}" />
+                  <marker date="1501417242000" expanded="true" signature="3220:3381" ph="{...}" />
+                  <marker date="1501417242000" expanded="true" signature="3315:3360" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-07-10-woowastudy_2.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-10-woowastudy_2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="837">
+                <caret line="157" column="13" lean-forward="false" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
+                <folding>
+                  <marker date="1501417272000" expanded="true" signature="2784:2905" ph="{...}" />
+                  <marker date="1501417272000" expanded="true" signature="2844:2886" ph="{...}" />
+                  <marker date="1501417272000" expanded="true" signature="3009:3085" ph="{...}" />
+                  <marker date="1501417272000" expanded="true" signature="4006:4140" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-07-11-woowastudy.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-11-woowastudy.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="837">
+                <caret line="259" column="5" lean-forward="false" selection-start-line="259" selection-start-column="5" selection-end-line="259" selection-end-column="5" />
+                <folding>
+                  <marker date="1501418161000" expanded="true" signature="545:577" ph="{&quot;name&quot;: &quot;tongil&quot;...}" />
+                  <marker date="1501418161000" expanded="true" signature="600:666" ph="{...}" />
+                  <marker date="1501418161000" expanded="true" signature="628:664" ph="{...}" />
+                  <marker date="1501418161000" expanded="true" signature="782:808" ph="{...}" />
+                  <marker date="1501418161000" expanded="true" signature="856:882" ph="{...}" />
+                  <marker date="1501418161000" expanded="true" signature="2540:3165" ph="{&quot;debug&quot;: &quot;on&quot;...}" />
+                  <marker date="1501418161000" expanded="true" signature="2575:2704" ph="{&quot;name&quot;: &quot;main_window&quot;...}" />
+                  <marker date="1501418161000" expanded="true" signature="2719:2861" ph="{&quot;name&quot;: &quot;sun1&quot;...}" />
+                  <marker date="1501418161000" expanded="true" signature="2875:3163" ph="{&quot;name&quot;: &quot;text1&quot;...}" />
+                  <marker date="1501418161000" expanded="true" signature="3046:3091" ph="{...}" />
+                  <marker date="1501418161000" expanded="true" signature="3193:3555" ph="{...}" />
+                  <marker date="1501418161000" expanded="true" signature="3251:3507" ph="{...}" />
+                  <marker date="1501418161000" expanded="true" signature="3282:3501" ph="{...}" />
+                  <marker date="1501418161000" expanded="true" signature="3357:3408" ph="{...}" />
+                  <marker date="1501418161000" expanded="true" signature="3443:3491" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-07-26-woowastudy.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-26-woowastudy.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="672">
+                <caret line="288" column="0" lean-forward="false" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="62" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -90,12 +147,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-22-우아한 테크 3주차.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-22-우아한 테크 3주차.md">
+      <file leaf-file-name="2017-07-24-woowastudy.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-24-woowastudy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="19" selection-end-column="52" />
+              <first_editor relative-caret-position="435">
+                <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -103,35 +160,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-29-우아한 테크 4주차.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 4주차.md">
+      <file leaf-file-name="2017-07-25-woowastudy.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-25-woowastudy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <first_editor relative-caret-position="300">
+                <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cayman.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/cayman.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2895">
-              <caret line="193" column="14" lean-forward="false" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -208,7 +245,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="38" />
+    <option name="x" value="408" />
     <option name="y" value="23" />
     <option name="width" value="1288" />
     <option name="height" value="1027" />
@@ -297,6 +334,12 @@
             <path>
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="woowastudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -320,8 +363,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_posts/Web(CSS, HTML)" />
       <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/_posts/Web(CSS, HTML)" />
       <recent name="$PROJECT_DIR$/_posts/woowa" />
       <recent name="$PROJECT_DIR$/_posts/Firebase" />
       <recent name="$PROJECT_DIR$/_posts/Unclassified" />
@@ -375,15 +418,15 @@
       <workItem from="1501767145085" duration="8199000" />
       <workItem from="1502100949747" duration="2637000" />
       <workItem from="1502116761556" duration="250000" />
-      <workItem from="1502615350811" duration="912000" />
+      <workItem from="1502615350811" duration="1475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44945000" />
+    <option name="totallyTimeSpent" value="45508000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1642" height="1027" extended-state="6" />
+    <frame x="39" y="24" width="1642" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19679211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -487,16 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-10-woowastudy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1095">
-            <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/page11/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-72">
@@ -536,16 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-25-woowastudy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/woowastudy/woowa0726_8.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -555,16 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-26-woowastudy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="578">
-            <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -610,16 +623,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
             <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-24-woowastudy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="435">
-            <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           </first_editor>
           <second_editor />
         </state>
@@ -675,16 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-10-woowastudy_2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2355">
-            <caret line="157" column="13" lean-forward="false" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-12-woowastudy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -727,17 +720,6 @@
               <marker date="1501811585000" expanded="true" signature="2389:2795" ph="{...}" />
               <marker date="1501811585000" expanded="true" signature="2408:2524" ph="{&quot;author&quot;: username...}" />
             </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-11-woowastudy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3885">
-            <caret line="259" column="5" lean-forward="false" selection-start-line="259" selection-start-column="5" selection-end-line="259" selection-end-column="5" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -836,10 +818,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-10-woowastudy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <folding>
+              <marker date="1501417242000" expanded="true" signature="2559:2578" ph="{...}" />
+              <marker date="1501417242000" expanded="true" signature="3220:3381" ph="{...}" />
+              <marker date="1501417242000" expanded="true" signature="3315:3360" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-10-woowastudy_2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="837">
+            <caret line="157" column="13" lean-forward="false" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
+            <folding>
+              <marker date="1501417272000" expanded="true" signature="2784:2905" ph="{...}" />
+              <marker date="1501417272000" expanded="true" signature="2844:2886" ph="{...}" />
+              <marker date="1501417272000" expanded="true" signature="3009:3085" ph="{...}" />
+              <marker date="1501417272000" expanded="true" signature="4006:4140" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-11-woowastudy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="837">
+            <caret line="259" column="5" lean-forward="false" selection-start-line="259" selection-start-column="5" selection-end-line="259" selection-end-column="5" />
+            <folding>
+              <marker date="1501418161000" expanded="true" signature="545:577" ph="{&quot;name&quot;: &quot;tongil&quot;...}" />
+              <marker date="1501418161000" expanded="true" signature="600:666" ph="{...}" />
+              <marker date="1501418161000" expanded="true" signature="628:664" ph="{...}" />
+              <marker date="1501418161000" expanded="true" signature="782:808" ph="{...}" />
+              <marker date="1501418161000" expanded="true" signature="856:882" ph="{...}" />
+              <marker date="1501418161000" expanded="true" signature="2540:3165" ph="{&quot;debug&quot;: &quot;on&quot;...}" />
+              <marker date="1501418161000" expanded="true" signature="2575:2704" ph="{&quot;name&quot;: &quot;main_window&quot;...}" />
+              <marker date="1501418161000" expanded="true" signature="2719:2861" ph="{&quot;name&quot;: &quot;sun1&quot;...}" />
+              <marker date="1501418161000" expanded="true" signature="2875:3163" ph="{&quot;name&quot;: &quot;text1&quot;...}" />
+              <marker date="1501418161000" expanded="true" signature="3046:3091" ph="{...}" />
+              <marker date="1501418161000" expanded="true" signature="3193:3555" ph="{...}" />
+              <marker date="1501418161000" expanded="true" signature="3251:3507" ph="{...}" />
+              <marker date="1501418161000" expanded="true" signature="3282:3501" ph="{...}" />
+              <marker date="1501418161000" expanded="true" signature="3357:3408" ph="{...}" />
+              <marker date="1501418161000" expanded="true" signature="3443:3491" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-24-woowastudy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-25-woowastudy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-26-woowastudy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="672">
+            <caret line="288" column="0" lean-forward="false" selection-start-line="288" selection-start-column="0" selection-end-line="288" selection-end-column="62" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        <state relative-caret-position="317">
+          <caret line="103" column="6" lean-forward="false" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
           <folding />
         </state>
       </provider>

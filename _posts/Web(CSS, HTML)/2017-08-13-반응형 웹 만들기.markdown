@@ -94,6 +94,11 @@ if (mq.matches) {
 ### 구현결과
 ![사진]({{tong9433.github.io}}/image/responsive.png)
 ![사진]({{tong9433.github.io}}/image/responsive2.png)
+
+<div style="text-align: center;">
+<img src="/image/responsive2.png" style="width:200px; display:inline-block">
+</div>
+
 * 먼저 모바일 우선 보다는 데스크톱 우선 방식을 택함
 * 구현된 기본 CSS를 media 문법내에 복사를 해놓은 뒤 하나하나씩 수정해가면서 모양을 잡아 가는 방식으로 수정.
 * 영향을 미치지 않는 색깔이나 호버효과 같은 것은 media 문법 내에서 삭제를 시켜주었음.
@@ -101,7 +106,7 @@ if (mq.matches) {
 
 ### 소스
 
-```CSS
+```css
 .fixTab-wrapper{
     background: #ffffff;
     width: 100%;

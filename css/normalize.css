@@ -24,8 +24,10 @@ body {
 
 }
 
-.title:hover{
+.title:hover {
   color: brown;
+  filter: scale(120%);
+}
 
 
 .list{

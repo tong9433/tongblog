@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,16 +30,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="210">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
-                <marker date="1502628790000" expanded="true" signature="320:332" ph="..." />
-                <marker date="1502628790000" expanded="true" signature="320:333" ph="..." />
-                <marker date="1502628790000" expanded="true" signature="334:348" ph="..." />
-                <marker date="1502628790000" expanded="true" signature="529:557" ph="..." />
+                <marker date="1502628916000" expanded="true" signature="308:320" ph="..." />
+                <marker date="1502628916000" expanded="true" signature="308:321" ph="..." />
+                <marker date="1502628916000" expanded="true" signature="322:336" ph="..." />
+                <marker date="1502628916000" expanded="true" signature="517:545" ph="..." />
               </folding>
             </state>
           </provider>
@@ -53,6 +54,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/normalize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,6 +107,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="cayman.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/cayman.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="877">
+              <caret line="193" column="14" lean-forward="false" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="2017-07-31-MVC아키텍처.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Unclassified/2017-07-31-MVC아키텍처.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -115,32 +136,6 @@
             <state relative-caret-position="149">
               <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-07-29-우아한 테크 4주차.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 4주차.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-07-17-woowastudy.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-17-woowastudy.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
-                <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -201,12 +196,12 @@
         <option value="$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 4주차.md" />
         <option value="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Markdown.md" />
         <option value="$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-web-db-CRUD.md" />
-        <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 5주차.md" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-08-07-우아한 테크 5주차.md" />
         <option value="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Git 정리.md" />
         <option value="$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/normalize.css" />
       </list>
     </option>
   </component>
@@ -408,12 +403,12 @@
       <workItem from="1501767145085" duration="8199000" />
       <workItem from="1502100949747" duration="2637000" />
       <workItem from="1502116761556" duration="250000" />
-      <workItem from="1502615350811" duration="2187000" />
+      <workItem from="1502615350811" duration="2328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46220000" />
+    <option name="totallyTimeSpent" value="46361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="24" width="1642" height="1027" extended-state="6" />
@@ -597,23 +592,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/cayman.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2895">
-          <caret line="193" column="14" lean-forward="false" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 5주차.md" />
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-10-woowastudy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -989,14 +968,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
-            <marker date="1502628790000" expanded="true" signature="320:332" ph="..." />
-            <marker date="1502628790000" expanded="true" signature="320:333" ph="..." />
-            <marker date="1502628790000" expanded="true" signature="334:348" ph="..." />
-            <marker date="1502628790000" expanded="true" signature="529:557" ph="..." />
+            <marker date="1502628916000" expanded="true" signature="308:320" ph="..." />
+            <marker date="1502628916000" expanded="true" signature="308:321" ph="..." />
+            <marker date="1502628916000" expanded="true" signature="322:336" ph="..." />
+            <marker date="1502628916000" expanded="true" signature="517:545" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cayman.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="877">
+          <caret line="193" column="14" lean-forward="false" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

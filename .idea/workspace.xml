@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="" />
+    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/알고리즘/2017-09-04-알고리즘(문제번호-유형-출제소스).md" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,36 +36,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-07-10-Markdown.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Markdown.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-07-10-Git 정리.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Git 정리.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-09-04-알고리즘(문제번호-유형-출제소스).md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/알고리즘/2017-09-04-알고리즘(문제번호-유형-출제소스).md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -111,8 +83,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="googlea87743465fbac3a6.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="googlea87743465fbac3a6.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/googlea87743465fbac3a6.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1368">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-04-알고리즘(문제번호-유형-출제소스).md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘(문제번호-유형-출제소스).md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -151,7 +143,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_posts/속깊은 자바 스크립트 정리.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-13-속깊은 자바 스크립트 정리.markdown" />
-        <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_includes/page-footer.html" />
         <option value="$PROJECT_DIR$/_posts/2017-07-08-우아한 테크 캠프 소개.md" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-07-08-우아한 테크 1주차.md" />
@@ -197,6 +188,7 @@
         <option value="$PROJECT_DIR$/_posts/알고리즘/2017-09-04-알고리즘(문제번호-유형-출제소스).md" />
         <option value="$PROJECT_DIR$/_plugins/youtube.rb" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md" />
+        <option value="$PROJECT_DIR$/_site/index.html" />
       </list>
     </option>
   </component>
@@ -273,6 +265,17 @@
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -295,11 +298,11 @@
       <recent name="$PROJECT_DIR$/_posts/Javascript" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/algorithm" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_posts/알고리즘" />
       <recent name="$PROJECT_DIR$/_posts/알고리즘 공부" />
       <recent name="$PROJECT_DIR$/image" />
-      <recent name="$PROJECT_DIR$/_posts/woowa" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -344,12 +347,12 @@
       <workItem from="1502100949747" duration="2637000" />
       <workItem from="1502116761556" duration="250000" />
       <workItem from="1502615350811" duration="2328000" />
-      <workItem from="1504488988681" duration="13249000" />
+      <workItem from="1504488988681" duration="13702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59610000" />
+    <option name="totallyTimeSpent" value="60063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1633" height="1027" extended-state="6" />
@@ -383,12 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-16-woowastudy.md" />
-    <entry file="file://$PROJECT_DIR$/image/woowastudy/woowa0726_8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 5주차.md" />
     <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-10-woowastudy_2.md" />
     <entry file="file://$PROJECT_DIR$/_posts/woowastudy/2017-07-11-woowastudy.md" />
@@ -750,6 +747,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/googlea87743465fbac3a6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘(문제번호-유형-출제소스).md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

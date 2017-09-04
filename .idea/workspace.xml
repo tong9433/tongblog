@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_plugins/youtube.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/woowa/2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md" afterPath="$PROJECT_DIR$/_posts/woowa/2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md" />
-    </list>
+    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -32,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="41" column="69" lean-forward="true" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+              <caret line="41" column="69" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -43,7 +39,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-              <folding />
+              <folding>
+                <marker date="1504527252000" expanded="true" signature="249:284" ph="kramdown" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -262,27 +260,6 @@
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="woowa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -354,18 +331,17 @@
       <workItem from="1502100949747" duration="2637000" />
       <workItem from="1502116761556" duration="250000" />
       <workItem from="1502615350811" duration="2328000" />
-      <workItem from="1504488988681" duration="15297000" />
+      <workItem from="1504488988681" duration="15464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61658000" />
+    <option name="totallyTimeSpent" value="61825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1633" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19657072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19657072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -733,7 +709,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
+          <folding>
+            <marker date="1504527252000" expanded="true" signature="249:284" ph="kramdown" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -780,7 +758,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="41" column="69" lean-forward="true" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+          <caret line="41" column="69" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
           <folding />
         </state>
       </provider>

@@ -283,13 +283,18 @@ body {
     margin: 0;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 2em;
     color: #606c71;
 }
 
 a {
     color: #1e6bb8;
     text-decoration: none;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 a:hover {

@@ -294,7 +294,7 @@ a {
 
 img{
     border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 2px 2px 2px #2c2c2c;
 }
 
 a:hover {

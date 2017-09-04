@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/woowa/2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md" afterPath="$PROJECT_DIR$/_posts/woowa/2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md" />
-    </list>
+    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="720">
               <caret line="115" column="68" lean-forward="false" selection-start-line="115" selection-start-column="68" selection-end-line="115" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-08-03-Firebase-소개-고찰.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-소개-고찰.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -86,16 +94,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/page.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_posts/속깊은 자바 스크립트 정리.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-13-속깊은 자바 스크립트 정리.markdown" />
         <option value="$PROJECT_DIR$/_includes/page-footer.html" />
@@ -196,6 +193,7 @@
         <option value="$PROJECT_DIR$/_plugins/youtube.rb" />
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-09-01-우아한 테크 프로젝트 및 마지막 회고.md" />
+        <option value="$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-소개-고찰.md" />
       </list>
     </option>
   </component>
@@ -323,11 +321,11 @@
       <recent name="$PROJECT_DIR$/_posts/Javascript" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/Firebase" />
       <recent name="$PROJECT_DIR$/_posts/algorithm" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_posts/알고리즘" />
       <recent name="$PROJECT_DIR$/_posts/알고리즘 공부" />
-      <recent name="$PROJECT_DIR$/image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,12 +370,12 @@
       <workItem from="1502100949747" duration="2637000" />
       <workItem from="1502116761556" duration="250000" />
       <workItem from="1502615350811" duration="2328000" />
-      <workItem from="1504488988681" duration="18036000" />
+      <workItem from="1504488988681" duration="18330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64397000" />
+    <option name="totallyTimeSpent" value="64691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1633" height="1027" extended-state="6" />
@@ -412,14 +410,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-08-07-우아한 테크 5주차.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 4주차.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -817,6 +807,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="115" column="68" lean-forward="false" selection-start-line="115" selection-start-column="68" selection-end-line="115" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-소개-고찰.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding />
         </state>
       </provider>

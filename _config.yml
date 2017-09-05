@@ -1,5 +1,5 @@
 # Setup
-title:        Tong TechBlog
+title:        Tong's TechBlog
 tagline:      검이 짧으면 한 발짝 더 나아가라 🏃
 baseurl:      ""
 paginate:     1
@@ -15,4 +15,3 @@ gems:
 
 #Others
 markdown: kramdown
-theme: jekyll-theme-cayman

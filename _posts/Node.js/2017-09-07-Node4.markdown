@@ -1,0 +1,76 @@
+---
+layout: default
+title:  "[4]Callback Function 개념"
+date:   2017-09-07 17:50:00
+categories: "Node.js"
+---
+
+
+
+# [4]Callback Function 개념
+
+## Callback Function 에 대하여
+* 자바스크립트에서는 function는 일급 객체
+* 일급 객체 조건 :
+```
+변수나 데이터 구조 안에 담을 수 있다.
+파라미터로 전달 할 수 있다.
+반환값으로 사용 할 수 있다.
+런타임에 생성될 수 있다.
+```
+* 함수는 Object 타입이므로 String, Array 등 function 자체가 객체이기 때문에 변수안에 담을 수도 있고 인수로서 다른 함수에 전달도 가능하다. 그리고 함수안에서 만들어질 수도 있고 반환될 수도 있다.
+* Callback function : 특정 함수에 매개변수로서 전달된 함수
+* 아래와 같이 addEventListener의 매개 변수로 function이 전달된다.
+```
+dom.addEventListener(‘click’,function(){
+});
+```
+* 함수형 프로그래밍에서부터 발생한 패러다임
+* 함수형 프로그래밍: 함수를 인자처럼 사용을 하는 것, 소수의 전문가들만이 이해하고 사용하는 기법 이었지만 지속적으로 누군가에 의해 설명되고 분석되어 오면서 우리가 쉽게 이해하고 사용 할 수 있는 수준이 됨, 그 가장 일반적인 기술 중 하나가 바로 콜백함수
+* 요약하면 함수를 인자로 넘겨 사용하는 것.
+
+## 왜 콜백함수를 사용하는 걸까?
+* javascript 에서 Callback 함수가 매우 많이 사용됨.
+* 콜백 함수: 디자인 패턴 중 하나인 옵저버 패턴에서 나온 개념으로 객체의 상태 변화가 발생 하였을 경우 이러한 사실을 함수를 통해 전달하게 됨.
+* 콜백함수는 AJAX요청과 함께 사용하면 정말 강력함. 예를 들면 AJAX 요청을 해서 어떤 정보를 가져와 그 가져온 정보로 무언가를 처리할 때 유용 하게 쓰임.
+
+## 콜백함수 예제를 통한 비교
+* 콜백함수가 사용되지 않는 Blocking Code 예제
+```
+var fs = require("fs");
+
+var data = fs.readFileSync('input.txt');
+
+console.log(data.toString());
+console.log("Program has ended");
+```
+=> 이런식으로 동기적으로 작업을 실행하고 기다리면서 다른일을 하지 않음.
+
+```
+결과)
+$ node main.js
+Let's understand what is a callback function.
+What the HELL is it?
+Program has ended
+```
+
+
+* 콜백함수가 사용된 Non-Blocking Code 예제
+```
+var fs = require("fs");
+
+fs.readFile('input.txt', function (err, data) {
+    if (err) return console.error(err);
+    console.log(data.toString());
+});
+
+console.log("Program has ended");
+```
+=>  readFile() 함수는 비동기식으로 파일을 읽는 함수이고, 도중에 에러가 발생하면 err 객체에 여러 내용을 담고 그렇지 않을 시에는 파일내용을 읽고 출력함.
+```
+결과)
+Program has ended
+Let's understand what is a callback function.
+What the HELL is it?
+```
+* 콜백함수를 사용하여 프로그램의 흐름을 끊지 않고 많은 양의 요청을 빠르게 처리할 수 있게됨 ( 비동기의 장점 )

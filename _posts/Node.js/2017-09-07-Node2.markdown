@@ -1,0 +1,42 @@
+---
+layout: default
+title:  "[2]Node.js 간단한 Application 만들기"
+date:   2017-09-07 17:50:00
+categories: "Node.js"
+---
+
+
+
+# [2]Node.js 간단한 Application 만들기
+
+## 1단계 필요한 모듈 import 하기
+* 필요한 모듈을 불러오는 것은 `require` 를 사용 함.
+* HTTP 모듈을 불러오고  반환되는 HTTP 인스턴스를 http 변수에 저장.
+```javascript
+var http = require("http”);
+```
+
+## 2단계 서버 생성하기
+* require를 통해서 import 한 http 인스턴스를 사용해서 서버를 생성하고 listen 메소드를 사용하여 포트 8081과 bind를 해준다.
+```javascript
+http.createServer(function(request, response){
+    /*
+        HTTP 헤더 전송
+        HTTP Status: 200 : OK
+        Content Type: text/plain
+    */
+    response.writeHead(200, {'Content-Type': 'text/plain'});
+
+    /*
+        Response Body 를 "Hello World" 로 설정
+    */
+    response.end("Hello World\n");
+}).listen(8081);
+```
+
+## 3단계 서버 테스트 해보기
+* `$ node main.js`  명령어로 서버를 실행
+
+
+## 참고사이트
+[Node.JS 강좌 03편: Node.js 맛보기 | VELOPERT.LOG](https://velopert.com/210)LOPERT.LOG](https://velopert.com/210)

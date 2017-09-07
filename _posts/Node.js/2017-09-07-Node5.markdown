@@ -1,0 +1,61 @@
+---
+layout: default
+title:  "[5]Event Loop"
+date:   2017-09-07 17:50:00
+categories: "Node.js"
+---
+
+
+# [5]Event Loop
+
+## 이벤트 루프 방식
+* Node.js에선 Event를 매우 많이 사용하고, 이 때문에 다른 비슷한 기술들보다 훨씬 빠른 속도를 자랑함.
+* Node.js 기반으로 만들어진 서버가 가동되면, 변수들을 초기화하고, 함수를 선언하고 이벤트가 일어날 때까지 기다리는 방식
+* 이벤트 위주 어플리케이션에서는, 이벤트를 대기하는 메인루프가 존재
+* 이벤트가 감지될 경우 콜백함수를 호출
+* 이벤트가 콜백과 비슷해 보일 수 있는데 차이는 콜백함수는 비동기식 함수에서 결과를 반환할 때 호출되지만, 이벤트핸들링은 옵저버 패턴에 의해 작동
+
+* Node.js 에서는 이벤트를 대기하는 EventListeners 함수들이 옵저버 역할을 함,
+* 옵저버들이 이벤트를 기다리다가 이벤트가 실행되면 콜백함수가 실행
+* events 모듈과 EventEmitter 클래스가 내장 아래와 같이 사용
+```javascript
+var events = require('events');
+var eventEmitter = new events.EventEvitter();
+//event와 eventHandler를 연동시킴
+eventEmitter.on('eventName', eventHandler);
+```
+* 프로그램 안에서 이벤트를 발생시킬 땐 `eventEmitter.emit(‘eventName’);` 를 사용.
+
+## 이벤트 핸들링 예제
+```
+var events = require('events');
+var eventEmitter = new events.EventEmitter();
+var connectHandler = function connected(){
+        console.log("연결성공");
+        eventEmitter.emit("data_received");
+}
+
+eventEmitter.on('connection',onnectHandler);
+
+eventEmitter.on('data_received',function(){
+        console.log("Data Received");
+});
+
+eventEmitter.emit('connection');
+
+console.log("프로그램종료");
+```
+
+```
+결과)
+연결성공
+Data Received
+프로그램종료
+```
+
+
+
+## 옵저버 패턴이란
+* 옵저버 패턴 : 한마디로 상태변화를 감지하는 관찰자
+> 옵서버 패턴(Observer Pattern)은 객체의 상태 변화를 관찰하는 관찰자들, 즉 옵저버들의 목록을 객체에 등록하여 상태 변화가 있을 때마다 메서드 등을 통해 객체가 직접 목록의 각 옵저버에게 통지하도록 하는 디자인 패턴이다. 주로 분산 이벤트 핸들링 시스템을 구현하는 데 사용된다. 발행/구독 모델로 알려져 있기도 하다.
+참고 : [옵서버 패턴 - 위키백과, 우리 모두의 백과사전](https://ko.wikipedia.org/wiki/%EC%98%B5%EC%84%9C%EB%B2%84_%ED%8C%A8%ED%84%B4)보기 | VELOPERT.LOG](https://velopert.com/210)

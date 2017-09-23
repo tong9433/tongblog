@@ -5,9 +5,11 @@ date:   2017-09-23 17:50:00
 categories: "Node.js"
 ---
 
-본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩)  의 강의노트입니다
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 강의노트입니다
 
+<br>
 ## 간단한 앱 어플리케이션 만들기
+
 ```javascript
 const http = require('http');
 
@@ -37,13 +39,15 @@ http.createServer((req, res) => {
 * `http://a.com`이라는 서버는 다양한 종류로 존재할 수 있음 ( 데이터베이스 서버, 채팅 서버, 게임 서버, 웹서버 등등등 )
 * 하나의 컴퓨터에 설치되어 있는 여러개의 서버 어플리케이션을 어떻게 연결해 줄 것인가를 고민하게 됨.
 * 0 ~ 65535 라는 문이 있음 -> PORT
+
 ```
 80번 PORT -> 웹서버가 listen
 http://a.com:80 이라고 할 경우 a.com 에 해당되는 컴퓨터에 접근하고 80번 PORT에 접속한다고 하면 컴퓨터는 80번과 연결해줌. 하지만 :80 이라고 적는 것은 되게 귀찮기 때문에 :80 을 생략하면서 씀. (http 로 접속할 경우 80번 포트를 쓰자고 약속)
 ```
 
-
+<br>
 ## 간단한 앱 어플리케이션 코드 다시 보기
+
 ```javascript
 const http = require('http');
 

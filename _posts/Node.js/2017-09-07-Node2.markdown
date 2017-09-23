@@ -1,13 +1,13 @@
 ---
 layout: default
-title:  "[2]Node.js 간단한 Application 만들기"
+title:  "Node.js 간단한 Application 만들기"
 date:   2017-09-07 17:50:00
 categories: "Node.js"
 ---
 
 
 
-# [2]Node.js 간단한 Application 만들기
+# Node.js 간단한 Application 만들기
 
 ## 1단계 필요한 모듈 import 하기
 * 필요한 모듈을 불러오는 것은 `require` 를 사용 함.

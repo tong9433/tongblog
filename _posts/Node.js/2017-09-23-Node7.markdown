@@ -1,0 +1,62 @@
+---
+layout: default
+title:  "간단한 Node.js 예제 및 인터넷 이해하기"
+date:   2017-09-23 17:50:00
+categories: "Node.js"
+---
+
+본 포스트는 https://www.inflearn.com/course/nodejs-강좌-생활코딩 의 강의노트입니다
+
+# 간단한 앱 어플리케이션 만들기
+```javascript
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 1337;
+
+http.createServer((req, res) => {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello World\n');
+}).listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+*  간단한 웹서버를 만든 것.
+* `http://127.0.0.1:1337 `에 접속하면 `hello world`가 출력
+* 웹브라우저를 통해 요청한 내용을 받아서 `hello world`를 전송한 것
+
+# 인터넷의 동작방법 배우기
+* 서버, 클라이언트, ip, port의 개념에 대해 배울 것.
+* 컴퓨터와 컴퓨터가 인터넷을 통해 연결되어 상호작용이 가능해짐.
+* 가장 중요한 개념이 클라이언트 - 서버임.
+* 서버와 클라이언트의 관계는 상호간에 요청하고 제공하는 관계에 있음.
+* 웹브라우저가 설치 된 곳이 클라이언트라고 생각하고, 주소에 접속하여 정보를 요청하면 서버는 요청한 정보를 클라이언트에 응답해줌. ( 컴퓨터의 기능에 관련없이 상대적인 개념임 )
+* `http://a.com`  는 도메인 이름, 도메인은 서버에 요청할때 기억하기 쉽게 정해놓은 이름이고 실제로는 `52.192.173.151` 과 같은 ip를 통해 접속을 하게 됨.
+![사진]({{ tong9433.gitub.io }}/image/node7.png)
+* `http://a.com`이라는 서버는 다양한 종류로 존재할 수 있음 ( 데이터베이스 서버, 채팅 서버, 게임 서버, 웹서버 등등등 )
+* 하나의 컴퓨터에 설치되어 있는 여러개의 서버 어플리케이션을 어떻게 연결해 줄 것인가를 고민하게 됨.
+* 0 ~ 65535 라는 문이 있음 -> PORT
+```
+80번 PORT -> 웹서버가 listen
+http://a.com:80 이라고 할 경우 a.com 에 해당되는 컴퓨터에 접근하고 80번 PORT에 접속한다고 하면 컴퓨터는 80번과 연결해줌. 하지만 :80 이라고 적는 것은 되게 귀찮기 때문에 :80 을 생략하면서 씀. (http 로 접속할 경우 80번 포트를 쓰자고 약속)
+```
+
+
+# 간단한 앱 어플리케이션 코드 다시 보기
+```javascript
+const http = require('http');
+
+const hostname = '127.0.0.1'; // 컴퓨터의 ip
+const port = 1337; // port 번호
+
+http.createServer((req, res) => {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello World\n');
+}).listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+* node.js 를 통해 웹서버를 만들고 1337번 포트에 웹 서버를 연결 시킨 코드임.
+* 그리고 `http://127.0.0.1:1337`로 접속할 경우 응답을 하라는 코드이션을 만들 수 있음.

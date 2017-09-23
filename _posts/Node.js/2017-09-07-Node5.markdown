@@ -1,12 +1,12 @@
 ---
 layout: default
-title:  "[5]Event Loop"
+title:  "Event Loop"
 date:   2017-09-07 17:50:00
 categories: "Node.js"
 ---
 
 
-# [5]Event Loop
+# Event Loop
 
 ## 이벤트 루프 방식
 * Node.js에선 Event를 매우 많이 사용하고, 이 때문에 다른 비슷한 기술들보다 훨씬 빠른 속도를 자랑함.

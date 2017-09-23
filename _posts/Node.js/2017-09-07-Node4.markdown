@@ -1,13 +1,13 @@
 ---
 layout: default
-title:  "[4]Callback Function 개념"
+title:  "Callback Function 개념"
 date:   2017-09-07 17:50:00
 categories: "Node.js"
 ---
 
 
 
-# [4]Callback Function 개념
+# Callback Function 개념
 
 ## Callback Function 에 대하여
 * 자바스크립트에서는 function는 일급 객체

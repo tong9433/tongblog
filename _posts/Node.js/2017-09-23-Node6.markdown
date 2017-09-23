@@ -5,7 +5,7 @@ date:   2017-09-23 17:50:00
 categories: "Node.js"
 ---
 
-본 포스트는 https://www.inflearn.com/course/nodejs-강좌-생활코딩 의 강의노트입니다
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 의 강의노트입니다
 
 ## Javascript 소개
 * JS : 팀 버너스 리에 의해 웹이 탄생
@@ -21,10 +21,14 @@ categories: "Node.js"
 * JS의 활용도가 정말 큰 변화를 맞이하게 됨.
 * 2009년에 라이언달에 의해 Node.js가 만들어짐
 
+
+
 ## Node.js
 * V8엔진을 자바스트립트 엔진으로 사용함.
 * event-driven 자바스크립트 개발방식과 none-blocking IO 입출력방식을 결합하여 Node.js라는 프로젝트가 시작됨.
 * 웹브라우저가 서버  쪽에서도 동작하는 자바스크립트
+
+
 
 ## 웹브라우저 JS와 Node.js의 JS 차이
 * Javascript

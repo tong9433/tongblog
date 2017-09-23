@@ -5,9 +5,9 @@ date:   2017-09-23 17:50:00
 categories: "Node.js"
 ---
 
-본 포스트는 https://www.inflearn.com/course/nodejs-강좌-생활코딩 의 강의노트입니다
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩)  의 강의노트입니다
 
-# 간단한 앱 어플리케이션 만들기
+## 간단한 앱 어플리케이션 만들기
 ```javascript
 const http = require('http');
 
@@ -43,7 +43,7 @@ http://a.com:80 이라고 할 경우 a.com 에 해당되는 컴퓨터에 접근�
 ```
 
 
-# 간단한 앱 어플리케이션 코드 다시 보기
+## 간단한 앱 어플리케이션 코드 다시 보기
 ```javascript
 const http = require('http');
 

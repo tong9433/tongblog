@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node3.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node3.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown" />
     </list>
@@ -20,8 +26,8 @@
       <file leaf-file-name="2017-09-07-Node1.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="68">
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -30,8 +36,8 @@
       <file leaf-file-name="2017-09-07-Node2.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,8 +56,8 @@
       <file leaf-file-name="2017-09-07-Node3.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node3.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,18 +66,18 @@
       <file leaf-file-name="2017-09-07-Node4.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-23-Node6.markdown" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-09-23-Node6.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,18 +86,18 @@
       <file leaf-file-name="2017-09-23-Node7.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-23-Node8.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-09-23-Node8.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,8 +116,8 @@
       <file leaf-file-name="2017-09-07-Node5.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1018">
-              <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="3" />
+            <state relative-caret-position="66">
+              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,10 +196,10 @@
         <option value="$PROJECT_DIR$/_posts/inflearn/2017-09-08-JS로-알아보는-함수형-프로그래밍.markdown" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘-그래프.md" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown" />
-        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown" />
-        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node3.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown" />
@@ -394,12 +400,12 @@
       <workItem from="1504776217493" duration="5072000" />
       <workItem from="1504852384988" duration="5661000" />
       <workItem from="1505195076524" duration="5306000" />
-      <workItem from="1506156768721" duration="1551000" />
+      <workItem from="1506156768721" duration="1735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97745000" />
+    <option name="totallyTimeSpent" value="97929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1634" height="1027" extended-state="6" />
@@ -684,22 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1018">
-          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-07-22-woowa3.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -708,50 +698,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node3.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node3.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

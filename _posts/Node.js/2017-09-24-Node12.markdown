@@ -1,0 +1,64 @@
+---
+layout: default
+title:  "Express 템플릿 엔진 사용(Jade) 🆕"
+date:   2017-09-23 15:30:00
+categories: "Node.js/Express"
+---
+
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 강의노트입니다
+
+
+<br>
+## 템플릿 엔진
+* 템플릿 엔진을 통해 장황한 html 코드를 줄일 수 있음.
+* Handlebars, Jade 등 여러 엔진이 있음
+
+<br>
+## 템플릿 엔진 사용하기 (Jade)
+1. `$ npm install jade --save` 로 프로젝트에 모듈 설치
+2. `app.js`에 `app.set('view engine','jade');` 를 추가
+3. `app.js`에 `app.set('views','./views');` 를 추가
+4. `views` 라는 directory를 만들기
+5. 템플릿 엔진이 적용된 페이지 라우터 만들기, 아래 소스코드 추가
+ ```javascript
+app.get('/template',function(req, res){
+    res.render('temp'); //send 가 아닌 render 메소드를 사용, 템플릿 파일을 읽어오는 코드
+});
+```
+6. 'views' 디렉토리에 'temp.jade'라는 파일을 추가함.
+
+<br>
+## 템플릿 엔진 Jade 문법 사용해보기
+* 들여쓰기를 통해 포함관계를 설정
+```
+html
+    head
+    body
+```
+
+* jade 문법을 사용할 때 출력되는 문법을 어떻게 하면 예쁘게 할 수 있는가? 구글링하기 `app.locals.pretty = true;` 를 추가
+* 화면에 출력하는 코드가 아닌 javascript 코드일 경우 `-`를 붙여야함
+```
+html
+    head
+    body
+        h1 Hello Jade
+        ul
+            -for(let i=0; i<5; i++)
+                li coding
+```
+* `res.render('temp',{time:Date()});`와 같이 time`라는 변수를 받기 위해서는 render 시에 주입해야 함
+```
+html
+    head
+        title= title
+    body
+        h1 Hello Jade
+        ul
+            -for(let i=0; i<5; i++)
+                li coding
+        div= time
+```
+
+![사진]({{ tong9433.gitub.io }}/image/jade.png)
+

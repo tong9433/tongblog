@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Express 설치/간단한 웹어플리케이션 만들기"
+title:  "Express 설치/간단한 웹어플리케이션 만들기 🆕"
 date:   2017-09-23 13:00:00
 categories: "Node.js/Express"
 ---

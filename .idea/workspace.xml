@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node3.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node3.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node10.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node10.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node9.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node9.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cayman.css" afterPath="$PROJECT_DIR$/css/cayman.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,22 +21,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-09-24-Node9.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node9.markdown">
+      <file leaf-file-name="2017-09-24-Node11.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-24-Node11.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown">
+      <file leaf-file-name="2017-09-24-Node12.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node12.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="34">
+              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-24-Node13.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node13.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cayman.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/cayman.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1135">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/normalize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-24-Node10.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node10.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-24-Node9.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node9.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding>
+                <marker date="1506243636000" expanded="true" signature="223:237" ph="..." />
+                <marker date="1506243636000" expanded="true" signature="240:257" ph="..." />
+                <marker date="1506243636000" expanded="true" signature="332:344" ph="..." />
+                <marker date="1506243636000" expanded="true" signature="541:569" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +124,9 @@
       <find>header</find>
       <find>shadow</find>
       <find>youtube</find>
+      <find>img</find>
+      <find>body</find>
+      <find>title</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/image</dir>
@@ -72,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-12-woowastudy.md" />
-        <option value="$PROJECT_DIR$/_site/page4/index.html" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-13-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-17-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-17-woowastudy_2.md" />
@@ -89,11 +153,8 @@
         <option value="$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-web-db-CRUD.md" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 5주차.md" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-08-07-우아한 테크 5주차.md" />
-        <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/page-header.html" />
-        <option value="$PROJECT_DIR$/css/cayman.css" />
         <option value="$PROJECT_DIR$/_posts/Unclassified/2017-07-31-MVC아키텍처.md" />
         <option value="$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown" />
         <option value="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Markdown.md" />
@@ -120,9 +181,14 @@
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node12.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node13.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node10.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node9.markdown" />
-        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/normalize.css" />
+        <option value="$PROJECT_DIR$/css/cayman.css" />
       </list>
     </option>
   </component>
@@ -132,11 +198,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="23" />
-    <option name="width" value="831" />
-    <option name="height" value="1027" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="881" />
+    <option name="y" value="627" />
+    <option name="width" value="785" />
+    <option name="height" value="417" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -202,11 +268,6 @@
             <path>
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,6 +280,11 @@
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,18 +363,18 @@
       <workItem from="1504776217493" duration="5072000" />
       <workItem from="1504852384988" duration="5661000" />
       <workItem from="1505195076524" duration="5306000" />
-      <workItem from="1506156768721" duration="7495000" />
+      <workItem from="1506156768721" duration="15194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103689000" />
+    <option name="totallyTimeSpent" value="111388000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="23" width="831" height="1027" extended-state="0" />
+    <frame x="48" y="23" width="1632" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41034898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20159313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -340,16 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/image/responsive.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image/profile.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/css/cayman.css" />
     <entry file="file://$PROJECT_DIR$/_posts/Unclassified/2017-07-31-MVC아키텍처.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -385,20 +441,6 @@
     <entry file="file://$PROJECT_DIR$/google78c9c331b50666ee.html" />
     <entry file="file://$PROJECT_DIR$/_site/index.html" />
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘(문제번호-유형-출제소스).md" />
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="399" column="22" lean-forward="false" selection-start-line="399" selection-start-column="21" selection-end-line="399" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/cayman.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-467">
-          <caret line="297" column="1" lean-forward="false" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/googlea87743465fbac3a6.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -529,19 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <marker date="1504510709000" expanded="true" signature="221:235" ph="..." />
-            <marker date="1504510709000" expanded="true" signature="238:255" ph="..." />
-            <marker date="1504510709000" expanded="true" signature="330:342" ph="..." />
-            <marker date="1504510709000" expanded="true" signature="539:567" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -638,26 +667,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node10.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node13.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node9.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node12.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node10.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node9.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <marker date="1506243636000" expanded="true" signature="223:237" ph="..." />
+            <marker date="1506243636000" expanded="true" signature="240:257" ph="..." />
+            <marker date="1506243636000" expanded="true" signature="332:344" ph="..." />
+            <marker date="1506243636000" expanded="true" signature="541:569" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cayman.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1135">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

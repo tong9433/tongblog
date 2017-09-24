@@ -1,3 +1,6 @@
+@import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
+
+
 .highlight table td {
     padding: 5px;
 }
@@ -281,7 +284,8 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:'BM HANNA', sans-serif;
+    /*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     font-size: 16px;
     line-height: 2em;
     color: #606c71;
@@ -294,7 +298,6 @@ a {
 
 img{
     border-radius: 10px;
-    box-shadow: 2px 2px 2px #2c2c2c;
 }
 
 a:hover {

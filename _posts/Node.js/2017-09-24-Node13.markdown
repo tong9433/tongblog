@@ -1,0 +1,71 @@
+---
+layout: default
+title:  "Express, URL을 이용한 정보의 전달 🆕"
+date:   2017-09-23 17:00:00
+categories: "Node.js/Express"
+---
+
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 강의노트입니다
+
+
+<br>
+## 쿼리스트링 소개
+* `http://a.com/home'에서 `home`를 path라고 함.
+* 쿼리스트링의 예 : `http://a.com/topic?id=1` `http://a.com/topic?id=2` `http://a.com/topic?id=3`
+* ? 뒤에 나오는 정보를 쿼리스트링이라고 함.
+* 전체를 url 이라고 함.
+* 같은 Path안에서 id 값에 따라 다른 결과의 값을 보여주는 어플리케이션을 만들 수 있음 (혁신)
+
+
+<br>
+## query 객체의 사용
+* `req.query.id`를 사용하면 url에 입력한 `id=?`에서 `?`의 값을 반환한다.
+```javascript
+app.get('/topic',function(req, res){
+   res.send(req.query.id);
+});
+```
+* `res.send(req.query.id+','+req.query.name)` 로 하면 `/topic?id=1&name=tong/`로 두 개의 쿼리를 받을 수 있음
+
+<br>
+## query 객체를 이용한 예제
+```javascript
+app.get('/topic',function(req, res){
+    var topics =
+        ['Hello javascript',
+            'Hello node.js',
+            'Hello express'];
+    var output = `
+        <a href='/topic?id=0'>JavaScript</a><br>
+        <a href='/topic?id=1'>Node.js</a><br>
+        <a href='/topic?id=2'>Express</a><br>
+        ${topics[req.query.id]}
+    `;
+    res.send(output);
+
+});
+```
+
+<br>
+## 시맨틱 URL
+* 쿼리스트링 없이 깔끔하게 `/topic?id=2`가 아닌 `/topic/id/2`로 하는 것이 Semantic URL 이다.
+* `app.get('/topic/:id', func );` 로 해야함.
+* 두개의 인자를 받으려면 `app.get('/topic/:id/:name',func);` 으로 하면 됨.
+* `req.query.id`를 `req.params.id`로 하면 Semantic URL 형식으로 인자를 받을 수 있음.
+
+```javascript
+app.get('/topic/:id',function(req, res){
+    var topics =
+        ['Hello javascript',
+            'Hello node.js',
+            'Hello express'];
+    var output = `
+        <a href='/topic/0'>JavaScript</a><br>
+        <a href='/topic/1'>Node.js</a><br>
+        <a href='/topic/2'>Express</a><br>
+        ${topics[req.params.id]}
+    `;
+    res.send(output);
+
+});
+```

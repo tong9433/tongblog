@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Express 정적 파일 / 동적파일 서비스"
+title:  "Express 정적 파일 / 동적파일 서비스 🆕"
 date:   2017-09-23 15:00:00
 categories: "Node.js/Express"
 ---

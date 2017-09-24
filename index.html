@@ -12,11 +12,18 @@ title: {{ site.name }}
 
 
     var home = document.getElementById('home');
-    home.innerHTML = "{% for tag in site.categories %}\n" +
-        "        <div style=\"cursor:pointer\" class=\"wrapper\"><h3 class=\"title\">👊 {{tag[0]}}</h3>\n" +
+    home.innerHTML = "{% assign previousDate = site.date %}"+
+        "{% for tag in site.categories %}\n" +
+        "        <div style=\"cursor:pointer\" class=\"wrapper\">" +
+        "       <h3 class=\"title\">👊 {{tag[0]}}</h3>\n" +
         "        <div style=\"display:block\"class=\"list\"> <ul class=\"posts\">\n" +
         "        {% for post in tag[1] %}\n" +
-        "        <li><a href=\"{{ tong9433.github.io }}{{ post.url }}\">{{ post.title }}</a><span style=\"font-size: 12px; color: gray\"> {{post.date | date_to_string}}</span></li>\n" +
+        "        <li><a href=\"{{ tong9433.github.io }}{{ post.url }}\">{{ post.title }}</a>" +
+        "       {% if post.date == previousDate %}"+
+        "       <span style='font-size: 12px; color: gray'> {{post.date | date: '%Y-%m-%d'}}</span> 🆕</li>"+
+        "       {% else %}"+
+        "       <span style='font-size: 12px; color: gray'> {{post.date | date: '%Y-%m-%d'}}</span> </li>"+
+        "       {% endif %}"+
         "        {% endfor %}\n" +
         "        </ul> </div></div>\n" +
         "    {% endfor %}\n";

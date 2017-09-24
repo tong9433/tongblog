@@ -1,7 +1,7 @@
 ---
 layout: default
-title:  "Express 템플릿 엔진 사용(Jade) 🆕"
-date:   2017-09-23 15:30:00
+title:  "Express 템플릿 엔진 사용(Jade)"
+date:   2017-09-24 15:30:00
 categories: "Node.js/Express"
 ---
 

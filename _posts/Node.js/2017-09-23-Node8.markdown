@@ -1,8 +1,8 @@
 ---
 layout: default
 title:  "NPM설치, 모듈설치, 모듈사용법"
-date:   2017-09-23 17:50:00
-categories: "Node.js / Express"
+date:   2017-09-22 17:50:00
+categories: "Node.js/Express"
 ---
 
 본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 강의노트입니다

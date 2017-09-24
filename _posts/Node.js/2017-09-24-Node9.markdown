@@ -1,0 +1,52 @@
+---
+layout: default
+title:  "Express 소개"
+date:   2017-09-23 13:00:00
+categories: "Node.js/Express"
+---
+
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 강의노트입니다
+
+
+<br>
+## Express 소개
+
+* 앞전에 우리는 80 Port를 이용해서 웹서버를 만든다고 배웠음.
+* 축약해서 서버를 만든 코드
+
+```javascript
+http.createServer((req, res) => {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello World\n');
+}).listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+* 위와 같은 코드
+
+```javascript
+var server = http.createServer(function(req, res){
+    res.writeHead(200, { 'Content-Type': 'text/plain'});
+    res.end('Hello world\n');
+});
+
+server.listen(port, hostname, function(){ // 비동기적으로 콜백함수
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+* 사실 위와 같은 코드도 엄청 편한 것.
+* node를 이용해서 만들어진 프레임워크를 이용하여 웹개발을 할 것. 그것이 바로 Express
+* [공식사이트](http://expressjs.com/ko/)
+
+
+<br>
+## JS와 Node.JS의 연결성
+* Node.js는 FS, HTTP, OS를 기본적으로 제공
+* javascript 언어를 통해 Node.js에서 제공하는 기능들을 사용.
+* Module과 NPM의 관계 : 여러가지 Module이 만들어져 있음, ex) Express, Underscore, Jade 등
+* 이러한 모듈을 어플리케이션에 담아서 프로젝트를 만들어 낼 수 있음.
+* Router와 Controller의 관계 : 라우터는 사용자의 접속을 어떤 Controller와 연결 시켜줄 것인가를 하는 것이 라우터의 역할.
+* Controller의 역할 : 회원가입, 홈페이지, 에러화면
+* JavaScript, NPM, Router는 웹어플리케이션을 만들기 위해 중요한 요소들.

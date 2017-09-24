@@ -1,0 +1,45 @@
+---
+layout: default
+title:  "Express 설치/간단한 웹어플리케이션 만들기"
+date:   2017-09-23 13:00:00
+categories: "Node.js/Express"
+---
+
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 강의노트입니다
+
+
+<br>
+## Express 설치
+1. `$ npm init`
+2. `$ npm install express --save`
+
+<br>
+## Express를 이용한 간단한 웹어플리케이션 만들기
+1. `app.js`라는 메인 어플리케이션을 만듬 (관습적으로 express에서 권장하는 이름)
+2. `app.js` 파일 작성
+
+```javascript
+//express를 사용할 때 기본적인 코드
+var express = require('express');
+var app = express(); // 함수를 실행하면 어플리케이션을 반환함.
+
+app.get('/', function(req, res){
+
+    res.send('Hello World!');//Hello World 라는 값을 응답할 것.
+
+})// get방식으로 접속할경우 콜백함수르 실행, 일반적으로 url로 접속하는 것은 get 방식, / 뒤에 아무것도 붙지 않으면 그냥 홈으로 접속.
+
+app.get('/login', function(req, res){// http://localhost:3000/login 으로 접속 시
+    res.send('login please');
+})
+
+app.listen(3000,function () {
+    console.log('Connected 3000 Port!')
+})//성공시 콜백 함수
+```
+
+<br>
+## 라우팅
+* get 메소드를 라우터라 하고, 하는 일을 라우팅이라고 함.
+![사진]({{ tong9433.gitub.io }}/image/node10.png)
+

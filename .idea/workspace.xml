@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node8.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node10.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node10.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node12.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node12.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node13.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node13.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node9.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node9.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-24-Node13.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-09-24-Node13.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node13.markdown">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -55,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <file leaf-file-name="2017-09-25-Node14.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node14.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="104" column="24" lean-forward="false" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -166,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-13-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-17-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-17-woowastudy_2.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-18-woowastudy_2.md" />
@@ -217,6 +205,7 @@
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node13.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node14.markdown" />
       </list>
     </option>
   </component>
@@ -226,11 +215,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="46" />
     <option name="y" value="23" />
-    <option name="width" value="1540" />
-    <option name="height" value="960" />
+    <option name="width" value="690" />
+    <option name="height" value="495" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -329,19 +318,19 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/image" />
-      <recent name="$PROJECT_DIR$/image/woowastudy" />
-      <recent name="$PROJECT_DIR$/image/woowastudy/woowa0726_3.png" />
-      <recent name="$PROJECT_DIR$/image/woowa0726_2.png" />
-      <recent name="$PROJECT_DIR$/_posts/Javascript" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts/Node.js" />
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/_posts/algorithm" />
       <recent name="$PROJECT_DIR$/_posts/inflearn 강의 듣기" />
       <recent name="$PROJECT_DIR$/_posts/Firebase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/image/woowastudy" />
+      <recent name="$PROJECT_DIR$/image/woowastudy/woowa0726_3.png" />
+      <recent name="$PROJECT_DIR$/image/woowa0726_2.png" />
+      <recent name="$PROJECT_DIR$/_posts/Javascript" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -393,18 +382,18 @@
       <workItem from="1504852384988" duration="5661000" />
       <workItem from="1505195076524" duration="5306000" />
       <workItem from="1506156768721" duration="16249000" />
-      <workItem from="1506267000338" duration="1788000" />
+      <workItem from="1506267000338" duration="5742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114231000" />
+    <option name="totallyTimeSpent" value="118185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="23" width="1634" height="1027" extended-state="6" />
+    <frame x="46" y="23" width="690" height="495" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20134638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20134638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -436,7 +425,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_site/css/cayman.css" />
     <entry file="file://$PROJECT_DIR$/_posts/Unclassified/2017-07-31-MVC아키텍처.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -755,6 +743,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node14.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="104" column="24" lean-forward="false" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
           <folding />
         </state>
       </provider>

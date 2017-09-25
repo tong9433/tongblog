@@ -1,0 +1,107 @@
+---
+layout: default
+title:  "Express, GET vs POST"
+date:   2017-09-25 13:00:00
+categories: "Node.js/Express"
+---
+
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 강의노트입니다
+
+
+<br>
+## GET vs POST
+* `GET` 방식은 계속해 사용해 왔음
+* 새로운 `POST` 방식에 대해 배우면서 `GET`과 `POST`의 차이를 배울 것.
+* 우리는 웹 App에 Url 을 통해 App에 접속했음.
+* 어떠한 정보를 App에 접속해서 가져오는 것은 `GET` 방식이 었음.
+* 쿼리스트링을 이용해서 `GET` 방식으로 서버에서 정보를 가져왔음.
+* 사용자의 정보를 서버로 전송하는 할 때는 `GET`이 아닌 `POST`방식을 사용함.
+
+<br>
+## form
+* 사용자가 `/form`로 접속했을 때 제출양식이 나타나도록 하자.
+* `app.js` 아래 소스 추가
+
+```javascript
+app.get('/form_receiver', function(req, res){
+    var title = req.query.title;
+    var description = req.query.description;
+    res.send(title+','+description);
+})
+```
+
+* `form.jade` 파일을 `views` 폴더에 생성
+
+```
+doctype html
+html
+    head
+        meta(charset='utf-8')
+    body
+        form(action='/form_receiver')
+            p
+                input(type='text' name='title')
+            p
+                textarea(name='description')
+            p
+                input(type='submit')
+```
+
+* 위 코드는 `GET` 방식으로 작동
+* `form(action='/form_receiver' method='post')`로 수정하면 `form`은 제출이 되는데
+`Cannot POST /form_receiver` 화면이 나타남. 즉 어떤 라우터에도 해당되지 않았다는 의미
+
+<br>
+## POST 방식을 이용한 정보 전달
+* `app.js`에 아래 소스 추가
+
+```javascript
+app.post('/form_receiver', function(req, res){
+    var title = req.body.title;
+    var description = req.body.description;
+    res.send(title+','+description);
+})
+```
+
+* 이렇게 하면 오류가 발생
+* `body-parser` 미들웨어가 설치 되어야 함 -> 미들웨어 공부하기!
+* `$ npm install body-parser --save`
+* `var bodyParser = require('body-parser');` 를 `app.js`에 포함시킴.
+* `app.use(bodyParser.urlencoded({extended:false}));` 를 `app.js`에 포함시킴.
+* 위 두 코드의 의미 : 어플리케이션으로 들어오는 모든 요청들은 미들웨어를 먼저 통과한 후에 라우트가 동작하도록 하는 의미
+* 최종 코드
+
+```javascript
+var express = require('express');
+var app = express(); // 함수를 실행하면 어플리케이션을 반환함.
+
+app.set('view engine','jade');
+app.set('views','./views');
+app.use(express.static('public'));
+app.locals.pretty = true;
+
+var bodyParser = require('body-parser');//
+app.use(bodyParser.urlencoded({extended:false}));
+
+
+app.get('/form_receiver', function(req, res){
+    var title = req.query.title;
+    var description = req.query.description;
+    res.send(title+','+description);
+})
+
+app.post('/form_receiver', function(req, res){
+    var title = req.body.title;
+    var description = req.body.description;
+    res.send(title+','+description);
+})
+```
+
+<br>
+## POST와 GET의 사용용도
+* ID, 패스워드 처럼 URL상에 나타나면 안되는 경우 `POST` 방식으로 해야 함. 그렇다고 `POST` 방식이
+보안이 뛰어나다는 건 아님. 다른방식으로 알아낼 수 있음.
+* 대규모의 정보량을 보낼경우 `POST` 방식으로 해야 함.
+* `GET` : 하나의 라우터가 `GET` 방식을 통해서 전송된 데이터에 따라 다른 결과를 보여줄 수 있음. 기본적으로 Express 제공
+* `POST` : URL에 데이터가 포함되지 않는 장점, 용량이 큰 데이터를 전송하는데 제한이 없음. 기본적으로 Express가 제공하지 않으므로 bodyParser라는 미들웨어를
+이용하여 해결

@@ -90,7 +90,7 @@ class Product implements Comparable<Product>{
 ## Product 객체를 이름에 따라 정렬해보기(Comparator)
 * 문자나 price에 특정한 할인률을 적용해서 정렬해야할 때 사용하는 인터페이스가 `Comparator` 이다
 ```java
-Product[] products = new Product[4];
+        Product[] products = new Product[4];
         products[0] = new Product("car",1000);
         products[1] = new Product("box",4000);
         products[2] = new Product("robot",3400);

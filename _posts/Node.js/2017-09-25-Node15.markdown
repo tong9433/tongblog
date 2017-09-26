@@ -1,0 +1,194 @@
+---
+layout: default
+title:  "Node,Express로 간단한 웹어플리케이션 만들기"
+date:   2017-09-25 14:00:00
+categories: "Node.js/Express"
+---
+
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 강의노트입니다
+
+
+<br>
+## 웹어플리케이션 만들기
+* 사용자가 전송한 데이터를 데이터베이스가 아닌 파일에 저장하는 방식.
+* 서버쪽에 있는 파일을 읽어와서 화면에 표시하는 웹어플리케이션.
+* 궁극적으로는 DB를 사용할 것임. 지금은 복잡도를 줄인 어플리케이션을 만들 것.
+* `public_file` 폴더, 'views_file' 폴더, `app_file.js`를 새로 만들어 제작할 것.
+
+<br>
+## 라우팅하기
+* `app_file.js`
+
+```javascript
+var express = require('express');
+var app =  express();
+
+app.set('views','./views_file');
+app.set('view engine', 'jade');
+app.locals.pretty = true;
+
+app.listen('3000',function(){
+    console.log("Connecting 3000 Port!")
+});
+
+
+app.get('/topic/new', function(req, res){
+    res.render('new');
+});
+
+app.post('/topic', function(req, res){
+    res.send('topic');
+});
+```
+
+* `new.jade` 작성
+
+```
+doctype html
+html
+    head
+        meta(charset='utf-8')
+    body
+        form(action='/topic' method='post')
+            p
+                input(type='text' name='title' placeholder='input the title!')
+            p
+                textarea(name='description' placeholder='input the description!')
+            p
+                input(type='submit')
+```
+
+* 'data'라는 폴더 만들고 새로 생성된 글을 이 폴더에 저장
+* `fs`를 이용해서 글 작성시 파일이 생기도록 소스코드 작성.
+* `err`발생시 console 로 확인할 수 있겠금 작성.
+
+```javascript
+var express = require('express');
+var app =  express();
+var bodyParser = require('body-parser');
+var fs = require('fs');
+
+app.use(bodyParser.urlencoded({ extended: false }));
+
+app.set('views','./views_file');
+app.set('view engine', 'jade');
+app.locals.pretty = true;
+
+app.listen('3000',function(){
+    console.log("Connecting 3000 Port!")
+});
+
+
+app.get('/topic/new', function(req, res){
+    res.render('new');
+});
+
+app.post('/topic', function(req, res){
+    var title = req.body.title;
+    var description = req.body.description;
+    fs.writeFile('data/'+title,description,function(err){
+        if(err){
+            console.log(err);
+            res.status(500).send('Internal Server Error');
+        }else{
+            res.send('Success');
+        }
+    });
+});
+```
+
+<br>
+## 글 목록 만들기
+* 저장된 데이터를 읽어와야함.
+* `/topic`로 접속 시 화면에 나타날 글 목록 화면 `view.jade`로 만들고, 라우팅 해놓기
+* `/tpoic`로 접속 시 `fs.readdir` 메소드를 사용하여 파일 목록을 전달 받
+
+```javascript
+app.get('/topic', function(req, res){
+    fs.readdir('data',function(err, files){
+        if(err){
+            console.log(err);
+            res.status(500).send('Internal Server Error');
+
+        }else{
+            res.render('view', {topics:files}); // 객체형식으로 넘겨줌
+        }
+
+    })
+})
+```
+
+* `view.jade` 소스 수정
+
+```
+doctype html
+html
+    head
+        meta(charset='utf-8')
+    body
+        h1 Server Side Javascript
+        ul
+            each topic in topics // 넘겨받은 topics를 반복문을 이용해서 사용
+                li
+                    a(href='/topic/'+topic)= topic
+```
+
+<br>
+## 링크에 해당되는 글을 표시하는 기능 만들기
+* `app_file.js`에 `GET`으로 라우팅 하기
+
+```javascript
+app.get('/topic/:id',function(req, res){
+    var id = req.params.id;
+
+    fs.readdir('data',function(err, files){
+        if(err){
+            console.log(err);
+            res.status(500).send('Internal Server Error');
+        }else{
+            fs.readFile('data/'+id,'utf8',function(err,data){
+                res.render('view',
+                    {
+                        topics:files,
+                        title:id,
+                        description:data,
+                    });
+            });
+        }
+    })
+
+})
+```
+
+* `/topic/:id` 로 접속 시 기존 목록 화면 하단부에 파일의 제목과 내용이 뜨는 함수 작성
+* `view.jade` 소스코드 내용 수정
+
+```
+doctype html
+html
+    head
+        meta(charset='utf-8')
+    body
+        h1 Server Side Javascript
+        ul
+            each topic in topics
+                li
+                    a(href='/topic/'+topic)= topic
+        article
+            h2= title
+            = description
+```
+
+
+<br>
+## 코드 리팩토링
+* 중복된 코드를 제거.
+* 라우트를 `/topic/:id` 도 한 것과 `/topic` 로 한 것이 중복 됨.
+* 라우트를 복수로도 가능함(배열로)
+* id가 있을 경우와 없을 경우를 구분.
+* 제목을 누를 경우 `/topic`로 이동하게 하기.
+* 글쓰기 화면을 추가하기.
+* 소스코드
+
+```javascript
+```

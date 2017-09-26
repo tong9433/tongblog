@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="" />
+    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node15.markdown" afterPath="$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node15.markdown" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,8 +49,8 @@
       <file leaf-file-name="2017-09-25-Node15.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node15.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="190" column="6" lean-forward="false" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+            <state relative-caret-position="273">
+              <caret line="203" column="9" lean-forward="true" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -382,12 +384,12 @@
       <workItem from="1504852384988" duration="5661000" />
       <workItem from="1505195076524" duration="5306000" />
       <workItem from="1506156768721" duration="16249000" />
-      <workItem from="1506267000338" duration="12322000" />
+      <workItem from="1506267000338" duration="12820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124765000" />
+    <option name="totallyTimeSpent" value="125263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="697" height="534" extended-state="0" />
@@ -750,8 +752,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node15.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="190" column="6" lean-forward="false" selection-start-line="190" selection-start-column="6" selection-end-line="190" selection-end-column="6" />
+        <state relative-caret-position="273">
+          <caret line="203" column="9" lean-forward="true" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
           <folding />
         </state>
       </provider>

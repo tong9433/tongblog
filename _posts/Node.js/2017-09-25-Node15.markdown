@@ -188,7 +188,104 @@ html
 * id가 있을 경우와 없을 경우를 구분.
 * 제목을 누를 경우 `/topic`로 이동하게 하기.
 * 글쓰기 화면을 추가하기.
-* 소스코드
+* 글을 쓸 경우 글 상세화면으로 넘어가게 하기 =>`res.redirect('/topic/'+title);` 를 이용함.
+* `app_file.js` 파일
 
 ```javascript
+app.post('/topic', function (req, res) {
+    var title = req.body.title;
+    var description = req.body.description;
+    fs.writeFile('data/' + title, description, function (err) {
+        if (err) {
+            console.log(err);
+            res.status(500).send('Internal Server Error');
+        } else {
+            res.redirect('/topic/'+title);
+        }
+    });
+});
+
+app.get(['/topic', '/topic/:id'], function (req, res) {
+    fs.readdir('data', function (err, files) {
+        if (err) {
+            console.log(err);
+            res.status(500).send('Internal Server Error');
+
+        } else {
+            var id = req.params.id;
+            if (id && id !== `new`) {//id 값이 있을 때
+                fs.readFile('data/' + id, 'utf8', function (err, data) {
+                    res.render('view',
+                        {
+                            topics: files,
+                            title: id,
+                            description: data,
+                        });
+                });
+            } else if(id === 'new' ) {
+                res.render('new',
+                    {
+                        topics: files,
+                    });
+            }else{
+                res.render('view',
+                    {
+                        topics: files,
+                        title: 'Welcome',
+                        description: 'Node.js/express Examples',
+                    });
+            }
+        }
+
+    })
+})
+```
+
+* `view.jade` 파일
+
+```
+doctype html
+html
+    head
+        meta(charset='utf-8')
+    body
+        h1
+            a(href='/topic') Server Side Javascript
+        ul
+            each topic in topics
+                li
+                    a(href='/topic/'+topic)= topic
+        article
+            h2= title
+            = description
+
+        br
+        button
+            a(href='/topic/new') 글쓰기
+```
+
+* `new.jade` 파일
+
+```
+doctype html
+html
+    head
+        meta(charset='utf-8')
+    body
+        h1
+            a(href='/topic') Server Side Javascript
+        ul
+            each topic in topics
+                li
+                    a(href='/topic/' + topic)= topic
+
+        article
+            form(action='/topic' method='post')
+                p
+                    input(type='text' name='title' placeholder='input the title!')
+                p
+                    textarea(name='description' placeholder='input the description!')
+                p
+                    input(type='submit')
+
 ```

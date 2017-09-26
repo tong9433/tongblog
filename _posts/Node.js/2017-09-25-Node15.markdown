@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Node,Express로 간단한 웹어플리케이션 만들기"
+title:  "Node.js,Express로 간단한 웹어플리케이션 만들기"
 date:   2017-09-25 14:00:00
 categories: "Node.js/Express"
 ---
@@ -189,7 +189,7 @@ html
 * 제목을 누를 경우 `/topic`로 이동하게 하기.
 * 글쓰기 화면을 추가하기.
 * 글을 쓸 경우 글 상세화면으로 넘어가게 하기 =>`res.redirect('/topic/'+title);` 를 이용함.
-* `app_file.js` 파일
+* `app_file.js` 파
 
 ```javascript
 app.post('/topic', function (req, res) {

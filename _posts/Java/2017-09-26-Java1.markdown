@@ -1,0 +1,113 @@
+---
+layout: default
+title:  "Java Sort/Comparable/Comparator"
+date:   2017-09-26 14:00:00
+categories: "Java"
+---
+
+# Java Comparable, Comparator
+
+<br>
+## Sort
+* Java 에서는 주로 배열을 정렬하기 위해서 Collection의 Arrays 유틸을 사용함.
+* `Arrays.sort`의 시간복잡도는 O(nlogn) - mergeSort
+
+```java
+int[] arr = {1,5,4,3,2};
+Arrays.sort(arr);
+
+String[] strArr = {"apple", "pineapple", "grape", "pear"};
+Arrays.sort(strArr);
+```
+
+
+* 숫자는 작은 것부터, 알파벳은 알파벳 순서로 정렬이 됨.
+* 여기서 사용된 `Arrays.sort` 메소드는 `Comparable`또는 `Comparator` 인터페이스를 이용하여 정렬 순서가 정의된 자료형만 정렬 가능.
+* 그러므로 참조 자료형인 `String`은  내부적으로 `comparable` 인터페이스를 구현하고 있음.
+
+<br>
+## Product 객체를 가격에 따라 정렬해보기 (Comparable)
+* `Comparable` 인터페이스를 상속받은 뒤 `Comparable`
+* `compareTo` 메소드의 반환 값이 음수인 경우 앞 쪽에 위치함.
+
+1. 먼저 `Product` class를 만들자
+```java
+public class Product{
+    private String name;
+    private int price;
+
+    public Product(String name, int price){
+        this.name = name;
+        this.price = price;
+    }
+}
+```
+
+2. `Product` class에 `Comparable<Product> Interface` 상속받기
+```java
+class Product implements Comparable<Product>{
+    private String name;
+    private int price;
+
+    public Product(String name, int price){
+        this.name = name;
+        this.price = price;
+    }
+
+    public int getPrice(){
+        return price;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    @Override
+    public int compareTo(Product compareProduct) {
+        int comparePrice = compareProduct.getPrice();
+        return this.price - comparePrice; // 오름차순
+//      return comparePrice - this.price; // 내림차순
+    }
+}
+```
+
+3. main 에서 정렬하기
+```java
+        Product[] products = new Product[4];
+        products[0] = new Product("car",1000);
+        products[1] = new Product("box",4000);
+        products[2] = new Product("robot",3400);
+        products[3] = new Product("dice",2000);
+
+        Arrays.sort(products);
+        for (Product a:products) {
+             System.out.println(a.getName());
+        }
+```
+
+
+<br>
+## Product 객체를 이름에 따라 정렬해보기(Comparator)
+* 문자나 price에 특정한 할인률을 적용해서 정렬해야할 때 사용하는 인터페이스가 `Comparator` 이다
+```java
+Product[] products = new Product[4];
+        products[0] = new Product("car",1000);
+        products[1] = new Product("box",4000);
+        products[2] = new Product("robot",3400);
+        products[3] = new Product("dice",2000);
+
+        Arrays.sort(products,new Comparator<Product>(){
+
+            @Override
+            public int compare(Product p1, Product p2) {
+                String name1 = p1.getName().toUpperCase(); // 대문자로
+                String name2 = p2.getName().toUpperCase();
+                //오름차순
+                return name1.compareTo(name2);
+            }
+        });
+
+        for (Product a:products) {
+            System.out.println(a.getName());
+        }
+```

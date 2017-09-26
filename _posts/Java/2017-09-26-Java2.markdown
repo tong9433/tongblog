@@ -1,0 +1,17 @@
+---
+layout: default
+title:  "Java Compare "
+date:   2017-09-26 14:00:00
+categories: "Java"
+---
+
+본 포스트는 [생활코딩 강의](https://www.inflearn.com/course/nodejs-강좌-생활코딩) 강의노트입니다
+
+
+<br>
+## 웹어플리케이션 만들기
+* 사용자가 전송한 데이터를 데이터베이스가 아닌 파일에 저장하는 방식.
+* 서버쪽에 있는 파일을 읽어와서 화면에 표시하는 웹어플리케이션.
+* 궁극적으로는 DB를 사용할 것임. 지금은 복잡도를 줄인 어플리케이션을 만들 것.
+* `public_file` 폴더, 'views_file' 폴더, `app_file.js`를 새로 만들어 제작할 것.
+

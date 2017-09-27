@@ -169,3 +169,28 @@ System.out.println(tree);
 [a, b, c, d]
 ```
 
+<br>
+## Iterator
+* 모든 자료구조 클래스들이 구현하는 인터페이스.
+* 어떤 자료구조 클래스에 관계없이 자료를 조회하고 싶을 때 사용.
+* 메소드
+1. `hasNext()` : 다음 원소가 있으면 `true`를 반환함.
+2. `next()` : 다음 데이터를 반환함.
+3. `remove()` : 데이터를 삭제함.
+* 예시
+```java
+Stack<String> stack = new Stack<>();
+stack.push("melon");
+stack.push("apple");
+stack.push("pineapple");
+Iterator<String> it = stack.iterator();
+while(it.hasNext()){
+    System.out.println(it.next());
+}
+```
+결과
+```
+melon
+apple
+pineapple
+```

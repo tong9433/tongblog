@@ -87,7 +87,7 @@ for(String token:arr){
 
 <br>
 ## StringTokenizer와 String.split 비교
-* `apple,graphe,,pear,tomato` 를 분리할 경우
-* `StringTokenizer`는 `null`을 제외한 4개의 문자로 분리하지만 `String.split`는 `null`을 포함하여 5개 문자로 분리함.
+* `apple,graphe,,pear,tomato` 를 분리 할 경우 `StringTokenizer`는 `null`을 제외한 4개의 문자로 분리하지만
+ `String.split`는 `null`을 포함하여 5개 문자로 분리함.
 * `split`은 처리속도가 `StringTokenizer` 비해 느림.
 * 일반적인 간단하게 문자열을 분리할 경우에는 `split`이 편하므로 `split`을 쓰자.

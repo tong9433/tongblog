@@ -1,0 +1,10 @@
+---
+layout: default
+title:  "Java Collections"
+date:   2017-09-27 14:00:00
+categories: "Java"
+---
+
+
+
+# http://platonic.tistory.com/entry/Java-Collections-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-List-Set-Map-Tree-Stack-Iterator-Enumeration

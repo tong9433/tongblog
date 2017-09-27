@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Java/2017-09-26-Java1.markdown" afterPath="$PROJECT_DIR$/_posts/Java/2017-09-26-Java1.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Java/2017-09-26-Java2.markdown" afterPath="$PROJECT_DIR$/_posts/Java/2017-09-26-Java2.markdown" />
-    </list>
+    <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -77,31 +74,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-26-Java2.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-09-26-Java2.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Java/2017-09-26-Java2.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="78" column="2" lean-forward="false" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+            <state relative-caret-position="538">
+              <caret line="74" column="3" lean-forward="false" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-23-Node7.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node7.markdown">
+      <file leaf-file-name="2017-09-27-Java3.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/Java/2017-09-27-Java3.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-23-Node6.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-23-Node6.markdown">
+      <file leaf-file-name="2017-09-27-Java4.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Java/2017-09-27-Java4.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -158,8 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-20-woowastudy.md" />
-        <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-18-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-24-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-25-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-26-woowastudy.md" />
@@ -209,6 +204,8 @@
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node15.markdown" />
         <option value="$PROJECT_DIR$/_posts/Java/2017-09-26-Java1.markdown" />
         <option value="$PROJECT_DIR$/_posts/Java/2017-09-26-Java2.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Java/2017-09-27-Java4.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Java/2017-09-27-Java3.markdown" />
       </list>
     </option>
   </component>
@@ -219,7 +216,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
+    <option name="x" value="42" />
     <option name="y" value="23" />
     <option name="width" value="797" />
     <option name="height" value="488" />
@@ -391,18 +388,18 @@
       <workItem from="1504852384988" duration="5661000" />
       <workItem from="1505195076524" duration="5306000" />
       <workItem from="1506156768721" duration="16249000" />
-      <workItem from="1506267000338" duration="19976000" />
+      <workItem from="1506267000338" duration="26162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132419000" />
+    <option name="totallyTimeSpent" value="138605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="23" width="797" height="488" extended-state="0" />
+    <frame x="42" y="23" width="797" height="488" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -434,8 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/알고리즘 공부/2017-07-10-Git 정리.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/알고리즘 공부/2017-09-04-알고리즘(문제번호-유형-출제소스).md" />
     <entry file="file://$PROJECT_DIR$/_posts/알고리즘/2017-09-04-알고리즘(문제번호-유형-출제소스).md" />
     <entry file="file://$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown">
       <provider selected="true" editor-type-id="text-editor">
@@ -762,8 +757,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Java/2017-09-26-Java2.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="78" column="2" lean-forward="false" selection-start-line="78" selection-start-column="2" selection-end-line="78" selection-end-column="2" />
+        <state relative-caret-position="538">
+          <caret line="74" column="3" lean-forward="false" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Java/2017-09-27-Java4.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Java/2017-09-27-Java3.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="88" column="32" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
           <folding />
         </state>
       </provider>

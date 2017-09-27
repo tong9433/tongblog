@@ -1,0 +1,93 @@
+---
+layout: default
+title:  "Java split, StringTokenizer"
+date:   2017-09-27 14:00:00
+categories: "Java"
+---
+
+
+# Java split, StringTokenizer
+
+<br>
+## String.split
+* `java.lang.String.split()` 이다.
+* `StringTokenizer` 보다 직관적이고 사용하기 쉬움.
+* 바로 Array 로 반환해주기 때문에 편함
+
+* 매개변수
+1. `public String split(String regex)` : regex는 구분자임.
+2. `public String split(String regex, int limit)` : limit는 분류할 문자열의 수, 분류할 수 있는
+단어가 4개인데 limit가 3이면 3개만 구분하고 나머지는 그대로 들어감.
+
+* 사용예제
+```java
+String str = "apple,grape,pear,tomato";
+String[] words = str.split(",",3);
+for(String s : words){
+    System.out.println(s);
+}
+```
+결과
+```
+apple
+grape
+pear,tomato
+```
+
+
+<br>
+## StringTokenizer
+* `String`을 `delimiter`로 나눠주는 기능 제공
+* 생성자
+1. `StringTokenizer(String str);`
+2. `StringTokenizer(String str, String delimiter);`
+3. `StringTokenizer(String str, String delimiter, boolean return);`
+
+
+
+
+* `delimiter`을 설정하지 않으면 `default`으로 `공백문자 \t \n \r \f`를 구획문자로 설정.
+* `delimiter`를 인자로 받을 수 있음
+* `delimiter`을 `,*`로 받을 경우 `,` `*` 각각 `delimiter`이 된다.
+* `delimiter`을 `,,`로 받을 경우 `,`가`delimiter`이 된다.
+* StringTokenizer에서 `delimiter`은 길이가 1이고 길이가 1이상인 `delimiter`로 생성하면 그 갯수가 늘어남.
+* 생성자의 세번째 인자는 `boolean`형으로 true일 경우 `delimiter`도 큰으로 간주
+* 메소드
+1. `countToken()`: 토큰의 갯수를 반환
+2. `nextToken()`: 다음 토큰을 반환
+3. `hasMoreTokens()`: 반할 다음 토큰이 있을 경우 true를 반환, 없으면 false
+
+* 사용예제
+```java
+StringTokenizer st = new StringTokenizer("apple,grape,pear*tomato","*,");
+while(st.hasMoreTokens()){
+     System.out.println(st.nextToken());
+}
+```
+결과
+```
+apple
+grape
+pear
+tomato
+```
+* Token을 배열로 만들기
+```java
+StringTokenizer st = new StringTokenizer("apple,grape,pear*tomato","*,");
+String[] arr = new String[st.countTokens()];
+int i = 0;
+while(st.hasMoreTokens()){
+    arr[i] = st.nextToken();
+    i++;
+}
+for(String token:arr){
+    System.out.println(token);
+}
+```
+
+<br>
+## StringTokenizer와 String.split 비교
+* `apple,graphe,,pear,tomato` 를 분리할 경우
+* `StringTokenizer`는 `null`을 제외한 4개의 문자로 분리하지만 `String.split`는 `null`을 포함하여 5개 문자로 분리함.
+* `split`은 처리속도가 `StringTokenizer` 비해 느림.
+* 일반적인 간단하게 문자열을 분리할 경우에는 `split`이 편하므로 `split`을 쓰자.

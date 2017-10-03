@@ -1,0 +1,93 @@
+---
+layout: default
+title:  "Java PriorityQueue"
+date:   2017-10-02 14:00:00
+categories: "Java"
+---
+
+
+
+<br>
+## PriorityQueue(우선순위 큐)란
+* 일반적인 FIFO 형식의 큐에서 들어온 순서보다 정해진 우선순위 기준에 따라 해당 요소가 먼저 나가게 되는
+자료구조.
+* Java에서 `java.util.PriorityQueue`를 `import`하여 구현해보자.
+
+<br>
+## 예시를 통한 공부
+* 상품들을 가격에 따라 우선순위를 부여하는 큐를 생성해보자.
+* `Product` 클래스
+* 우선순위는 해당 클래스가 `Comparable` 클래스를 상속받아야 하고, `compareTo` 메소드를 오버라이딩 해주어야 한다.
+* 가격에 따라 오름차순으로 정렬 할 수 있도록 `compareTo` 메소드를 구현하자.
+
+```java
+class Product implements Comparable<Product>{
+
+    String name;
+    int price;
+
+    public Product(String name, int price){
+        this.name = name;
+        this.price = price;
+    }
+
+    @Override
+    public int compareTo(Product o) {
+        if(this.price > o.price){
+            return 1;
+        }else if(this.price < o.price){
+            return -1;
+        }
+        return 0;
+    }
+}
+```
+
+* 큐에 상품들을 넣고 어떻게 들어가는지 살펴보자
+
+```java
+class Solution {
+
+    public static void main(String[] args){
+
+        Product p1 = new Product("car", 2000);
+        Product p2 = new Product("tissue", 1500);
+        Product p3 = new Product("icecream", 3000);
+        Product p4 = new Product("snack", 1700);
+        Product p5 = new Product("candy", 2000);
+
+        PriorityQueue<Product> q = new PriorityQueue<Product>();
+
+        q.add(p1);
+        q.add(p2);
+        q.add(p3);
+        q.add(p4);
+        q.add(p5);
+
+
+        while(!q.isEmpty()){
+            Product p = q.poll();
+            System.out.println(p.name+"-"+p.price);
+        }
+    }
+}
+```
+
+결과)
+
+```
+tissue-1500
+snack-1700
+car-2000
+candy-2000
+icecream-3000
+```
+* 가격의 오름차순대로 큐에서 나오는 것을 알 수 있다. 하지만 가격이 같은 경우에는 FIFO 방식이 적용됨을 알 수 있다.
+* 다음과 같은 방식으로 반대 방식의 큐를 구현할 수 있음.
+
+```java
+PriorityQueue<Product> q = new PriorityQueue<Product>();
+PriorityQueue<Product> reverse_q = new PriorityQueue<Product>(q.size(), Collections.reverseOrder());
+reverse_q.addAll(q);
+```
+

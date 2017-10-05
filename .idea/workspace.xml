@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,8 +79,8 @@
       <file leaf-file-name="2017-09-15-알고리즘-최단경로.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="508" column="42" lean-forward="true" selection-start-line="508" selection-start-column="42" selection-end-line="508" selection-end-column="42" />
+            <state relative-caret-position="546">
+              <caret line="753" column="38" lean-forward="true" selection-start-line="753" selection-start-column="38" selection-end-line="753" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -380,12 +380,12 @@
       <workItem from="1506267000338" duration="32122000" />
       <workItem from="1506921070597" duration="1200000" />
       <workItem from="1507019447426" duration="1002000" />
-      <workItem from="1507177974938" duration="4894000" />
+      <workItem from="1507177974938" duration="9669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151661000" />
+    <option name="totallyTimeSpent" value="156436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="813" height="1027" extended-state="0" />
@@ -760,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="508" column="42" lean-forward="true" selection-start-line="508" selection-start-column="42" selection-end-line="508" selection-end-column="42" />
+        <state relative-caret-position="546">
+          <caret line="753" column="38" lean-forward="true" selection-start-line="753" selection-start-column="38" selection-end-line="753" selection-end-column="38" />
           <folding />
         </state>
       </provider>

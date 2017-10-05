@@ -16,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-09-24-Node12.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node12.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2017-09-24-Node13.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node13.markdown">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,18 +59,28 @@
       <file leaf-file-name="2017-09-15-알고리즘-자료구조.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="1394">
               <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-02-Java5.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-10-02-Java5.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Java/2017-10-02-Java5.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="1343">
               <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-15-알고리즘-최단경로.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="610">
+              <caret line="508" column="42" lean-forward="true" selection-start-line="508" selection-start-column="42" selection-end-line="508" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -150,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-26-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/woowastudy/2017-07-27-woowastudy.md" />
         <option value="$PROJECT_DIR$/_posts/JavaScript/2017-07-13-속깊은 자바 스크립트 정리.markdown" />
         <option value="$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 4주차.md" />
@@ -201,6 +200,7 @@
         <option value="$PROJECT_DIR$/_posts/Java/2017-09-27-Java4.markdown" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md" />
         <option value="$PROJECT_DIR$/_posts/Java/2017-10-02-Java5.markdown" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md" />
       </list>
     </option>
   </component>
@@ -211,10 +211,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
+    <option name="x" value="46" />
     <option name="y" value="23" />
-    <option name="width" value="828" />
-    <option name="height" value="556" />
+    <option name="width" value="813" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -313,19 +313,19 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/algorithm" />
+      <recent name="$PROJECT_DIR$/_posts/Java" />
+      <recent name="$PROJECT_DIR$/_posts/Node.js" />
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/_posts/inflearn 강의 듣기" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/image/woowastudy" />
       <recent name="$PROJECT_DIR$/image/woowastudy/woowa0726_3.png" />
       <recent name="$PROJECT_DIR$/image/woowa0726_2.png" />
       <recent name="$PROJECT_DIR$/_posts/Javascript" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_posts/Java" />
-      <recent name="$PROJECT_DIR$/_posts/algorithm" />
-      <recent name="$PROJECT_DIR$/_posts/Node.js" />
-      <recent name="$PROJECT_DIR$/image" />
-      <recent name="$PROJECT_DIR$/_posts/inflearn 강의 듣기" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,17 +379,19 @@
       <workItem from="1506156768721" duration="16249000" />
       <workItem from="1506267000338" duration="32122000" />
       <workItem from="1506921070597" duration="1200000" />
+      <workItem from="1507019447426" duration="1002000" />
+      <workItem from="1507177974938" duration="4894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145765000" />
+    <option name="totallyTimeSpent" value="151661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="828" height="556" extended-state="0" />
+    <frame x="46" y="23" width="813" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3164251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3222632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -421,7 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/google78c9c331b50666ee.html" />
     <entry file="file://$PROJECT_DIR$/_site/index.html" />
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘(문제번호-유형-출제소스).md" />
     <entry file="file://$PROJECT_DIR$/googlea87743465fbac3a6.html">
@@ -542,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,14 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="101" lean-forward="false" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
-          <folding>
-            <marker date="1506269344000" expanded="true" signature="272:286" ph="..." />
-            <marker date="1506269344000" expanded="true" signature="289:306" ph="..." />
-            <marker date="1506269344000" expanded="true" signature="401:409" ph="..." />
-            <marker date="1506269344000" expanded="true" signature="401:414" ph="..." />
-            <marker date="1506269344000" expanded="true" signature="683:711" ph="..." />
-            <marker date="1506269344000" expanded="true" signature="822:850" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,14 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node14.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -754,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="1394">
           <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
           <folding />
         </state>
@@ -762,8 +744,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Java/2017-10-02-Java5.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="1343">
           <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-25-Node14.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="3" lean-forward="false" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="508" column="42" lean-forward="true" selection-start-line="508" selection-start-column="42" selection-end-line="508" selection-end-column="42" />
           <folding />
         </state>
       </provider>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-RMQ.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="2017-10-10-알고리즘-문자열탐색.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="98" column="4" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+            <state relative-caret-position="1030">
+              <caret line="201" column="25" lean-forward="true" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -94,8 +92,8 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1507617363000" expanded="true" signature="20520:20960" ph="//..." />
-                <marker date="1507617363000" expanded="true" signature="21008:21181" ph="..." />
+                <marker date="1507617710000" expanded="true" signature="20520:20960" ph="//..." />
+                <marker date="1507617710000" expanded="true" signature="21008:21160" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,8 +105,8 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1507617363000" expanded="true" signature="20520:20960" ph="//..." />
-                <marker date="1507617363000" expanded="true" signature="21008:21181" ph="..." />
+                <marker date="1507617710000" expanded="true" signature="20520:20960" ph="//..." />
+                <marker date="1507617710000" expanded="true" signature="21008:21160" ph="..." />
               </folding>
             </state>
           </provider>
@@ -209,7 +207,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
+    <option name="x" value="176" />
     <option name="y" value="23" />
     <option name="width" value="806" />
     <option name="height" value="1027" />
@@ -380,15 +378,15 @@
       <workItem from="1507019447426" duration="1002000" />
       <workItem from="1507177974938" duration="9784000" />
       <workItem from="1507549174717" duration="6872000" />
-      <workItem from="1507608365567" duration="6297000" />
+      <workItem from="1507608365567" duration="7704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169720000" />
+    <option name="totallyTimeSpent" value="171127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="806" height="1027" extended-state="0" />
+    <frame x="176" y="23" width="806" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32506204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -722,8 +720,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507617363000" expanded="true" signature="20520:20960" ph="//..." />
-            <marker date="1507617363000" expanded="true" signature="21008:21181" ph="..." />
+            <marker date="1507617710000" expanded="true" signature="20520:20960" ph="//..." />
+            <marker date="1507617710000" expanded="true" signature="21008:21160" ph="..." />
           </folding>
         </state>
       </provider>
@@ -733,8 +731,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507617363000" expanded="true" signature="20520:20960" ph="//..." />
-            <marker date="1507617363000" expanded="true" signature="21008:21181" ph="..." />
+            <marker date="1507617710000" expanded="true" signature="20520:20960" ph="//..." />
+            <marker date="1507617710000" expanded="true" signature="21008:21160" ph="..." />
           </folding>
         </state>
       </provider>
@@ -789,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="98" column="4" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+        <state relative-caret-position="1030">
+          <caret line="201" column="25" lean-forward="true" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="25" />
           <folding />
         </state>
       </provider>

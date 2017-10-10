@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-RMQ.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-RMQ.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,12 +17,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="2017-10-09-알고리즘-RMQ.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-RMQ.md">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="2017-10-09-알고리즘-구간최솟값.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="865">
-              <caret line="254" column="1" lean-forward="false" selection-start-line="254" selection-start-column="1" selection-end-line="254" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-15-알고리즘-자료구조.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-04-알고리즘.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-10-알고리즘-구간합.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-10-알고리즘-문자열탐색.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="98" column="4" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-10-알고리즘-이분탐색.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-이분탐색.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-10-알고리즘-완전탐색.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-완전탐색.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -32,7 +93,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1507617363000" expanded="true" signature="20520:20960" ph="//..." />
+                <marker date="1507617363000" expanded="true" signature="21008:21181" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,7 +106,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1507617363000" expanded="true" signature="20520:20960" ph="//..." />
+                <marker date="1507617363000" expanded="true" signature="21008:21181" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,11 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-web-db-CRUD.md" />
-        <option value="$PROJECT_DIR$/_posts/woowa/2017-07-29-우아한 테크 5주차.md" />
-        <option value="$PROJECT_DIR$/_posts/woowa/2017-08-07-우아한 테크 5주차.md" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/_includes/page-header.html" />
         <option value="$PROJECT_DIR$/_posts/Unclassified/2017-07-31-MVC아키텍처.md" />
         <option value="$PROJECT_DIR$/_posts/Web(CSS, HTML)/2017-08-13-반응형 웹 만들기.markdown" />
         <option value="$PROJECT_DIR$/_posts/Good Tool/2017-07-10-Markdown.md" />
@@ -101,7 +163,6 @@
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/inflearn 강의 듣기/2017-09-08-JS로 알아보는 함수형 프로그래밍.markdown" />
-        <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" />
         <option value="$PROJECT_DIR$/_posts/inflearn/2017-09-08-JS로-알아보는-함수형-프로그래밍.markdown" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘-그래프.md" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown" />
@@ -132,6 +193,12 @@
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-9-알고리즘-RMQ.md" />
         <option value="$PROJECT_DIR$/_site/page24/index.html" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-RMQ.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-완전탐색.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-이분탐색.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md" />
       </list>
     </option>
   </component>
@@ -142,9 +209,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
+    <option name="x" value="45" />
     <option name="y" value="23" />
-    <option name="width" value="769" />
+    <option name="width" value="806" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -200,6 +267,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +301,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -244,19 +311,19 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/image" />
-      <recent name="$PROJECT_DIR$/image/woowastudy" />
-      <recent name="$PROJECT_DIR$/image/woowastudy/woowa0726_3.png" />
-      <recent name="$PROJECT_DIR$/image/woowa0726_2.png" />
-      <recent name="$PROJECT_DIR$/_posts/Javascript" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts/algorithm" />
       <recent name="$PROJECT_DIR$/_posts/Java" />
       <recent name="$PROJECT_DIR$/_posts/Node.js" />
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/_posts/inflearn 강의 듣기" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/image/woowastudy" />
+      <recent name="$PROJECT_DIR$/image/woowastudy/woowa0726_3.png" />
+      <recent name="$PROJECT_DIR$/image/woowa0726_2.png" />
+      <recent name="$PROJECT_DIR$/_posts/Javascript" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,26 +379,27 @@
       <workItem from="1506921070597" duration="1200000" />
       <workItem from="1507019447426" duration="1002000" />
       <workItem from="1507177974938" duration="9784000" />
-      <workItem from="1507549174717" duration="6742000" />
+      <workItem from="1507549174717" duration="6872000" />
+      <workItem from="1507608365567" duration="6297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163293000" />
+    <option name="totallyTimeSpent" value="169720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="23" width="769" height="1027" extended-state="0" />
+    <frame x="45" y="23" width="806" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3407022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32506204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -355,22 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_plugins/youtube.rb" />
-    <entry file="file://$PROJECT_DIR$/jekyll-cayman-theme.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-소개-고찰.md" />
     <entry file="file://$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-web-db-CRUD.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -613,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="753" column="38" lean-forward="true" selection-start-line="753" selection-start-column="38" selection-end-line="753" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,13 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -673,18 +717,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="76" column="3" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="76" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/page21/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1507617363000" expanded="true" signature="20520:20960" ph="//..." />
+            <marker date="1507617363000" expanded="true" signature="21008:21181" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,14 +732,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507617363000" expanded="true" signature="20520:20960" ph="//..." />
+            <marker date="1507617363000" expanded="true" signature="21008:21181" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-RMQ.md">
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-완전탐색.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
-          <caret line="254" column="1" lean-forward="false" selection-start-line="254" selection-start-column="1" selection-end-line="254" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-이분탐색.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="98" column="4" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
           <folding />
         </state>
       </provider>

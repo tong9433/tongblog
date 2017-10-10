@@ -59,8 +59,8 @@
       <file leaf-file-name="2017-10-10-알고리즘-문자열탐색.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1030">
-              <caret line="201" column="25" lean-forward="true" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="25" />
+            <state relative-caret-position="790">
+              <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -378,12 +378,12 @@
       <workItem from="1507019447426" duration="1002000" />
       <workItem from="1507177974938" duration="9784000" />
       <workItem from="1507549174717" duration="6872000" />
-      <workItem from="1507608365567" duration="7704000" />
+      <workItem from="1507608365567" duration="7831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171127000" />
+    <option name="totallyTimeSpent" value="171254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="176" y="23" width="806" height="1027" extended-state="0" />
@@ -787,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1030">
-          <caret line="201" column="25" lean-forward="true" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="25" />
+        <state relative-caret-position="790">
+          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding />
         </state>
       </provider>

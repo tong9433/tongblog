@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-10-알고리즘-구간합.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-10-10-알고리즘-구간합.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="-260">
+              <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-10-알고리즘-문자열탐색.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-10-10-알고리즘-문자열탐색.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="117" column="3" lean-forward="true" selection-start-line="117" selection-start-column="3" selection-end-line="117" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -91,10 +92,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1507617710000" expanded="true" signature="20520:20960" ph="//..." />
-                <marker date="1507617710000" expanded="true" signature="21008:21160" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,10 +102,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1507617710000" expanded="true" signature="20520:20960" ph="//..." />
-                <marker date="1507617710000" expanded="true" signature="21008:21160" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -195,8 +190,8 @@
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-이분탐색.md" />
-        <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md" />
       </list>
     </option>
   </component>
@@ -207,7 +202,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
+    <option name="x" value="45" />
     <option name="y" value="23" />
     <option name="width" value="806" />
     <option name="height" value="1027" />
@@ -266,6 +261,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,7 +295,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,18 +373,19 @@
       <workItem from="1507019447426" duration="1002000" />
       <workItem from="1507177974938" duration="9784000" />
       <workItem from="1507549174717" duration="6872000" />
-      <workItem from="1507608365567" duration="7831000" />
+      <workItem from="1507608365567" duration="7878000" />
+      <workItem from="1507696654106" duration="1528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171254000" />
+    <option name="totallyTimeSpent" value="172829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="23" width="806" height="1027" extended-state="0" />
+    <frame x="45" y="23" width="806" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32506204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29528537" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -719,10 +715,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507617710000" expanded="true" signature="20520:20960" ph="//..." />
-            <marker date="1507617710000" expanded="true" signature="21008:21160" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -730,10 +723,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507617710000" expanded="true" signature="20520:20960" ph="//..." />
-            <marker date="1507617710000" expanded="true" signature="21008:21160" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,14 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-완전탐색.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -777,18 +759,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md">
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="450">
+          <caret line="117" column="3" lean-forward="true" selection-start-line="117" selection-start-column="3" selection-end-line="117" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-완전탐색.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
           <folding />
         </state>
       </provider>

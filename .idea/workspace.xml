@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘-그래프.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-완전탐색.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-이분탐색.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,8 +29,8 @@
       <file leaf-file-name="2017-09-04-알고리즘.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="136">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -323,12 +314,12 @@
       <workItem from="1507549174717" duration="6872000" />
       <workItem from="1507608365567" duration="7878000" />
       <workItem from="1507696654106" duration="6244000" />
-      <workItem from="1509285590929" duration="119000" />
+      <workItem from="1509285590929" duration="216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177664000" />
+    <option name="totallyTimeSpent" value="177761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="24" width="744" height="1026" extended-state="0" />
@@ -717,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
         </state>
       </provider>

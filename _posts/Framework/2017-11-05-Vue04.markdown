@@ -1,0 +1,292 @@
+---
+layout: default
+title:  "[Vue.js] 라우터, Nested 라우터, Named Views 🆕"
+date:   2017-11-05 14:50:00
+categories: "Framework"
+---
+
+## Vue.js 인터넷 강의
+* 본 강의 노트는 인프런 [Vue.js 프론트 개발 강좌](https://www.inflearn.com/course/vue-pwa-vue-js-%EA%B8%B0%EB%B3%B8/)를 기반으로 쓴 강의노트입니다.
+
+## 라우터
+* 화면이 전활 될 때 전환하는 행위
+* Vue를 이용한 **SPA**를 제작할 때 유용한 라우팅 라이브러리
+* Angular, React 등도 라우팅 라이브러리를 지원하고 있음.
+* Vue 라우터는 기본적으로 `RootUrl/#/{Router name}` 구조로 되어있다.
+* `/#/`을 제외하고 싶으면 모드에 history 속성을 추가해주면 됨.
+
+```javascript
+const router = new VueRouter({
+	routes,
+	mode: 'history'
+})
+```
+
+### 기본 라우터 ( 실습 )
+* 라우터 예제
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Router Sample</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Hello Vue Router!</h1>
+      <p>
+        <router-link to="/foo">Go to Foo</router-link>
+        <router-link to="/bar">Go to Bar</router-link>
+      </p>
+      <router-view>
+      </router-view>
+    </div>
+    <script src="js/vendor/vue.js"></script>
+    <script src="js/vendor/vue-router.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+```
+
+```javascript
+
+var Foo = { template: '<div>foo</div>' }
+var Bar = { template: '<div>bar</div>'
+			//, data: , el 추가가능
+}
+
+var routes = [
+  { path: '/foo', component: Foo },
+  { path: '/bar', component: Bar }
+]
+
+var router = new VueRouter({ routes })
+
+var app = new Vue({
+  router
+}).$mount('#app')
+```
+
+### Nested 라우터 소개
+* 라우터로 화면 이동시 Nested Routers 를 이용하여 여러개의 컴포넌트를 동시에 렌더링 할 수 있음.
+* 렌더링 되는 컴포넌트의 구조는 가장 큰 상위의 컴포넌트가 하위의 컴포넌트를 포함하는 Parent-Child 형태와 같음.
+
+```
+//localhost:8080
+<div id ="app">
+	<router-view></router-view>
+</div>
+
+//localhost:8080/home
+//parent component
+<div>
+	<p>Main Component rendered</p>
+	//child component
+	<app-header></app-header>
+</div>
+```
+
+* Parent Component 뿐만 아니라 아래 Component 까지 뜨게하는 라우터
+
+### Nested router 실습
+* login 이라는 url에 도착할 때 그 제목을 나타내는 컴포넌트와 그 아래 컴포넌트를 동시에 입력할 수 있도록 해보기.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Nested Router Sample</title>
+</head>
+<body>
+<div id="app">
+    <h1>Hello Vue Nested Router!</h1>
+    <p>
+        <router-link to="/login">Go to Login</router-link>
+        <router-link to="/list">Go to List</router-link>
+    </p>
+    <router-view></router-view>
+</div>
+<script src="./src/vue.js"></script>
+<script src="./src/vue-router.js"></script>
+<script src="./src/index.js"></script>
+</body>
+</html>
+```
+
+```javascript
+var Login = {
+    template: `
+    <div>
+      Login Section
+      <router-view>
+        <form action="/" method="post">
+          <div>
+              <label for="account">E-mail : </label>
+              <input type="email" id="account">
+          </div>
+          <div>
+              <label for="password">Password : </label>
+              <input type="password" id="password">
+          </div>
+        </form>
+      </router-view>
+    </div>
+  `,
+};
+var LoginForm = {
+    template: `
+    <form action="/" method="post">
+      <div>
+          <label for="account">E-mail : </label>
+          <input type="email" id="account">
+      </div>
+      <div>
+          <label for="password">Password : </label>
+          <input type="password" id="password">
+      </div>
+    </form>
+  `,
+};
+var List = {
+    template: `
+    <div>
+      List Section
+      <router-view></router-view>
+    </div>
+  `,
+};
+var ListItems = {
+    template: `
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  `,
+};
+
+var routes = [
+    {
+        path: '/login',
+        component: Login,
+        children: [
+            { path: '', component: LoginForm }
+        ]
+    },
+    {
+        path: '/list',
+        component: List,
+        children: [
+            { path: '', component: ListItems }
+        ]
+    }
+];
+
+var router = new VueRouter({
+    routes
+});
+
+var app = new Vue({
+    router
+}).$mount('#app');
+```
+
+* 문법이 맞는지 확인이 안된다. -> `.vue`를 이용해서 따로 분리해야 함. 보통 위와같이 안함.
+* 웹팩을 사용할 것.
+
+### Template Root Element 주의사항
+* Vue 의 Template 에는 최상위 태그가 1개만 있어야 렌더링이 가능함.
+* 아래는 **에러** 발생
+
+```javascript
+var Foo = {
+	template:
+	<div>foo</div>
+	<router-view></router-view>
+}
+```
+
+ * 한개의 `root element` 만 포함해야함 , 여러개의 태그를 최상위 태그 레벨에 동시에 위치시킬 수 없음.
+
+```javascript
+var Foo = {
+	template:
+	<div>foo
+		<router-view></router-view>
+	</div>
+}
+```
+
+* Nested 라우터 퀴즈 (실습)  , router 하나 더 추가하기
+
+```html
+<div id="app">
+    <h1>Hello Vue Nested Router!</h1>
+    <p>
+        <router-link to="/login">Go to Login</router-link>
+        <router-link to="/list">Go to List</router-link>
+        <router-link to="/main">Go to Main</router-link> // 사용자가 편하게 이동할 수 있도록
+    </p>
+
+    <router-view></router-view>
+</div>
+```
+
+```javascirpt
+var Main = {
+    template: `<div>
+        Main
+        <router-view></router-view>
+       </div>   `
+}
+var MainItems = {
+    template: `
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+}
+
+var routes = [
+    ...
+    {
+        path: '/main',
+        component: Main,
+        children: [
+            {path: '', component: MainItems}
+        ]
+    }
+];
+```
+
+### Named Views 소개
+* 라우터로 특정 URL로 이동시, 해당 URL에 해당하는 여러개의 `View(컴포넌트)`를 동시에 렌더링 함.
+* 각 컴포넌트에 해당하는 `name` 속성과 `router-view` 지정필요
+
+```html
+<div id = "app">
+	<router-view name="nestedHeader"></router-view>
+	<router-view></router-view>
+</div>
+```
+
+```javascript
+{
+	path: '/home',
+	component: {
+		nestedHeader: AppHeader,
+		default: Body
+	}
+},
+```
+
+
+### Nested Routes v Named Views
+![사진]({{ tong9433.gitub.io }}/image/vue5.png)
+* 특정 URL에서 1개의 컴포넌트에 여러 개의 하위 컴포넌트를 갖는것 -> `Nested Routes`
+* 특정 URL에서 여러 개의 컴포넌트를 쪼개진 뷰 단위로 렌더링 하는 것 -> `Named View`

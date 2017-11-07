@@ -1,0 +1,190 @@
+---
+layout: default
+title:  "[Vue.js] 컴포넌트 🆕"
+date:   2017-11-04 14:50:00
+categories: "Framework"
+---
+
+## Vue.js 인터넷 강의
+* 본 강의 노트는 인프런 [Vue.js 프론트 개발 강좌](https://www.inflearn.com/course/vue-pwa-vue-js-%EA%B8%B0%EB%B3%B8/)를 기반으로 쓴 강의노트입니다.
+
+## 컴포넌트
+### 컴포넌트 소개
+![사진]({{ tong9433.gitub.io }}/image/vue3.png)
+* 화면에 비춰지는 뷰의 단위를 쪼개어 재활용이 가능한 형태로 관리하는 것이 컴포넌트
+* 뷰에서 지정해 놓은 규격
+* 회색 컴포넌트 ( 상위 컴포넌트 ) , 짙은 회색 컴포넌트 ( 하위 컴포넌트 )
+
+### 컴포넌트 등록 실습
+
+```javascript
+<html>
+<head>
+    <title>Vue Sample</title>
+</head>
+<body>
+<div id="app">
+    <button>Parent-Component</button>
+    <my-component></my-component>
+</div>
+
+<script src="https://unpkg.com/vue@2.3.3"></script>
+<script>
+    Vue.component('my-component', {
+        template: '<div>A custom component~</div>'
+    });
+    new Vue({
+        el: '#app'
+    });
+</script>
+</body>
+</html>
+```
+
+### 전역 & 지역 컴포넌트 등록
+* 컴포넌트를 뷰 인스턴스에 등록해서 사용할 때 아래와 같이 전역으로 등록할 수 있음.
+
+```javascript
+Vue.component('my-component',{})
+```
+
+* local 하게 등록하는 방법은 다음과 같음.
+
+```javascript
+var cmp = {
+	data:function(){
+		return {
+		//...
+		};
+	}
+	template: '<hr>',
+	methods:{}
+}
+
+new Vue({
+	components:{ //보통 이런식으로 컴포넌트 속성을 만들어서 포함시킴.
+		'my-cmp' : cmp	//my-cmp 태그가 뿌려짐
+	}
+});
+```
+
+* 지역 컴포넌트 실습 해보기 ( 전역 vs 지역 )
+
+```html
+<div id="app">
+    <button>Parent-Component</button>
+    <my-component></my-component>
+    <my-local-component></my-local-component>
+</div>
+```
+
+``` javascript
+<script>
+    // Global Component
+    Vue.component('my-component', {
+        template: '<div>A global component~</div>'
+    })
+
+    // Local Component
+    var cmp = {
+        template: '<div>A local component~</div>'
+    }
+
+    new Vue({
+        el: '#app',
+        components:{
+            //태그명 : component 명
+            'my-local-component': cmp
+        }
+    })
+
+</script>
+```
+
+* 전역 컴포넌트 vs 지역 컴포넌트
+
+```html
+<html>
+<head>
+    <title>Vue Sample</title>
+</head>
+<body>
+<div id="app">
+    <button>Parent-Component</button>
+    <my-component></my-component>
+    <my-local-component></my-local-component>
+</div>
+
+<div id="app2">
+    <my-component></my-component>
+    <my-local-component></my-local-component>
+</div>
+
+<script src="https://unpkg.com/vue@2.3.3"></script>
+<script>
+    // Global Component
+    Vue.component('my-component', {
+        template: '<div>A global component~</div>'
+    })
+
+    // Local Component
+    var cmp = {
+        template: '<div>A local component~</div>'
+    }
+
+    new Vue({
+        el: '#app',
+        components:{
+            //태그명 : component 명
+            'my-local-component': cmp
+        }
+    })
+
+    new Vue({
+        el: '#app2',
+    })
+
+</script>
+</body>
+</html>
+```
+
+![사진]({{ tong9433.gitub.io }}/image/vue4.png)
+
+```
+인스턴스와 관계가 있음.
+위와 같이 하면 app2의 element에는 local component가 등록되지 않음.
+즉 지역컴포넌트는 포함시키려면 components option에 해당 컴포넌트를 포함 시켜주어야 함.
+```
+
+* 지역 & 전역 컴포넌트 등록 퀴즈
+
+```javascript
+
+Vue.component('todo-item', {
+    template: '<p>This is a child component</p>'
+});
+
+// 실습 #1 - `todo-footer` 컴포넌트 전역 등록
+// <p>This is another child global component</p> 를 template 으로 갖는 컴포넌트를 등록해보세요.
+Vue.component('todo-footer',{
+    template: '<p>This is another child global component</p>'
+})
+
+var cmp = {
+    template:'<p>This is another child local component</p>'
+}
+
+var app = new Vue({
+    el: '#app',
+    data: {
+        message : 'This is a parent component'
+    },
+    // 실습 #2 - `todo-footer` 컴포넌트 지역 등록
+    // <p>This is another child local component</p> 를 template 으로 갖는 컴포넌트를 등록해보세요.
+    components:{
+        'todo-footer': cmp
+    }
+});
+```
+* 두개를 다 todo-footer 태그에 등록했을 경우 지역 컴포넌트가 우선으로 렌더링 됨.

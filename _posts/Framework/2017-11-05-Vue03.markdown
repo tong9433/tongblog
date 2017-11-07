@@ -1,0 +1,131 @@
+---
+layout: default
+title:  "[Vue.js] 컴포넌트 통신 🆕"
+date:   2017-11-05 12:50:00
+categories: "Framework"
+---
+
+
+## Vue.js 인터넷 강의
+* 본 강의 노트는 인프런 [Vue.js 프론트 개발 강좌](https://www.inflearn.com/course/vue-pwa-vue-js-%EA%B8%B0%EB%B3%B8/)를 기반으로 쓴 강의노트입니다.
+
+##Vue 컴포넌트 통신
+### 상-하위 컴포넌트 간 데이터 전달 방법
+* 부모와 자식 컴포넌트 관계
+* 구조상 상-하 관계에 있는 컴포넌트 통신
+```
+부모->자식 : props 라는 속성을 전달
+자식->부모 : events 를 전달
+```
+
+### Props 설명
+* props : 모든 컴포넌트는 각 컴포넌트 자체의 **스코프**를 갖음.
+* ex) 하위 컴포넌트가 상위 컴포넌트의 값을 바로 참조할 수 없는 형식
+* 상위에서 하위로 값을 전달하려면 props 속성을 사용
+
+```html
+<div id='app'>
+	<child-component v-bind:passed-data="message"></child-component>
+</div>
+```
+```javascript
+Vue.component('child-component,{
+	props: ['passedData'],
+	template: '<p>{{passedData}}</p>'
+});
+
+var app = new Vue({
+	el: '#app',
+	data: {
+		message: 'Hello Vue! from Parent Component'
+	}
+});
+```
+* 주의할점 js에서 props 변수 명명을 카멜 기법으로 하면 html에서는 케밥기법(-)으로 가야한다.
+* Props 실습
+
+```html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Props Sample</title>
+</head>
+<body>
+<div id="app">
+    <!-- passedData (props) equals to be passed-data  -->
+    <!-- read the bind property from right to left (from bottom to top in app.js)-->
+    <child-component v-bind:passed-data="message"></child-component>
+    <!-- #할일 3 -->
+    <!-- sibling-component 등록 -->
+    <sibling-component v-bind:passed-data="anotherMessage"></sibling-component>
+</div>
+
+<script src="./src//vue.js"></script>
+<script src="./src/index.js"></script>
+</body>
+</html>
+```
+
+```javascript
+// 할일 #1
+// sibling-component 를 이름으로 갖는 새로운 컴포넌트를 아래에 등록해보세요.
+// options : template, props
+Vue.component('sibling-component', {
+    props: ['passedData'],
+    template: '<p>{{passedData}}</p>'
+});
+
+Vue.component('child-component', {
+    props: ['passedData'],
+    template: '<p>{{passedData}}</p>'
+});
+
+var app = new Vue({
+    el: '#app',
+    data: {
+        // 할일 #2
+        // data 속성을 한개 더 지정하고 (예, anotherMessage) 임의의 문자열을 값으로 대입해보세요.
+        // 새로 지정한 data 속성을 위 sibling-component 에 props 로 전달합니다.
+        message: 'Hello Vue! passed from Parent Component',
+        anotherMessage: 'Hello tongtong'
+    }
+});
+```
+
+### 같은 레벨의 컴포넌트 간의 통신
+* 동일한 상위 컴포넌트를 가진 2개의 하위 컴포넌트 간의 통신은 Child에서 Parent로 다시 2개의 Childeren으로 전달하는 구조
+* **Child 컴포넌트 간의 직접적인 통신은 불가능** 하도록 되어 있는게 Vue의 기본 구조
+* `Event bus` : 컴포넌트 간에 관계가 없더라도 Event Bus를 활용하여 전달 가능 ( 어떤 컴포넌트 라도 )
+
+```javascript
+export const eventBus = new Vue();
+new Vue({
+...
+});
+```
+
+* 단점 : 컴포넌트 간의 관계가 명확해지지 않음 -> 뷰엑스의 필요성
+* 임의의 뷰 인스턴스를 하나 생성해서  부모 역할을 한다고 생각하면 됨 (중간자)
+* 이벤트 발생 : 이벤트를 발생시킬 컴포넌트에 `eventbus`를 import한 후 `$emit` 으로 이벤트를 발생
+
+```javascript
+import { eventBus } from ' ';
+eventBus.$emit('refresh',10);
+```
+
+* 이벤트 수신
+
+```javascript
+import { eventBus } from ' ';
+
+//등록 위치는 해당 컴포넌트의 created 옵션에 등록
+created(){
+	eventBus.$on('refresh', function(data){
+		console.log(data);
+	});
+}
+```
+

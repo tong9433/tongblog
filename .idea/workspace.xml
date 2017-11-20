@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue05.markdown" afterPath="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue05.markdown" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘-그래프.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-11-14-알고리즘-그래프.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-11-14-알고리즘.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-11-19-알고리즘-최단경로.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-08-07-woowa5.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/woowa/2017-08-07-woowa5.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2017-11-04-Vue01.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue01.markdown">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue02.markdown">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="24" />
+              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -67,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-04-알고리즘.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md">
+      <file leaf-file-name="2017-11-14-알고리즘.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-14-알고리즘.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +79,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-04-알고리즘-그래프.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘-그래프.md">
+      <file leaf-file-name="2017-11-14-알고리즘-그래프.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-14-알고리즘-그래프.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
@@ -97,18 +89,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-15-알고리즘-자료구조.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md">
+      <file leaf-file-name="2017-11-04-알고리즘-자료구조.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="51">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-09-15-알고리즘-최단경로.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md">
+      <file leaf-file-name="2017-11-19-알고리즘-최단경로.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-19-알고리즘-최단경로.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
@@ -155,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_plugins/youtube.rb" />
         <option value="$PROJECT_DIR$/_posts/Firebase/2017-08-03-Firebase-소개-고찰.md" />
         <option value="$PROJECT_DIR$/_posts/Firebase/2017-09-04-Firebase-소개-고찰.md" />
@@ -206,6 +197,7 @@
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘-그래프.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md" />
       </list>
     </option>
   </component>
@@ -292,6 +284,12 @@
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="Firebase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -415,18 +413,17 @@
       <workItem from="1509285590929" duration="1116000" />
       <workItem from="1509930197818" duration="355000" />
       <workItem from="1510017820242" duration="2270000" />
-      <workItem from="1511092646222" duration="69000" />
+      <workItem from="1511092646222" duration="401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181355000" />
+    <option name="totallyTimeSpent" value="181687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="182" y="23" width="1498" height="1026" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24766356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24766356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -458,13 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/page-header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/page-footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -680,7 +670,7 @@
         <state relative-caret-position="17">
           <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
           <folding>
-            <marker date="1510020469000" expanded="true" signature="20062:20169" ph="..." />
+            <marker date="1511140569000" expanded="true" signature="21001:21108" ph="..." />
           </folding>
         </state>
       </provider>
@@ -732,10 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md">
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-14-알고리즘.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -743,7 +733,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue02.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -764,7 +754,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘-그래프.md">
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-14-알고리즘-그래프.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
@@ -772,15 +762,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md">
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/_site/2017-09-04-알고리즘.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md">
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-19-알고리즘-최단경로.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />

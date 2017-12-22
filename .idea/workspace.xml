@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md" afterPath="$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -86,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-11-04-알고리즘-자료구조.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-11-04-알고리즘-자료구조.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -101,16 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-11-28-삼성.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -196,7 +187,6 @@
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘-그래프.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md" />
-        <option value="$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-11-23-알고리즘-구간최솟값.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-11-25-알고리즘-구간합.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-11-28-알고리즘-문자열탐색.md" />
@@ -205,6 +195,7 @@
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-05-알고리즘-순열.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" />
         <option value="$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md" />
       </list>
     </option>
   </component>
@@ -290,12 +281,6 @@
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="chijun" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -423,12 +408,12 @@
       <workItem from="1511092646222" duration="979000" />
       <workItem from="1511878300732" duration="2147000" />
       <workItem from="1513423505522" duration="507000" />
-      <workItem from="1513583394318" duration="815000" />
+      <workItem from="1513583394318" duration="1148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185734000" />
+    <option name="totallyTimeSpent" value="186067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1636" height="1027" extended-state="6" />
@@ -703,14 +688,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/_site/2017-09-04-알고리즘.html" />
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -827,6 +804,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>

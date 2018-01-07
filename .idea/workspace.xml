@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,11 +86,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-11-04-알고리즘-자료구조.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-11-04-알고리즘-자료구조.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="22">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-01-01-C.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/C++/2018-01-01-C.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="269" column="1" lean-forward="true" selection-start-line="269" selection-start-column="1" selection-end-line="269" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -145,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node5.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node4.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node3.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown" />
@@ -196,6 +204,7 @@
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" />
         <option value="$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md" />
+        <option value="$PROJECT_DIR$/_posts/C++/2018-01-01-C.markdown" />
       </list>
     </option>
   </component>
@@ -206,8 +215,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
-    <option name="y" value="23" />
+    <option name="x" value="221" />
+    <option name="y" value="32" />
     <option name="width" value="1636" />
     <option name="height" value="1027" />
   </component>
@@ -264,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,31 +290,7 @@
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="Framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="inflearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-              <item name="woowa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -320,7 +306,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -331,19 +316,19 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/C++" />
+      <recent name="$PROJECT_DIR$/_posts/chijun" />
+      <recent name="$PROJECT_DIR$/_posts/Framework" />
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$/_posts/Java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/image/woowastudy" />
       <recent name="$PROJECT_DIR$/image/woowastudy/woowa0726_3.png" />
       <recent name="$PROJECT_DIR$/image/woowa0726_2.png" />
       <recent name="$PROJECT_DIR$/_posts/Javascript" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_posts/chijun" />
-      <recent name="$PROJECT_DIR$/_posts/Framework" />
-      <recent name="$PROJECT_DIR$/image" />
-      <recent name="$PROJECT_DIR$/_posts/Java" />
-      <recent name="$PROJECT_DIR$/_posts/algorithm" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -408,17 +393,20 @@
       <workItem from="1511092646222" duration="979000" />
       <workItem from="1511878300732" duration="2147000" />
       <workItem from="1513423505522" duration="507000" />
-      <workItem from="1513583394318" duration="1148000" />
+      <workItem from="1513583394318" duration="1298000" />
+      <workItem from="1514437569464" duration="125000" />
+      <workItem from="1515306545921" duration="677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186067000" />
+    <option name="totallyTimeSpent" value="187019000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="23" width="1636" height="1027" extended-state="6" />
+    <frame x="45" y="23" width="1635" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3074572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19327217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3653846" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -450,13 +438,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -651,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,59 +660,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="63" lean-forward="false" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/_site/2017-09-04-알고리즘.html" />
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-11-알고리즘-완전탐색.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-11-알고리즘-순열.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-이분탐색.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-11-알고리즘-완전탐색.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-11-알고리즘-순열.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-이분탐색.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-문자열탐색.md" />
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-23-알고리즘-구간최솟값.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -800,18 +734,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md">
+    <entry file="file://$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        <state relative-caret-position="22">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md">
+    <entry file="file://$PROJECT_DIR$/_posts/C++/2018-01-01-C.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="706">
+          <caret line="269" column="1" lean-forward="true" selection-start-line="269" selection-start-column="1" selection-end-line="269" selection-end-column="1" />
           <folding />
         </state>
       </provider>

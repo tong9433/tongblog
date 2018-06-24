@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[Vue.js] 라우터, Nested 라우터, Named Views 🆕"
+title:  "[Vue.js] 라우터, Nested 라우터, Named Views"
 date:   2017-11-05 14:50:00
 categories: "Framework"
 ---

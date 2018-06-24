@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[Vue.js] Vue.js 에 대하여 🆕"
+title:  "[Vue.js] Vue.js 에 대하여"
 date:   2017-11-04 12:50:00
 categories: "Framework"
 ---

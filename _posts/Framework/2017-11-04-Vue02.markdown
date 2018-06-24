@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "[Vue.js] 컴포넌트 🆕"
+title:  "[Vue.js] 컴포넌트"
 date:   2017-11-04 14:50:00
 categories: "Framework"
 ---

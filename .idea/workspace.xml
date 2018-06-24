@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-12-05-알고리즘-순열.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-12-05-알고리즘-순열.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue01.markdown" afterPath="$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue01.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue02.markdown" afterPath="$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue02.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue03.markdown" afterPath="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue03.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue04.markdown" afterPath="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue04.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue05.markdown" afterPath="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue05.markdown" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,36 +25,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-11-28-알고리즘-문자열탐색.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-28-알고리즘-문자열탐색.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-11-25-알고리즘-구간합.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-25-알고리즘-구간합.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-11-23-알고리즘-구간최솟값.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-23-알고리즘-구간최솟값.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -77,46 +50,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-              <folding>
-                <marker date="1515307999000" expanded="true" signature="275:289" ph="..." />
-                <marker date="1515307999000" expanded="true" signature="403:416" ph="..." />
-                <marker date="1515307999000" expanded="true" signature="683:711" ph="..." />
-                <marker date="1515307999000" expanded="true" signature="822:850" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-06-04-알고리즘-세그먼트.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-06-04-알고리즘-세그먼트.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2018-06-04-알고리즘-세그먼트.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <file leaf-file-name="2018-06-24-알고리즘-우선순위큐.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2018-06-24-알고리즘-우선순위큐.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="391">
+              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <file leaf-file-name="2017-11-04-Vue01.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue01.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-11-04-Vue02.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue02.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-11-05-Vue03.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue03.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-11-05-Vue04.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue04.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-11-05-Vue05.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue05.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="62" lean-forward="false" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -161,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node2.markdown" />
         <option value="$PROJECT_DIR$/_posts/Node.js/2017-09-07-Node1.markdown" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/css/cayman.css" />
@@ -191,11 +188,6 @@
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-10-11-알고리즘-완전탐색.md" />
         <option value="$PROJECT_DIR$/_posts/Java/2017-10-11-Java6.markdown" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘.md" />
-        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue01.markdown" />
-        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue02.markdown" />
-        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue03.markdown" />
-        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue04.markdown" />
-        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue05.markdown" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-04-알고리즘-그래프.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-최단경로.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md" />
@@ -212,6 +204,12 @@
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-05-알고리즘-순열.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2018-06-04-알고리즘-세그먼트.md" />
+        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue01.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue02.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue03.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue04.markdown" />
+        <option value="$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue05.markdown" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2018-06-24-알고리즘-우선순위큐.md" />
       </list>
     </option>
   </component>
@@ -303,6 +301,12 @@
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="Framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -403,12 +407,12 @@
       <workItem from="1513583394318" duration="1298000" />
       <workItem from="1514437569464" duration="125000" />
       <workItem from="1515306545921" duration="1534000" />
-      <workItem from="1529830424572" duration="1187000" />
+      <workItem from="1529830424572" duration="1601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189063000" />
+    <option name="totallyTimeSpent" value="189477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1636" height="1027" extended-state="6" />
@@ -446,13 +450,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Node.js/2017-09-24-Node11.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -601,41 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue01.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue03.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue02.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue04.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue05.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="63" lean-forward="false" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/_site/2017-09-04-알고리즘.html" />
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-09-알고리즘-구간최솟값.md" />
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-10-10-알고리즘-구간합.md" />
@@ -761,10 +723,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue01.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-04-Vue02.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue03.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue05.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="62" lean-forward="false" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Framework/2017-11-05-Vue04.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2018-06-04-알고리즘-세그먼트.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2018-06-24-알고리즘-우선순위큐.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding />
         </state>
       </provider>

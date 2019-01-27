@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-17] JavaScript 객체지향 개념, Airbnb Style"
+title:  "[JS] 객체지향 개념, Airbnb Style"
 date:   2017-07-17 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 ## 객체지향 개념 살펴보기

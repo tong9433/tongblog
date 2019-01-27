@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-13] JavaScript 캡쳐링, 버블링, Ajax 캐시, JS 객체, 핸들바JS, Prototype"
+title:  "[JS] 캡쳐링, 버블링, Ajax 캐시, JS 객체, 핸들바JS, Prototype"
 date:   2017-07-13 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

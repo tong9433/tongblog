@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-20] JavaScript Tab 실습 + 모달창 만들기"
+title:  "[JS] Tab 실습 + 모달창 구현"
 date:   2017-07-20 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 ## 코드 디자인, 설계의 중요성!

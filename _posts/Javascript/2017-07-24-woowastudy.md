@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-24] JavaScript 주말간 과제 데모 + 리뷰"
+title:  "[JS] 주말간 과제 데모 + 리뷰"
 date:   2017-07-24 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

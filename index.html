@@ -12,8 +12,8 @@ title: {{ site.name }}
     home.innerHTML = "{% assign previousDate = site.date %}"+
         "       {% for tag in site.categories %}\n" +
         "       <div style=\"cursor:pointer\" class=\"wrapper\">" +
-        "       <h3 class=\"title\">👊 {{tag[0]}}</h3>\n" +
-        "       <div style=\"display:block\"class=\"list\"> <ul class=\"posts\">\n" +
+        "       <h3 class=\"title\">👊 {{tag[0]}} </h3>\n" +
+        "       <div style=\"display:none\"class=\"list\"> <ul class=\"posts\">\n" +
         "       {% for post in tag[1] %}\n" +
         "       <li><a href=\"{{ tong9433.github.io }}{{ post.url }}\">{{ post.title }}</a>" +
         "       {% if post.date == previousDate %}"+
@@ -25,18 +25,17 @@ title: {{ site.name }}
         "        </ul> </div></div>\n" +
         "       {% endfor %}\n";
 
+    const titleArray = Array.from(document.getElementsByClassName('wrapper'))
 
-//    const titleArray = Array.from(document.getElementsByClassName('wrapper'))
-//
-//   titleArray.forEach(function(e){
-//        e.addEventListener("click",function(){
-//            if(Array.from(e.childNodes)[2].style.display ==="none"){
-//                Array.from(e.childNodes)[2].style.display = "block";
-//            }else{
-//                Array.from(e.childNodes)[2].style.display = "none";
-//            }
-//        })
-//    });
+   titleArray.forEach(function(e){
+        e.addEventListener("click",function(){
+            if(Array.from(e.childNodes)[3].style.display ==="none"){
+                Array.from(e.childNodes)[3].style.display = "block";
+            }else{
+                Array.from(e.childNodes)[3].style.display = "none";
+            }
+        })
+    });
 
 
 </script>

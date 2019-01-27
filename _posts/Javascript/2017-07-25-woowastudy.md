@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-25] JavaScript 모바일 웹"
+title:  "[JS] 모바일 웹"
 date:   2017-07-25 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 ## 모바일 웹 

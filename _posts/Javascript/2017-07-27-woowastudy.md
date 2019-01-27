@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-27] JavaScript 프로젝트 준비사항 의존성 관리, 웹팩, 바벨"
+title:  "[JS] 프로젝트 준비사항 의존성 관리, 웹팩, 바벨"
 date:   2017-07-27 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 ## 수업시작 전

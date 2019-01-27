@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-18] JavaScript 애니메이션"
+title:  "[JS] 애니메이션"
 date:   2017-07-18 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

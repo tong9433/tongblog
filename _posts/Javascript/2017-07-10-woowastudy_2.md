@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-10] JavaScript 데이터 타입, 연산자, 변수, 디버깅, 배열.."
+title:  "[JS]  데이터 타입, 연산자, 변수, 디버깅, 배열.."
 date:   2017-07-10 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

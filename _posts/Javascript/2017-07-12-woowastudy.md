@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-12] JavaScript Event, Ajax"
+title:  "[JS] Event, Ajax"
 date:   2017-07-12 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

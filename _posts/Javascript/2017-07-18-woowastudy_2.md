@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-18] JavaScript carousel 실습"
+title:  "[JS] carousel 구현"
 date:   2017-07-18 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

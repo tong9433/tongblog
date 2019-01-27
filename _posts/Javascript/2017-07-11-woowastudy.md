@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-11] JavaScript 객체, 배열 + 실습"
+title:  "[JS]  객체, 배열 + 실습"
 date:   2017-07-11 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

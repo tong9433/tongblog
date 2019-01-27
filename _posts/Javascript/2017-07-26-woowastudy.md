@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-26] JavaScript 모바일 웹 실습, Mocha를 이용한 Test Code 짜기"
+title:  "[JS] 모바일 웹 실습, Mocha를 이용한 Test Code 짜기"
 date:   2017-07-26 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

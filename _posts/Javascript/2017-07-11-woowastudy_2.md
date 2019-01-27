@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-11] JavaScript DOM"
+title:  "[JS] DOM"
 date:   2017-07-11 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

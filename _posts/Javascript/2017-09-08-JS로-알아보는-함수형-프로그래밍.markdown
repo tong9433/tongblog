@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "JS로 알아보는 함수형 프로그래밍"
+title:  "[JS] 함수형 프로그래밍"
 date:   2017-09-08 17:50:00
-categories: "inflearn강의"
+categories: "Javascript"
 ---
 
 

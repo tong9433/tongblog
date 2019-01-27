@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-17] JavaScript 슬라이드 스크린 실습"
+title:  "[JS] 슬라이드 스크린 실습"
 date:   2017-07-17 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 ## 코드 디자인, 설계의 중요성!

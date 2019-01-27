@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "[2017-07-10] JavaScript 시작, 함수, 클로저"
+title:  "[JS] 시작, 함수, 클로저"
 date:   2017-07-10 12:00:00
-categories: "WoowaStudy-Web"
+categories: "Javascript"
 ---
 
 

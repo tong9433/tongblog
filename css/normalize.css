@@ -28,7 +28,7 @@ body {
 }
 
 .title:hover {
-  color: brown;
+  color: #525252;
   filter: scale(120%);
 }
 

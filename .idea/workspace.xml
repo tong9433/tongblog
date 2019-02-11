@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2019-01-19-알고리즘-CCW.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2019-01-19-알고리즘-CCW.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" afterPath="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,21 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-02-11-알고리즘-다이나믹CPP.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2019-02-11-알고리즘-다이나믹CPP.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2019-02-11-알고리즘-다이나믹CPP.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
-              <caret line="66" column="2" lean-forward="false" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+            <state relative-caret-position="488">
+              <caret line="112" column="23" lean-forward="false" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-12-06-알고리즘-완전탐색.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-12-06-알고리즘-완전탐색.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1127">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="-918">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -199,7 +198,6 @@
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-11-25-알고리즘-구간합.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-11-28-알고리즘-문자열탐색.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-05-알고리즘-순열.md" />
-        <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2018-06-04-알고리즘-세그먼트.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2018-06-24-알고리즘-우선순위큐.md" />
         <option value="$PROJECT_DIR$/_posts/Javascript/2017-07-10-woowastudy.md" />
@@ -211,6 +209,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2019-01-19-알고리즘-CCW.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2019-02-11-알고리즘-다이나믹CPP.md" />
+        <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" />
       </list>
     </option>
   </component>
@@ -422,12 +421,12 @@
       <workItem from="1541930730834" duration="122000" />
       <workItem from="1541930932439" duration="2000" />
       <workItem from="1546771079863" duration="2144000" />
-      <workItem from="1548569082057" duration="7897000" />
+      <workItem from="1548569082057" duration="8133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202118000" />
+    <option name="totallyTimeSpent" value="202354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1636" height="1027" extended-state="0" />
@@ -807,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1127">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/ccw.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -886,8 +877,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2019-02-11-알고리즘-다이나믹CPP.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="66" column="2" lean-forward="false" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+        <state relative-caret-position="488">
+          <caret line="112" column="23" lean-forward="false" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>

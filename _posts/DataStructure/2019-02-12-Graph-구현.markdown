@@ -1,0 +1,251 @@
+---
+layout: default
+title:  "[C++] 인접리스트 그래프 구현 연습"
+date:   2019-02-12
+categories: "DataStructure"
+---
+
+# 인접리스트 그래프 구현 연습
+* 그래프를 구현하는 것에 있어서 `인접행렬`과 `인접리스트`로 구현 할 수 있다는 것을 알고 있음.
+* 인접행렬은 구현하는 것은 쉬우나, Performance 면에서 당연 차이가 있음. 당연 행렬로 구현할 경우 모든 Node의 인접 여부를 확인해야 하지만, 인접리스트의 경우
+각 노드에 존재하는 리스트를 한번 탐색하면 되기 때문.
+* 길찾기나 그래프 문제 등을 풀 경우, 정점 두 개의 Edge 정보를 제공하는 알고리즘 문제의 경우, 당연 인접리스트가 자주 사용 됨.
+* 본인은 STL을 사용하지 않는 CERTI를 준비하기에 인접리스트 직접 그래프 구현 코드를 분석해보려 함.
+
+<br>
+
+## 코드분석
+* https://www.swexpertacademy.com/  Reference Code 참고
+
+### 1. 구조체 생성
+
+```c++
+/* 인접노드 구조체 */
+typedef struct adjlistNode
+{
+    int vertex;
+    adjlistNode *next;
+} AdjlistNode;
+
+/* 인접리스트 구조체 */
+typedef struct
+{
+    int num_members;
+    AdjlistNode *head;
+    AdjlistNode *tail;
+} AdjList;
+
+/* 그래프 구조체 */
+typedef struct
+{
+    int num_vertices;
+    AdjList * adjListArr;
+} Graph;
+```
+
+* 그래프는 정점 개수 만큼의 인접리스트 배열과 정점 개수로 이루어짐
+* 인접리스트는 인접노드의 개수와 head와 tail로 이루어짐
+* 인접노드는 해당 노드 정점의 번호와 해당 노드가 가지는 인접리스트 포인터로 이루어짐.
+
+### 2. 인접노드 리스트, 그래프 생성함수
+
+```c++
+/* 인접노드 리스트 생성함수 */
+AdjlistNode * createNode(int v)
+{
+    AdjlistNode * newNode = (AdjlistNode *)malloc(sizeof(AdjlistNode));
+    newNode->vertex = v; // 정점
+    newNode->next = NULL;
+    return newNode;
+}
+
+/* 그래프 생성함수 */
+Graph * createGraph(int n)
+{
+
+    Graph * graph = (Graph *)malloc(sizeof(Graph));
+    graph->num_vertices = n;
+    graph->adjListArr = (AdjList *)malloc(n * sizeof(AdjList));
+
+    // malloc 생성 후엔 꼭 초기화
+    for (int i = 0; i < n; i++)
+    {
+        graph->adjListArr[i].head = graph->adjListArr[i].tail = NULL;
+        graph->adjListArr[i].num_members = 0;
+    }
+
+    return graph;
+}
+```
+
+* 인접리스트 노드는 malloc를 이용해서 초기화를 시켜준 뒤, 반환
+* malloc 초기화시 항상 값들을 초기화 할 것!
+* 그래프는 매개변수를 통해 전달받은 정점의 개수 만큼 인접노드 리스트 배열과 정점의 개수를 초기화 해줌.
+
+### 3. 인접노드 리스트, 그래프 생성함수
+
+```c++
+/* 인접노드 리스트 생성함수 */
+AdjlistNode * createNode(int v)
+{
+    AdjlistNode * newNode = (AdjlistNode *)malloc(sizeof(AdjlistNode));
+    newNode->vertex = v; // 정점
+    newNode->next = NULL;
+    return newNode;
+}
+
+/* 그래프 생성함수 */
+Graph * createGraph(int n)
+{
+
+    Graph * graph = (Graph *)malloc(sizeof(Graph));
+    graph->num_vertices = n;
+    graph->adjListArr = (AdjList *)malloc(n * sizeof(AdjList));
+
+    // malloc 생성 후엔 꼭 초기화
+    for (int i = 0; i < n; i++)
+    {
+        graph->adjListArr[i].head = graph->adjListArr[i].tail = NULL;
+        graph->adjListArr[i].num_members = 0;
+    }
+
+    return graph;
+}
+```
+
+* 인접리스트 노드는 malloc를 이용해서 초기화를 시켜준 뒤, 반환
+* malloc 초기화시 항상 값들을 초기화 할 것!
+* 그래프는 매개변수를 통해 전달받은 정점의 개수 만큼 인접노드 리스트 배열과 정점의 개수를 초기화 해줌.
+
+### 4. 그래프 메모리 할당 해제 함수
+
+```c++
+/* 그래프 메모리 해제 */
+void destroyGraph(Graph * graph)
+{
+    if (graph)
+    {
+        if (graph->adjListArr)
+        {
+            for (int v = 0; v < graph->num_vertices; v++)
+            {
+                AdjlistNode * adjListPtr = graph->adjListArr[v].head;
+                while (adjListPtr)
+                {
+                    AdjlistNode * tmp = adjListPtr;
+                    adjListPtr = adjListPtr->next;
+                    free(tmp);
+                }
+            }
+            free(graph->adjListArr);
+        }
+        free(graph);
+    }
+}
+```
+
+* malloc 사용 시 꼭 free를 통해 메모리 할당을 해제 할 것(메모리 누수 방지)
+
+
+### 5. 그래프 간선 추가함수
+
+```c++
+/* 그래프에 양방향 Edge 추가 */
+void addEdge(Graph *graph, int src, int dest)
+{
+    // 1. src 정점에 인접노드 추가
+    AdjlistNode * newNode = createNode(dest);
+    // 인접노드가 존재 할 경우, tail에 삽입, tail은 새로운 노드를 가리키도록 함.
+    if (graph->adjListArr[src].tail != NULL)
+    {
+        graph->adjListArr[src].tail->next = newNode;
+        graph->adjListArr[src].tail = newNode;
+    }
+    else // 첫번째 인접 노드일 경우
+    {
+        graph->adjListArr[src].head = graph->adjListArr[src].tail = newNode;
+    }
+    graph->adjListArr[src].num_members++;
+
+
+    // 2. dest 정점에 인접노드 추가
+    newNode = createNode(src);
+    if (graph->adjListArr[dest].tail != NULL)
+    {
+        graph->adjListArr[dest].tail->next = newNode;
+        graph->adjListArr[dest].tail = newNode;
+    }
+    else
+    {
+        graph->adjListArr[dest].head = graph->adjListArr[dest].tail = newNode;
+    }
+    graph->adjListArr[dest].num_members++;
+}
+```
+
+* 해당 함수는 양방향성 Edge를 추가하는 것이므로 반복된 형태로 인접노드를 src와 dest에 각각 추가함.
+* 최초 인접노드 일 경우와 그렇지 않을 경우를 조건문을 통해 구현.
+
+### 6. 그래프 출력(탐색) 함수
+
+```c++
+/* 그래프 인접노드 출력 및 탐색 응용 */
+void displayGraph(Graph * graph, int i)
+{
+
+    AdjlistNode * adjListPtr = graph->adjListArr[i].head;
+    cout << "vertex " << i << " 인접노드 : ";
+    while (adjListPtr)
+    {
+        cout << adjListPtr->vertex << " ";
+        adjListPtr = adjListPtr->next;
+    }
+    cout << endl;
+}
+```
+
+* 그래프의 인접노드 리스트 배열을 for 문을 통해 탐색하며 각각 인접리스트 포인터가 null일 경우 까지 탐색하여 출력.
+* 위의 경우는 그래프 탐색으로 응용할 수 있음.
+
+
+### 7. Main
+
+```c++
+int main()
+{
+    /*
+    6 5 // 6개 정점, 5개의 간선으로 이루어진 그래프를 생성하자.
+    0 2
+    1 2
+    0 3
+    1 4
+    1 5
+    */
+
+    Graph * graph = createGraph(6);
+    addEdge(graph, 0, 2);
+    addEdge(graph, 1, 2);
+    addEdge(graph, 0, 3);
+    addEdge(graph, 1, 4);
+    addEdge(graph, 1, 5);
+
+    for(int i=0; i<6; i++){
+        displayGraph(graph, i);
+    }
+
+    destroyGraph(graph);
+    return 0;
+}
+```
+
+* 결과값
+
+```
+vertex 0 인접노드 : 2 3
+vertex 1 인접노드 : 2 4 5
+vertex 2 인접노드 : 0 1
+vertex 3 인접노드 : 0
+vertex 4 인접노드 : 1
+vertex 5 인접노드 : 1
+```
+

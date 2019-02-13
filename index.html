@@ -12,15 +12,22 @@ title: {{ site.name }}
     var home = document.getElementById('home');
 
     home.innerHTML = "<div style ='cursor:pointer'>" +
-        "<h3 style = 'font-size: 25px; color: darkblue;' >🏅 Latest Posts </h3>"+
-        "<div style = 'margin-bottom: 100px;'></div>";
+        "       <h3 style = 'font-size: 25px; color: darkblue;' >🏅 Latest Posts </h3>"+
+        "       <div style = 'margin-bottom: 10px;'></div>"+
+        "       {% for post in site.posts limit:5 %}"+
+        "       <li><a href='{{ tong9433.github.io }}{{ post.url }}'>{{ post.title }}</a>" +
+        "       <span style='font-size: 12px; color: gray'> {{post.date | date: '%Y-%m-%d'}}</span> 🆕</li>"+
+        "       {% endfor %}"+
+        "       <div style = 'margin-bottom: 100px;'></div>";
 
 
-    home.innerHTML += "{% assign previousDate = site.date %}"+
+    home.innerHTML +=
+        "       <h3 style = 'font-size: 25px; color: darkslategray;' >🏅 All Posts </h3>"+
+        "       {% assign previousDate = site.date %}"+
         "       {% for tag in site.categories %}\n" +
         "       <div style='cursor:pointer' class='wrapper'>" +
         "       <h3 class='title'> ✔&nbsp&nbsp {{tag[0]}} </h3>\n" +
-        "       <div style='display:none'class='list'> <ul class='posts'>\n" +
+        "       <div style='display:none' class='list'> <ul class='posts'>\n" +
         "       {% for post in tag[1] %}\n" +
         "       <li><a href='{{ tong9433.github.io }}{{ post.url }}'>{{ post.title }}</a>" +
         "       {% if post.date == previousDate %}"+

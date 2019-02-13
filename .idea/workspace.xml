@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/DataStructure/2019-02-12-Graph구현.markdown" afterPath="$PROJECT_DIR$/_posts/DataStructure/2019-02-12-Graph-구현.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,12 +46,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2019-02-12-Graph-구현.markdown" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2019-02-12-Graph-구현.markdown" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/DataStructure/2019-02-12-Graph-구현.markdown">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="191" column="22" lean-forward="false" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+              <folding>
+                <marker date="1550066361231" expanded="true" signature="167:181" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="216:220" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="216:240" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="216:249" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="216:251" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="306:326" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="514:542" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="656:677" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="741:779" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="941:955" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="1074:1082" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="1074:1086" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="1347:1375" ph="..." />
+                <marker date="1550066361231" expanded="true" signature="1486:1514" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,13 +189,13 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
         <option value="$PROJECT_DIR$/css/cayman.css" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2019-01-19-알고리즘-CCW.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2019-02-11-알고리즘-다이나믹CPP.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" />
         <option value="$PROJECT_DIR$/_posts/DataStructure/2019-02-13-Graph구현.markdown" />
         <option value="$PROJECT_DIR$/_posts/DataStructure/2019-02-12-Graph구현.markdown" />
         <option value="$PROJECT_DIR$/_posts/DataStructure/2019-02-12-Graph-구현.markdown" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -269,11 +293,6 @@
               <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="Firebase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,12 +398,12 @@
       <workItem from="1541930932439" duration="2000" />
       <workItem from="1546771079863" duration="2144000" />
       <workItem from="1548569082057" duration="8244000" />
-      <workItem from="1549984077987" duration="2651000" />
+      <workItem from="1549984077987" duration="3690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205116000" />
+    <option name="totallyTimeSpent" value="206155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1636" height="1027" extended-state="0" />
@@ -674,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2017-11-04-알고리즘-자료구조.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -786,6 +798,29 @@
         <state relative-caret-position="165">
           <caret line="191" column="22" lean-forward="false" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding>
+            <marker date="1550066361231" expanded="true" signature="167:181" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="216:220" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="216:240" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="216:249" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="216:251" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="306:326" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="514:542" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="656:677" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="741:779" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="941:955" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="1074:1082" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="1074:1086" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="1347:1375" ph="..." />
+            <marker date="1550066361231" expanded="true" signature="1486:1514" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

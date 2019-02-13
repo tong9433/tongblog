@@ -1,0 +1,163 @@
+---
+layout: default
+title:  "[C++] 빠른 연결리스트 구현 연습"
+date:   2019-02-13
+categories: "DataStructure"
+---
+
+# 연결리스트 구현 연습
+* https://na982.tistory.com/ na982님의 훌륭한 소스를 참고했습니다.
+* 기존 연결리스트를 구현함에 있어서 포인터를 사용해서 구현한 경우가 많았음.
+* 구현에 어려운 수준은 아니지만, 이보다 빠른 연결리스트를 구현한 소스가 있어서 이를 분석해보고 연습해보려고 함.
+* STL의 리스트보다 10배 이상의 퍼포먼스를 기대 할 수 있음.
+* list 뿐만아니라 Queue를 사용하는 알고리즘 문제에도 적용 가능함.
+* 현재 구현 소스는 push의 횟수가 MAX_SIZE를 초과하지만, pop의 횟수도 교차적으로 상당히 많을 경우, 완전하게 MAX_SIZE를 보장하는 연결리스트는 아님.
+
+
+## 1. 전처리
+```c++
+#include<iostream>
+using namespace std;
+
+#define MAX_SIZE 10000
+```
+* MAX_SIZE 를 정의
+
+## 2. Node 구조체 정의
+
+```c++
+struct Node { /* index 값을 prev, next에 저장하는 방식 */
+    int prev;
+    int next;
+    int value;
+};
+```
+* 배열 index의 값을 prev와 next에 저장하는 방식
+
+
+## 3. LIST 구조체 정의 및 내부함수 정의
+
+```c++
+typedef struct LIST{
+    int head = MAX_SIZE;
+    int tail = MAX_SIZE + 1;
+    int pos; // 다음 Node를 저장할 index
+
+    Node node[MAX_SIZE+2]; // 각각 노드들과 head, tail을 저장할 공간
+
+    // 생성자 함수 - 초기화
+    LIST(){
+        pos = 0;
+        node[head].next = tail;
+        node[tail].prev = head;
+    }
+.
+.
+.
+. // 내부함수는 아래에..
+.
+.
+
+};
+```
+* head와 tail에는 배열에 저장될 index 값인 `MAX_SIZE`, `MAX_SIZE+1` 값을 대입.
+* pos 변수는 다음 NODE를 저장할 영역의 index 값.
+* node 배열은 head와 tail을 같이 저장할 수 있도록 `MAX_SIZE+2`로 사이즈를 설정.
+
+
+## 3. PUSH 함수 구현
+
+```c++
+void pushBack(int value){
+    int prev = node[tail].prev;
+    int next = tail;
+
+    node[pos].prev = prev;
+    node[pos].next = next;
+    node[pos].value = value;
+
+    node[prev].next = pos;
+    node[tail].prev = pos;
+
+    pos++;
+}
+
+void pushFront(int value){
+    int prev = node[head].prev;
+    int next = head;
+
+    node[pos].prev = prev;
+    node[pos].next = next;
+    node[pos].value = value;
+
+    node[next].prev = pos;
+    node[head].next = pos;
+
+    pos++;
+}
+```
+
+## 4. POP 함수 구현
+
+```c++
+int popBack(){
+    int popPos = node[tail].prev;
+    int prev = node[popPos].prev;
+    int next = tail;
+
+    node[prev].next = next;
+    node[next].prev = prev;
+
+    return node[popPos].value;
+}
+
+int popFront(){
+    int popPos = node[head].next;
+    int prev = head;
+    int next = node[popPos].next;
+
+    node[prev].next = next;
+    node[next].prev = prev;
+
+    return node[popPos].value;
+}
+```
+
+## 5. 노드 삽입 함수 구현
+
+```c++
+void insert(int cnt, int value){ // head로 <cnt>번째 Node 다음에 삽입
+    int next = node[head].next;
+    for(int i=0; i<cnt; i++){
+        next = node[next].next;
+    }
+    int prev = node[next].prev;
+
+    node[pos].value = value;
+    node[pos].prev = prev;
+    node[pos].next = next;
+
+    node[prev].next = pos;
+    node[next].prev = pos;
+
+    pos++;
+}
+```
+* 해당 노드를 삽입 할 index를 반복문을 통해서 찾아낸 후 push 함수와 비슷하게 구현
+
+## 6. 노드 제거 함수 구현
+
+```c++
+int erase(int cnt){ // head로 <cnt>번째 Node를 제거
+    int erasePos = node[head].next;
+    for(int i=0; i<cnt; i++){
+        erasePos = node[erasePos].next;
+    }
+    int prev = node[erasePos].prev;
+    int next = node[erasePos].next;
+
+    node[next].prev = prev;
+    node[prev].next = next;
+}
+```
+* 해당 노드를 제거 할 index를 반복문을 통해서 찾아낸 후 pop 함수와 비슷하게 구현

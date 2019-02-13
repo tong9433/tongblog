@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831e41a3-77b1-43f2-8ac3-c1b91ea464ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/cayman.css" afterPath="$PROJECT_DIR$/css/cayman.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,16 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2019-01-19-알고리즘-CCW.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2019-01-19-알고리즘-CCW.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="131" column="3" lean-forward="false" selection-start-line="131" selection-start-column="3" selection-end-line="131" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2019-02-11-알고리즘-다이나믹CPP.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2019-02-11-알고리즘-다이나믹CPP.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            <state relative-caret-position="228">
+              <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
               <folding>
                 <marker date="1550066361231" expanded="true" signature="167:181" ph="..." />
                 <marker date="1550066361231" expanded="true" signature="216:220" ph="..." />
@@ -81,11 +72,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-24-알고리즘-우선순위큐.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/algorithm/2018-06-24-알고리즘-우선순위큐.md">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sitemap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019-02-12-연결리스트-구현.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/DataStructure/2019-02-12-연결리스트-구현.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="149" column="6" lean-forward="false" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cayman.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/cayman.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="315" column="10" lean-forward="false" selection-start-line="315" selection-start-column="5" selection-end-line="315" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/normalize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -105,8 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>section</find>
-      <find>back</find>
       <find>p</find>
       <find>클로</find>
       <find>post</find>
@@ -134,6 +163,9 @@
       <find>용</find>
       <find>h3</find>
       <find>하지만</find>
+      <find>color</find>
+      <find>c0c0c0</find>
+      <find>hover</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/image</dir>
@@ -145,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/algorithm/2017-09-15-알고리즘-자료구조.md" />
         <option value="$PROJECT_DIR$/_posts/chijun/2017-11-28-삼성.md" />
         <option value="$PROJECT_DIR$/_posts/C++/2018-01-01-C.markdown" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
@@ -187,8 +218,6 @@
         <option value="$PROJECT_DIR$/_posts/woowa/2017-07-08-woowa-Introduction.md" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
-        <option value="$PROJECT_DIR$/css/cayman.css" />
-        <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2019-01-19-알고리즘-CCW.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2019-02-11-알고리즘-다이나믹CPP.md" />
         <option value="$PROJECT_DIR$/_posts/algorithm/2017-12-06-알고리즘-완전탐색.md" />
@@ -196,6 +225,9 @@
         <option value="$PROJECT_DIR$/_posts/DataStructure/2019-02-12-Graph구현.markdown" />
         <option value="$PROJECT_DIR$/_posts/DataStructure/2019-02-12-Graph-구현.markdown" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/cayman.css" />
+        <option value="$PROJECT_DIR$/css/normalize.css" />
+        <option value="$PROJECT_DIR$/_posts/DataStructure/2019-02-12-연결리스트-구현.markdown" />
       </list>
     </option>
   </component>
@@ -294,6 +326,11 @@
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="Firebase" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tong9433.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tong9433.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -316,11 +353,11 @@
       <recent name="$PROJECT_DIR$/image/woowa0726_2.png" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/DataStructure" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_posts/algorithm" />
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/image/woowastudy" />
-      <recent name="$PROJECT_DIR$/_posts/C++" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,12 +435,12 @@
       <workItem from="1541930932439" duration="2000" />
       <workItem from="1546771079863" duration="2144000" />
       <workItem from="1548569082057" duration="8244000" />
-      <workItem from="1549984077987" duration="3690000" />
+      <workItem from="1549984077987" duration="5488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206155000" />
+    <option name="totallyTimeSpent" value="207953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="23" width="1636" height="1027" extended-state="0" />
@@ -441,20 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/Javascript/2017-07-12-woowastudy.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Javascript/2017-07-13-woowastudy.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Javascript/2017-07-13-속깊은 자바 스크립트 정리.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -644,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/page-footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -676,20 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/cayman.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="466" column="24" lean-forward="false" selection-start-line="466" selection-start-column="24" selection-end-line="466" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -801,10 +803,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        <state relative-caret-position="228">
+          <caret line="15" column="55" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
           <folding>
             <marker date="1550066361231" expanded="true" signature="167:181" ph="..." />
             <marker date="1550066361231" expanded="true" signature="216:220" ph="..." />
@@ -821,6 +839,30 @@
             <marker date="1550066361231" expanded="true" signature="1347:1375" ph="..." />
             <marker date="1550066361231" expanded="true" signature="1486:1514" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cayman.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="315" column="10" lean-forward="false" selection-start-line="315" selection-start-column="5" selection-end-line="315" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/DataStructure/2019-02-12-연결리스트-구현.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="149" column="6" lean-forward="false" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

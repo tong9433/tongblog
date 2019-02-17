@@ -21,11 +21,175 @@ categories: "DataStructure"
  이때 해쉬충돌이 발생함을 어떤식으로 해결하느냐에 따라 시간복잡도와 그 구현 난이도가 달라질 것이다.
  대표적으로 `OpenAddress` 방식과 `Chaning`으로 나뉜다.
  이번 포스팅에서는 체이닝 방식에 해쉬 충돌 해결을 이용할 것이다.
- 많은 사람들은 체이닝 방식에서 포인터를 사용해서 동적으로 hash key 충돌을 해결한다.
- `na982` 님은 거의 균등히 분포되는 getKey 함수를 구현하고 넉넉한 hash 이차원배열을 선언해서 이를 구현했다.
- 데이터가 매우 많아지면 완벽한 hash는 아니지만 속도면에서 매우 빠르므로 CERTI 문제에서 유용하게 쓰일 것 같다.
+ 체이닝 방식에서 포인터를 동적으로 할당해서 hash key 충돌을 해결한다.
 
  <br>
 
 # Chaning 방식의 Hash 자료구조 구현
-* [na982님 블로그](https://na982.tistory.com/) 의 훌륭한 소스를 참고했습니다.
+
+## 1. 구조체 정의
+```c++
+#include<iostream>
+#include<cstdlib>
+using namespace std;
+
+#define MAX_HASH 30
+
+typedef struct NODE {
+    char * key;
+    char * value;
+    NODE * next;
+} NODE;
+
+NODE * hashTable[MAX_HASH];
+```
+* MAX_HASH가 클수록 해쉬 충돌은 줄어든다. 하지만 배열의 인덱스 크기는 한정되어 있고, input에 비해 터무니 없이 클 경우 메모리 낭비를 초래할 수 있다.
+
+## 2. 스트링 비교 함수
+```c++
+inline int strComp(char a[], char b[]) {
+    int i = 0, j = 0;
+    while (a[i]) {
+        if (a[i++] != b[j++]) {
+            i--;
+            j--;
+            break;
+        }
+    }
+    return (a[i] - b[j]);
+}
+```
+* 기본적으로 char 형 배열의 값이 동일한지 비교하는 함수
+
+## 3. 해쉬 함수
+```c++
+inline int getHashKey(char * key){
+    int hashKey = 0;
+    for(int i=0; key[i]!='\0';i++)
+        hashKey = (hashKey*31 + key[i]) % MAX_HASH;
+    return hashKey % MAX_HASH;
+}
+```
+* 해쉬 함수는 hashTable을 구성함에 있어서 매우 중요한 함수이다. hashKey를 균등하게 분포하지 못할 경우, 성능 저하로 이루어 질 수 있기 때문이다.
+* 그렇기에 char [] 를 input으로 가질 경우, 최대한 랜덤한 hashKey(균형분포)를 만들어 내는 것이 중요.
+* 위와 같은 공식을 쓴 이유는 [HashMap의 동작](https://d2.naver.com/helloworld/831311)을 참조하면 좋을 것 같다.
+
+
+## 4. 해쉬 테이블 초기화
+```c++
+void initHashTable() {
+    for (int i = 0; i < MAX_HASH; i++) {
+        hashTable[i] = (NODE *)malloc(sizeof(NODE));
+        hashTable[i]->next = NULL;
+    }
+}
+```
+
+## 5. 해쉬 테이블에 데이터 추가 함수
+```c++
+void addHashData(char * key, char * value) {
+    int id = getHashKey(key);
+
+    NODE * newNode = (NODE *)malloc(sizeof(NODE));
+    newNode->key = key;
+    newNode->value = value;
+    newNode->next = NULL;
+
+    NODE * temp = hashTable[id];
+    while ( temp->next != NULL) {
+        temp = temp->next;
+    }
+    temp->next = newNode;
+}
+```
+
+## 6. key를 통해 데이터를 얻는 함수
+```c++
+char * getHashData(char * key) {
+    int id = getHashKey(key);
+
+    NODE * temp = hashTable[id];
+
+    for (;;) {
+        if (temp->next == NULL) break;
+        if (strComp(temp->next->key, key) == 0) {
+            return temp->next->value;
+        }
+        temp = temp->next;
+    }
+    cout << "No Data" << endl;
+    return NULL;
+}
+```
+* 해당 key에 대응하는 HashKey를 구한 후 리스트를 탐색하며 해당 value를 구한다.
+
+## 7. 출력 함수 및 main
+```c++
+void printHashData() {
+    for (int i = 0; i < MAX_HASH; i++) {
+        cout << i << "번째 table : ";
+        NODE * temp = hashTable[i];
+
+        while (temp->next != NULL) {
+            cout << temp->next->value << " ";
+            temp = temp->next;
+        }
+        cout << endl;
+    }
+}
+
+int main() {
+
+    initHashTable();
+
+    addHashData("song", "egg");
+    addHashData("tong", "apple");
+    addHashData("il", "dog");
+    addHashData("tongil", "cat");
+    addHashData("songtongil", "fox");
+    addHashData("tongtong", "beer");
+    addHashData("tongtongil", "bear");
+
+    printHashData();
+
+    cout << getHashData("tongtong") << endl;
+
+    return 0;
+}
+```
+
+## 8. 출력결과
+```
+0번째 table :
+1번째 table :
+2번째 table :
+3번째 table : dog
+4번째 table :
+5번째 table :
+6번째 table :
+7번째 table :
+8번째 table :
+9번째 table :
+10번째 table : beer
+11번째 table :
+12번째 table : fox
+13번째 table : bear
+14번째 table :
+15번째 table :
+16번째 table :
+17번째 table :
+18번째 table :
+19번째 table : egg
+20번째 table : apple
+21번째 table :
+22번째 table :
+23번째 table : cat
+24번째 table :
+25번째 table :
+26번째 table :
+27번째 table :
+28번째 table :
+29번째 table :
+beer
+```
+* 비교적 골고루 분포됨을 확인 할 수 있음.

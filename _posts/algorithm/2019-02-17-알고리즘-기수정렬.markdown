@@ -1,0 +1,110 @@
+---
+layout: default
+title:  "[C++] 빠르다! Radix Sort"
+date:   2019-02-17
+categories: "DataStructure"
+---
+
+# 정렬알고리즘..?
+* 우리는 삽입, 선택, 버블 등의 `O(N^2)` sorting 알고리즘 부터
+머지, 힙, 퀵과 같은 `O(NlogN)` sorting 알고리즘에 대해서 잘 알고있다.
+* 그렇다면 `O(NlogN)`이 최적의 알고리즘인가 ? 그때 그때 다르다.
+* 그때 그때 다르기에, `Radix Sort`를 적용 할 수 있는 상황에서 이를 사용하면 많은 성능 향상을 기대할 수 있다.
+* `Radix Sort`란?
+> 기수정렬은 낮은 자리수부터 비교해 가며 정렬하는 알고리즘이다. 최대 자릿수가 d인 데이터들이 주어질 때
+O(dN) 의 시간복잡도를 기대할 수 있다. 즉, logN > d 일 경우 O(NlogN)보다 빠른 Sorting 알고리즘인 셈이다.
+
+
+ <br>
+
+# Radix Sort 구현
+
+## 1. radixSort 함수 정의
+```c++
+void radixSort(int * arr, int size, int currentRadix, int maxRadix) {
+
+    if (maxRadix == currentRadix) return;
+    int radix = 1;
+
+    queue<int> count[10];
+
+    for (int i = 0; i < currentRadix; i++) radix *= 10;
+
+    for (int i = 0; i < size; i++) {
+        count[(arr[i] / radix) % 10].push(arr[i]);
+    }
+
+    int idx = 0;
+
+    for (int i = 0; i < 10; i++) {
+        while (count[i].size()!= 0){
+            int x = count[i].front();
+            count[i].pop();
+            arr[idx] = x;
+            idx++;
+        }
+    }
+
+    cout << radix << " 의 자릿수를 기준으로 정렬: ";
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    radixSort(arr, size, currentRadix + 1, maxRadix);
+}
+```
+* `Queue` 가 사용됨.
+* 재귀적으로 낮은 자릿수 부터 가장 큰 자릿수까지, 한 자릿수 마다 정렬하면서 구현
+
+```
+1. 해당 배열에서 가장 큰 자릿수를 구함.
+2. 10개로 이루어진 Queue를 생성.
+3. 현재 자릿수에 해당하는 값을 radix 변수에 대입.
+4. 현재 자릿수를 기준으로 각 숫자에 맞게 count[] 큐에 push.
+5. count[0] .. count[9] 까지 pop을 하면서 arr에 하나씩 대입 => 자릿수의 값에 따라서 정렬 / 출력
+6. 재귀적으로 자릿수를 늘려가며 최대 자릿수가 될 경우 함수를 return.
+```
+
+
+## 2. main 함수
+```c++
+int main() {
+    int arr[] = {1, 21, 31, 100, 8, 2000, 54, 121, 213, 32, 35, 45, 21};
+    int size = sizeof(arr) / sizeof(int);
+    int maxRadix = 0;
+    int max = 0;
+
+    cout << "Before Sorting: ";
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+        if (max < arr[i]) max = arr[i];
+    }
+    cout << endl;
+
+    while (max != 0) {
+        max /= 10;
+        maxRadix++;
+    }
+
+    radixSort(arr, size, 0, maxRadix);
+
+    cout << "After Sorting: ";
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+    return 0;
+}
+```
+
+
+## 3. 출력결과
+```
+Before Sorting: 1 21 31 100 8 2000 54 121 213 32 35 45 21
+1 의 자릿수를 기준으로 정렬: 100 2000 1 21 31 121 21 32 213 54 35 45 8
+10 의 자릿수를 기준으로 정렬: 100 2000 1 8 213 21 121 21 31 32 35 45 54
+100 의 자릿수를 기준으로 정렬: 2000 1 8 21 21 31 32 35 45 54 100 121 213
+1000 의 자릿수를 기준으로 정렬: 1 8 21 21 31 32 35 45 54 100 121 213 2000
+After Sorting: 1 8 21 21 31 32 35 45 54 100 121 213 2000
+```

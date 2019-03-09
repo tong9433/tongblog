@@ -1,0 +1,138 @@
+---
+layout: default
+title:  "[C++] 세그먼트 트리 응용 - 일정 관리 프로그램"
+date:   2019-03-09
+categories: "Algorithm"
+---
+
+## 문제
+* 우선순위 값에 따라 일정이 추가, 삭제되는 스케줄러
+* 숫자가 작은 값이 우선순위가 높음.
+* `ADD_REMINDER_PLAN` : 매개변수로 우선순위의 값과 그 개수가 주어짐, 이를 스케줄러에 추가해야 함.
+* `REMOVE_REMINDER_PLAN` : 매개변수로 우선순위의 값과 그 개수가 주어짐, 이를 스케줄러에서 제거해야 함.
+* `SET_COMPLETE_REMINDER_PLAN` : 몇 번째의 값이 주어지고, 스케줄러는 해당 번째의 일정을 완료함으로 -1을 해주어야 함.
+
+## 구현에 대한 고민
+* 먼저 단순 우선순위 문제이기에 힙을 이용한 우선순위 큐로 구현을 고민했다. 이는 일정 ADD, REMOVE 시에는 O(logN)이기에 효율적이지만, 스케줄 완료 시에는
+두 개의 힙을 구성해서 찾아야 하기 때문에 O(N)의 시간복잡도가 소요되고, 좋지 못한 방법이라고 판단되었다.
+* 세그먼트 트리를 이용해서 구현할 경우 ADD, REMOVE, COMPLETE 모두 O(logN)으로 처리가 가능하기에 세그먼트 트리를 이용하기로 했다. 사실 ADD, REMOVE의
+경우에는 update 함수를 이용해서 구현하면 되고, COMPLETE의 경우 약간의 조건문이 필요했다.
+```c++
+void query(int node, int s, int e, int num, int ans) {
+    if (s == e) {
+        tree[node]--;
+        queryAns = s;
+        return;
+    }
+    int m = (s + e) / 2;
+    int left = node * 2;
+    int right = node * 2 + 1;
+    if (tree[left] + num >= ans ) query(left, s, m, num, ans);
+    else query(right, m + 1, e, num + tree[left], ans);
+    tree[node] = tree[left] + tree[right];
+}
+```
+* 위와 같이 매개변수로 num을 두어, tree[left] + num >= ans 를 만족하지 않을 경우, 오른쪽 노드로 이동하고 num + tree[left]를 취해준다. 이와 같은 방식으로
+해당 우선순위 번째의 말단 노드를 찾을 수 있고, 그 노드 count 값을 -1 해주는 방식으로 문제를 해결 할 수 있었다.
+
+## 배운 점
+* 우선순위 문제라고 힙으로 단정짓는 것은 금물.
+* 세그먼트 트리를 유연하게 사용할 수 있어야 함.
+* 재귀적으로 수행되는 query 함수의 경우 return 값의 시점을 잘 생각 해야함. 그렇기에 아래 구현소스 처럼 전역변수를 두는 방식으로 하지 않는 경우에는 각각의 재귀적으로
+호출되는 함수의 리턴 값을 더해서 방법을 사용해야 함.
+
+## 구현 소스
+
+```c++
+#define MAX_SIZE 1000000
+using namespace std;
+enum
+{
+    ADD_REMINDER_PLAN,
+    REMOVE_REMINDER_PLAN,
+    SET_COMPLETE_REMINDER_PLAN
+};
+
+int tree[MAX_SIZE * 2 + 100000] = { 0, };
+
+void update(int node, int s, int e, int idx, int add) {
+
+    if (e < idx || idx < s) {
+        return;
+    }
+
+    if (s == e && s == idx) {
+        tree[node] += add;
+        return;
+    }
+
+    int m = (s + e) / 2;
+    int left = node * 2;
+    int right = node * 2 + 1;
+
+    update(left, s, m, idx, add);
+    update(right, m + 1, e, idx, add);
+
+    tree[node] = tree[left] + tree[right];
+}
+
+int queryAns = 0;
+
+void query(int node, int s, int e, int num, int ans) {
+    if (s == e) {
+        tree[node]--;
+        queryAns = s;
+        return;
+    }
+
+    int m = (s + e) / 2;
+    int left = node * 2;
+    int right = node * 2 + 1;
+    if (tree[left] + num >= ans || tree[right] == 0) query(left, s, m, num, ans);
+    else query(right, m + 1, e, num + tree[left], ans);
+
+    tree[node] = tree[left] + tree[right];
+}
+
+void printTree(int node, int s, int e) {
+    if (s == e) {
+        cout << tree[node] << " ";
+        return;
+    }
+
+    int m = (s + e) / 2;
+    int left = node * 2;
+    int right = node * 2 + 1;
+
+    printTree(left, s, m);
+    printTree(right, m+1, e);
+}
+
+void init()
+{
+    for (int i = 0; i < MAX_SIZE * 2 + 100000; i++) tree[i] = 0;
+}
+
+void addReminderPlan(int priority, int count)
+{
+    update(1, 1, MAX_SIZE, priority, count);
+    printTree(1, 1, MAX_SIZE);
+    cout <<  endl;
+}
+
+void removeReminderPlan(int priority, int count)
+{
+    update(1, 1, MAX_SIZE, priority, -1 * count);
+    printTree(1, 1, MAX_SIZE);
+    cout << endl;
+}
+
+int setCompleteReminderPlan(int priority)
+{
+    query(1, 1, MAX_SIZE, 0, priority);
+    printTree(1, 1, MAX_SIZE);
+    cout << "ans:" << queryAns;
+    cout << endl;
+    return queryAns;
+}
+```

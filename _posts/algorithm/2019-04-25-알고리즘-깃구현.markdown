@@ -1,0 +1,273 @@
+---
+layout: default
+title:  "[C++] Git 구현하기 - 해쉬"
+date:   2019-04-25
+categories: "Algorithm"
+---
+
+## 문제 설명
+* 총 4가지 함수를 구현하는 문제
+```c++
+void Branch(const char *str);
+void Commit(int line_idx, int operation, const char *str, char* commit_message);
+void Checkout(const char *str, int commit_idx, char *msg);
+int GetDocument(char str[][15]);
+```
+* `Branch` : 매개 변수로 받은 str의 이름을 같는 Branch 생성, 최초 Branch는 "Master".
+* `Commit` : `op`의 값에 따라 3가지 Commit 으로 나뉨.
+```
+op == 0 : line_idx의 commit의 str에 추가로 붙임.
+op == 1 : line_idx의 commit을 str과 commit_message로 update.
+op == 2 : line_idx의 commit을 삭제함.
+```
+* `Checkout` : str의 이름을 같는 branch로 이동, commit_idx 만큼 과거의 커밋으로 현재의 커밋을 두기.
+* `GetDocument` : 현재 branch의 모든 커밋을 str[][15] 담기
+<br>
+
+## Solution
+1. 해쉬
+```
+먼저 Branch를 checkout 할 경우, str을 비교해야 하기에 Branch 개수가 많아질경우 15*1024 O(10000)의 복잡도가 생길 것이라 생각했다. 그렇기에
+Hash를 이용한다면 빠르게 checkout 할 수 있을 것이라고 생각했다. 사실 처음에는 Trie로 구현할려고 생각했지만 오히려 더 구현이 복잡해지고 시간복잡도가
+커질 것 같았다. Branch의 개수가 많지 않기에 MAX_HASH 값만 넉넉히 하면 꽤 시간을 절약할 수 있을 것이라고 생각하고 접근했다.
+```
+2. 동적할당 X
+```
+문제를 풀면서 새로운 커밋이나, 새로운 브랜치 등을 동적으로 할당해야 하는 경우가 생긴다. 이를 번번히 동적할당 해주면 그때 꽤 많은 시간 소모가 생긴다.
+더불어 동적할당은 쉬우나 케이스가 끝날때 전부를 해제하지 않는 경우 메모리 누수로 문제를 해결할 수 없는 상황이 생겼다. 그렇기에 저번에 이용했던 것처럼
+초반에 영역을 할당하고 idx를 늘려나가면서 각 영역을 할당해주는 방법으로 문제에 접근했다.
+```
+3. 링크드리스트
+```
+새로운 commit이 계속 생겨나고 이들이 연결되어야 하므로 링크드리스트를 구현해야 할 것이라고 생각했다. commit이 생길때 다음 커밋을 next로 연결할 경우
+새로운 branch가 생길 때 난감한 상황이 생겼기에 다음 커밋의 prev를 이전 커밋에 연결하는 방법으로 구현했다.
+```
+<br>
+
+## 오답 Note
+1. 동적할당의 어려움
+```
+사실 동적할당은 어렵지 않다. 그것을 해제하는 것이 힘들지.. 처음에는 동적할당하고, case가 끝날 때 해제해주는 방법으로 구현하다보니 곧곧에서 이슈가 생겼다.
+복잡한 알고리즘 구현 문제에서는 이런 풀이가 적절하지 않다고 판단했고 다른 방식으로 풀게 되었다. ( 물론 현실에서는 큰일날 소리 )
+```
+2. 문제를 잘 이해하지 못함.
+```
+알고리즘을 푸는 것에 있어서 이 부분은 매우 크리티컬하다고 생각한다. 문제를 잘 이해하지 못하면 결코 그 문제를 시간 내에 풀 수 없을 것이다. 게다가 낭비된
+시간으로 인해 최적화도 거의 불가능하다. 이 문제 역시 커밋을 대단히 잘못 이해했다. 처음에는 op가 0일때만 새로운 커밋이 추가되는 것이라고 생각했다. 하지만 테스트
+케이스를 거치다 보니 op= 0, 1, 2 모두가 새로운 커밋이 생긴다는 점을 알았고, checkout 시 과거의 커밋으로 돌아갈 때 이 부분을 간과했기에 올바른 결과가
+도출되지 못했었다. 결국 문제를 읽고 테스트 케이스 3개 정도는 직접 보면서 내가 이해한 문제가 맞는지 생각할 필요성을 느꼈다.
+```
+3. 영역할당의 개수를 정확하게 파악하지 못한 것.
+```
+문제를 풀면서 HashTable을 구현할 때 기본적으로 HashTable의 개수인 1024개가 필요하다는 점을 간과했다. 그렇기에 VS에서는 디버깅 에러가 생기지 않았지만
+알고리즘 제출 시에 계속 Segmantation Fault가 발생했다. 최대 몇개가 필요한지 넉넉하게 계산하고 영역을 할당하는 것이 중요한 것 같다. 더불어 알고리즘 제출 시
+Segmantation Fault 가 발생한다면 영역할당의 개수를 넉넉히 잡고 시도한 후에 조정하는 것이 좋을 것 같다.
+```
+4. \n 과 \0을 헷갈리지 말자.
+```
+나는 이상하게 저 두개가 헷갈렸다. 사실 바보같은 것이지만 str의 마지막 값을 \n으로 다시는 헷갈리지 말자..
+```
+<br>
+## 소스 코드
+
+```c++
+#include<malloc.h>
+#include<iostream>
+
+using namespace std;
+
+#define MAX_HASH 1024
+
+void Branch(const char *str);
+void Commit(int line_idx, int operation, const char *str, char* commit_message);
+void Checkout(const char *str, int commit_idx, char *msg);
+int GetDocument(char str[][15]);
+void Init();
+
+typedef struct commit {
+   int commitNum;
+   int idx;
+   int op;
+   char str[15];
+   char commitMsg[21];
+   commit * prev;
+} commit;
+
+typedef struct branch {
+   char branchName[16];
+   commit * latestCommit;
+} branch;
+
+typedef struct NODE {
+   char key[16];
+   branch * b;
+   NODE * next;
+} NODE;
+
+int git[1024];
+
+NODE * hashTable[MAX_HASH];
+
+int freeBidx;
+int freeCidx;
+int freeNidx;
+int tableIdx;
+
+commit * curCommit;
+branch * curBranch;
+
+commit head;
+commit ans[1024];
+
+branch freeB[1024];
+commit freeC[110000];
+NODE freeN[MAX_HASH];
+NODE table[MAX_HASH];
+
+inline int strComp(const char * a, const char * b) {
+   while (*a++ == *b++) {
+      if (*a == '\0' && *b == '\0') return 0;
+   }
+   return 1;
+}
+
+inline void strCpy(char *ptr1, const char *ptr2) {
+   while (*ptr1++ = *ptr2++);
+}
+
+inline void strInsert(char *ptr1, const char *ptr2) {
+   while (*ptr1++ != '\0');
+   *ptr1--;
+   while (*ptr1++ = *ptr2++);
+}
+
+
+inline int getHashKey(const char * key) {
+   int hashKey = 0;
+   for (int i = 0; key[i] != '\0'; i++)
+      hashKey = (hashKey * 31 + key[i]) % MAX_HASH;
+   return hashKey % MAX_HASH;
+}
+
+void initHashTable() {
+   for (int i = 0; i < MAX_HASH; i++) {
+      hashTable[i] = &freeN[tableIdx++];
+      hashTable[i]->next = NULL;
+      hashTable[i] -> b = 0;
+   }
+}
+
+void addHashData(const char * key) {
+
+   int id = getHashKey(key);
+
+   branch* b = &freeB[freeBidx++];
+   strCpy(b->branchName, key);
+
+   b->latestCommit = curCommit;
+   curBranch = b;
+
+   NODE * newNode = &freeN[freeNidx++];
+   strCpy(newNode->key, key);
+
+   newNode->b = b;
+   newNode->next = NULL;
+
+   NODE * temp = hashTable[id];
+
+   while (temp->next != NULL) {
+      temp = temp->next;
+   }
+   temp->next = newNode;
+}
+
+branch * getHashData(const char * key) {
+
+   int id = getHashKey(key);
+
+   NODE * temp = hashTable[id];
+   for (;;) {
+      if (temp->next == NULL) break;
+      if (strComp(temp->next->key, key) == 0) {
+         return temp->next->b;
+      }
+      temp = temp->next;
+   }
+   return NULL;
+}
+
+
+void Init() {
+   freeBidx = 0;
+   freeCidx = 0;
+   freeNidx = 0;
+   tableIdx = 0;
+   initHashTable();
+
+   head.prev = 0;
+   head.commitNum = 0;
+   curCommit = &head;
+   addHashData("Master");
+}
+
+void Branch(const char *str) {
+   addHashData(str);
+};
+
+void Commit(int line_idx, int operation, const char *str, char* commit_message) {
+
+   commit * newCommit = &freeC[freeCidx++];
+   strCpy(newCommit->commitMsg, commit_message);
+   strCpy(newCommit->str, str);
+   newCommit->op = operation;
+   newCommit->commitNum = curCommit->commitNum + 1;
+   newCommit->idx = line_idx;
+   newCommit->prev = curCommit;
+   curBranch->latestCommit = newCommit;
+   curCommit = newCommit;
+}
+
+void Checkout(const char *str, int commit_idx, char *msg) {
+   curBranch = getHashData(str);
+   commit * tempCommit = curBranch->latestCommit;
+   for (int i = 0; i < commit_idx; i++) tempCommit = tempCommit->prev;
+   curCommit = tempCommit;
+   strCpy(msg, curCommit->commitMsg);
+}
+
+int GetDocument(char str[][15]) {
+   commit * tempCommit = curBranch->latestCommit;
+   int num = tempCommit->commitNum;
+   int lineNum = 0;
+   for (int i = 0; i < num; i++) {
+      ans[num - i - 1] = *tempCommit;
+      tempCommit = tempCommit->prev;
+   }
+
+   for (int i = 0; i < num; i++) {
+      int op = ans[i].op;
+      int idx = ans[i].idx;
+
+      if (op == 0) {
+         strInsert(str[idx], ans[i].str);
+      }
+      else if ( op == 1 ) { // 기존 꺼
+         if (idx < lineNum) {
+            strCpy(str[idx], ans[i].str);
+         }
+         else { // 추가
+            strCpy(str[idx], ans[i].str);
+            lineNum++;
+         }
+      }
+      else {
+         for (int i = idx;  i <= lineNum-2; i++) {
+            strCpy(str[i], str[i + 1]);
+         }
+         lineNum--;
+      }
+   }
+
+   return lineNum;
+}
+```

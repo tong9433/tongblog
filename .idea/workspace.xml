@@ -62,8 +62,8 @@
       <file leaf-file-name="2019-05-17-알고리즘-써티대비.markdown" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2019-05-17-알고리즘-써티대비.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
+            <state relative-caret-position="153">
+              <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -458,12 +458,12 @@
       <workItem from="1552127284388" duration="4935000" />
       <workItem from="1553608103586" duration="3119000" />
       <workItem from="1556201011069" duration="2855000" />
-      <workItem from="1558089091427" duration="948000" />
+      <workItem from="1558089091427" duration="1056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228866000" />
+    <option name="totallyTimeSpent" value="228974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1635" height="1027" extended-state="6" />
@@ -761,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2019-05-17-알고리즘-써티대비.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="88" lean-forward="false" selection-start-line="8" selection-start-column="88" selection-end-line="8" selection-end-column="88" />
+        <state relative-caret-position="153">
+          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
           <folding />
         </state>
       </provider>

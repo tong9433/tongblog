@@ -1,0 +1,500 @@
+---
+layout: default
+title:  "[Certi] Expert Test 용 API 정리"
+date:   2019-05-17
+categories: "Algorithm"
+---
+
+```c++
+/***********************************************
+******Prepere S/W Expert Test 2019. 5. 18*******
+********************Tong API********************
+************************************************/
+```
+
+## Preprocessing
+```c++
+#include<stdio.h>
+#include<iostream>
+
+using namespace std;
+
+#define MAX_HASH 1000
+#define MAX_PROBLEM 1000
+#define MAX_SEGMENT 1000
+#define MAX_LIST 1000
+#define MAX_QUEUE 1000
+#define MAX_ITEM 1000000
+```
+
+## Hash
+```c++
+/* Hash */
+typedef struct NODE {
+   char key[10];
+   int data;
+   NODE * next;
+}NODE;
+
+inline int getHashKey(char * key) {
+   int hashKey = 0;
+   while (*key++ != '\0') hashKey = (hashKey + *key * 31) % MAX_HASH;
+   return hashKey & MAX_HASH;
+}
+
+inline int strComp(const char * str1, const char * str2) {
+   while (*str1++ == *str2++) {
+      if(*str1 == '\0' && *str2 == '\0') return 0;
+   }
+   return 1;
+}
+
+inline void strCpy(char * dest, const char * src) {
+   while (*dest++ = *src++);
+}
+
+typedef struct HASH {
+   NODE HashTable[MAX_HASH];
+   void initHashTable(){
+      for (int i = 0; i < MAX_HASH; i++) {
+         HashTable[i].data = 0;
+         HashTable[i].next = 0;
+      }
+   }
+}HASH;
+```
+
+## Heap
+```c++
+/* Heap */
+/* Resference heap code to structed */
+typedef struct heapNode {
+   int key;
+   int point;
+} heapNode;
+
+/* MAX HEAP */
+typedef struct Heap {
+   heapNode heap[MAX_PROBLEM * 2];
+   int heapSize;
+   void heapInit(void)
+   {
+      heapSize = 0;
+   }
+
+   int heapPush(int key, int point)
+   {
+      if (heapSize + 1 > MAX_PROBLEM * 2)
+      {
+         return 0;
+      }
+      heap[heapSize].key = key;
+      heap[heapSize].point = point;
+
+      int current = heapSize;
+      while (current > 0 && heap[current].point > heap[(current - 1) / 2].point)
+      {
+         heapNode temp = heap[(current - 1) / 2];
+         heap[(current - 1) / 2] = heap[current];
+         heap[current] = temp;
+         current = (current - 1) / 2;
+      }
+
+      heapSize = heapSize + 1;
+
+      return 1;
+   }
+
+   int heapPop(heapNode *value)
+   {
+      if (heapSize <= 0)
+      {
+         return -1;
+      }
+      *value = heap[0];
+      heapSize = heapSize - 1;
+
+      heap[0] = heap[heapSize];
+
+      int current = 0;
+      while (current * 2 + 1 < heapSize)
+      {
+         int child;
+         if (current * 2 + 2 == heapSize)
+         {
+            child = current * 2 + 1;
+         }
+         else
+         {
+            child = heap[current * 2 + 1].point > heap[current * 2 + 2].point ? current * 2 + 1 : current * 2 + 2;
+         }
+
+         if (heap[current].point > heap[child].point)
+         {
+            break;
+         }
+         heapNode temp = heap[current];
+         heap[current] = heap[child];
+         heap[child] = temp;
+         current = child;
+      }
+      return 1;
+   }
+}Heap;
+```
+
+## Segment Tree
+```c++
+/* SegmentTree */
+/* Implement sum segment tree */
+typedef struct SegmentTree {
+   int tree[MAX_SEGMENT];
+   void init(int node, int s, int e, int idx, int data) {
+      if (s == e) {
+         tree[node] = data;
+         return;
+      }
+      int m = (s+e)/2;
+      if(idx <= m) init(2*node, s, m, idx, data);
+      else init(2 * node + 1, m + 1, e, idx, data);
+      tree[node] = tree[node * 2] + tree[2 * node + 1];
+      return;
+   }
+
+   void update(int node, int s, int e, int idx, int val) {
+      if (idx < s || e < idx) {
+         return;
+      }
+      if (s == e && s == idx) {
+         tree[node] += val;
+         return;
+      }
+      int m = (s + e) / 2;
+      update(node * 2, s, m, idx, val);
+      update(node * 2+1, m+1, e, idx, val);
+      tree[node] = tree[node * 2] + tree[node * 2 + 1];
+      return;
+   }
+
+   int query(int node, int s, int e, int qs, int qe) {
+      if (e < qs || qe < s) {
+         return 0;
+      }
+      if (qs <= s && e <= qe) {
+         return tree[node];
+      }
+      int m = (s + e) / 2;
+      int x = query(node * 2, s, m, qs, qe);
+      int y = query(node * 2 + 1, m + 1, e, qs, qe);
+      return x + y;
+   }
+} SegmentTree;
+```
+
+## Fast Linked List
+```c++
+/* Fast Linked List */
+typedef struct listNode { /* index 값을 prev, next에 저장하는 방식 */
+   int prev;
+   int next;
+   int point;
+} listNode;
+
+typedef struct List {
+   int head = MAX_LIST;
+   int tail = MAX_LIST + 1;
+   int pos;
+   int size;
+
+   listNode node[MAX_LIST + 2];
+   List() {
+      pos = 0;
+      size = 0;
+      node[head].next = tail;
+      node[tail].prev = head;
+   }
+
+   void init() {
+      pos = 0;
+      size = 0;
+      node[head].next = tail;
+      node[tail].prev = head;
+   }
+
+   int popFront() {
+      int popPos = node[head].next;
+      int prev = head;
+      int next = node[popPos].next;
+
+      node[prev].next = next;
+      node[next].prev = prev;
+      size--;
+      return node[popPos].point;
+   }
+
+   void pushBack(int point) {
+      int prev = node[tail].prev;
+      int next = tail;
+
+      node[pos].prev = prev;
+      node[pos].next = next;
+      node[pos].point = point;
+
+      node[prev].next = pos;
+      node[tail].prev = pos;
+      pos++;
+      size++;
+   }
+
+   int erase(int cnt) {
+      int erasePos = node[head].next;
+      for (int i = 0; i<cnt; i++) {
+         erasePos = node[erasePos].next;
+      }
+      int ans = node[erasePos].point;
+      int prev = node[erasePos].prev;
+      int next = node[erasePos].next;
+
+      node[next].prev = prev;
+      node[prev].next = next;
+      size--;
+      return ans;
+   }
+} List;
+```
+
+## Queue && Radix Sort
+```c++
+/* Queue && Radix Sort */
+typedef struct Queue {
+   int front;
+   int rear;
+   int size;
+   int queue[MAX_QUEUE];
+
+   void queueInit(void)
+   {
+      front = 0;
+      rear = 0;
+      size = 0;
+   }
+
+   int queueIsEmpty(void)
+   {
+      return (front == rear);
+   }
+
+   int queueIsFull(void)
+   {
+      if ((front + 1) % MAX_QUEUE == rear) return 1;
+       else return 0;
+   }
+
+   int queueEnqueue(int value)
+   {
+      queue[front] = value;
+      front++;
+      size++;
+      if (front == MAX_QUEUE)
+      {
+         front = 0;
+      }
+
+      return 1;
+   }
+
+   int queueDequeue(int *value)
+   {
+      *value = queue[rear];
+      rear++;
+      size--;
+      if (rear == MAX_QUEUE)
+      {
+         rear = 0;
+      }
+      return 1;
+   }
+}Queue;
+
+void radixSort(int * arr, int size, int currentRadix, int maxRadix) {
+   if (maxRadix == currentRadix) return;
+   int radix = 1;
+   Queue count[10];
+
+   for (int i = 0; i < 10; i++) {
+      count[i].queueInit();
+   }
+
+   for (int i = 0; i < currentRadix; i++) radix *= 10;
+   for (int i = 0; i < size; i++) {
+      count[(arr[i] / radix) % 10].queueEnqueue(arr[i]);
+   }
+   int idx = 0;
+   for (int i = 0; i < 10; i++) {
+      while (count[i].size != 0) {
+         int x;
+         count[i].queueDequeue(&x);
+         arr[idx] = x;
+         idx++;
+      }
+   }
+   radixSort(arr, size, currentRadix + 1, maxRadix);
+}
+```
+
+## Indexing
+```c++
+/* Indexing */
+/* Preprocess using area in advance to reduce the inconvenience of intermediate dynamic allocation */
+/* O(1000000) -> O(1000000/10*4000*8*50) */
+const int INDEX_NUM = 10;
+const int INDEX_PRICE = 4000;
+const int INDEX_QUANTITY = 8;
+const int INDEX_SIZE = 50;
+int cnt_item = 0;
+
+Data db[MAX_ITEM];
+Data * index[INDEX_NUM][INDEX_PRICE][INDEX_QUANTITY][INDEX_SIZE]; // Pointer Index Array
+
+typedef struct Item {
+   int productNum; // 1 ~ 10
+   int price; // 100000 ~ 1999999
+   int quantity; // 1 ~ 8
+   double size; //  1.0 ~ 5.0
+}Item;
+
+struct Index
+{
+   int indexNum;
+   int indexPrice;
+   int indexQuantity;
+   int indexSize;
+};
+
+typedef struct Data
+{
+   Item item;
+   Data * next;
+} Data;
+
+Index getIndex(Item item) {
+   Index temp;
+   temp.indexNum = item.productNum - 1;
+   temp.indexPrice = item.price / 500 -1 ;
+   temp.indexQuantity = item.quantity - 1;
+   temp.indexSize = ((int)(item.size * 10)) - 1;
+   return temp;
+}
+
+void dbInit() {
+   for (register int i = 0; i < MAX_ITEM; i++) {
+      Index temp = getIndex(db[i].item);
+      db[i].next = 0;
+      index[temp.indexNum][temp.indexPrice][temp.indexQuantity][temp.indexSize] = 0;
+   }
+   cnt_item = 0;
+}
+
+void addItem(const Item& item) {
+   Index temp = getIndex(item);
+   db[cnt_item].item = item;
+   db[cnt_item].next = 0;
+   if (index[temp.indexNum][temp.indexPrice][temp.indexQuantity][temp.indexSize] != 0) {
+      db[cnt_item].next = index[temp.indexNum][temp.indexPrice][temp.indexQuantity][temp.indexSize];
+   }
+   index[temp.indexNum][temp.indexPrice][temp.indexQuantity][temp.indexSize] = &db[cnt_item];
+   cnt_item++;
+}
+```
+
+## Bit Calculation
+```c++
+/* Bitmask */
+/* Count 1'bit*/
+int bitCount(unsigned long long a)
+{
+   a = (a & 0x5555555555555555UL) + ((a >> 1) & 0x5555555555555555UL);           // 01010101
+   a = (a & 0x3333333333333333UL) + ((a >> 2) & 0x3333333333333333UL);           // 00110011
+   a = (a & 0x0F0F0F0F0F0F0F0FUL) + ((a >> 4) & 0x0F0F0F0F0F0F0F0FUL);           // 00001111 = 0x0F
+   a = (a & 0x00FF00FF00FF00FFUL) + ((a >> 8) & 0x00FF00FF00FF00FFUL);           // 0x00FF
+   a = (a & 0x0000FFFF0000FFFFUL) + ((a >> 16) & 0x0000FFFF0000FFFFUL);          // 0x0000FFFF
+   a = (a & 0x00000000FFFFFFFFUL) + ((a >> 32) & 0x00000000FFFFFFFFUL);          // 0x0000FFFF
+   return (int)a;
+}
+
+void printBit(unsigned char val) {
+   bool arr[8];
+   for (int i = 0; i < 8; i++) {
+      arr[i] = val % 2;
+      val /= 2;
+   }
+   for (int i = 0; i < 8; i++) {
+      cout << arr[7 - i];
+   }
+   cout << endl;
+}
+
+
+void main() {
+   /* Radix Sort example*/
+   int arr[10] = { 10, 11, 111, 23, 444, 234, 1333, 1, 22, 243 };
+   radixSort(arr, 10, 1, 4);
+
+   /* Bitmask*/
+    unsigned char flag = 1;
+    // 0000 0001
+
+    flag <<= 1;
+    // 0000 0010
+
+    flag <<= 2;
+    // 0000 1000
+
+   /* or ( | ) */
+   flag |= 2;
+    // 0000 1010
+
+    flag |= 1 << 7;
+    // 1000 1010
+
+   /* express easy */
+    unsigned int flag2 = 1;
+    flag2 |= (1 << 2) | (1 << 5);
+    // 0010 0100
+
+   /* Union ( | ) */
+    printBit(flag | flag2);
+   cout << endl;
+   // 1010 1110
+
+   /* Intersection ( & ) */
+    printBit(flag & flag2);
+   cout << endl;
+   // 0000 0000
+
+   /* Reverse all bits, xor ( ^ 0xff ) */
+    printBit(flag ^ (unsigned int)255);
+   cout << endl;
+    // 1000 1010 -> 0111 0101
+
+   /* Reverse specific bit xor ( ^ ) */
+    printBit(flag ^ (unsigned int)1<<2);
+    cout << endl;
+    // 1000 1110
+
+   /* Reverse specific bit off(0) ( & ) */
+    printBit(flag & (unsigned int)~(1 << 3));
+    cout << endl;
+    // 1000 0010
+
+   /* Reverse specific bit on(1) */
+    printBit(flag | (unsigned int)1 << 2);
+    cout << endl;
+    // 1000 1110
+
+   /* Division by 2 */
+    int val = 13;
+    cout << (val >> 1) << endl;
+    // 6
+}
+```
